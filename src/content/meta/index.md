@@ -10,6 +10,7 @@ I have a bachelor's degree in Linguistics (currently doing a master's program). 
 ### Toki Pona projects I'm involved with
 
 * 2020--: performing yearly surveys about the use of Toki Pona.
+* 2020--: playing on musi Manka, the Minecraft server.
 * 2021--: writing [songs in Toki Pona](https://www.youtube.com/playlist?list=PLeCE5N29ioyXO6acBRFhQUoeCR21fzIvX), mostly translations.
 * 2021--: making [video essays](https://www.youtube.com/playlist?list=PLeCE5N29ioyUoVgcTwcQofSlx2qqiZWQC) for suno pi toki pona.
 * 2021--: started [kulupu Linku](https://discord.gg/A3ZPqnHHsy), a Toki Pona dictionary and font infrastructure project.
