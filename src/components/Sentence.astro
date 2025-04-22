@@ -1,0 +1,32 @@
+---
+import { encode } from "@utils/ucsur";
+interface Props {
+    // sitelen pona
+    sp?: string;
+    // sitelen Lasina
+    sl: string;
+    // translation
+    m: string;
+    // spoiler shield for practice
+    hide?: "sp" | "sl" | "m";
+}
+const onclick = "this.classList.toggle('revealed')";
+const { sp, sl, m, hide } = Astro.props;
+const sp_ = sp || encode(sl);
+---
+
+<style>
+    .sentence {
+        padding: 5px 15px;
+    }
+    .sentence:nth-child(odd) {
+        background-color: var(--bg-1);
+    }
+</style>
+<div class="sentence">
+    <span class="sp">{sp_}</span>
+    <br />
+    <span class="sl">{sl}</span>
+    <br />
+    <span>{m}</span>
+</div>
