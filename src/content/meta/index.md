@@ -21,7 +21,7 @@ I have a bachelor's degree in Linguistics (currently doing a master's program). 
 * 2025--: working on a [Toki Pona course](https://acipensersturio.github.io/toki-pona-101/).
 
 ### Where to find me
-* Discord -- @kala_asi
+* Discord -- [@kala_asi](https://discord.com/users/183528471031447552)
 * Youtube -- [@kala_asi](https://www.youtube.com/@kala_asi)
 * Github -- [AcipenserSturio](https://github.com/AcipenserSturio)
 * Email -- [kala.asi.la@gmail.com](mailto:kala.asi.la@gmail.com)
