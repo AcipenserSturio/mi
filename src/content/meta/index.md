@@ -19,7 +19,7 @@ I have a bachelor's degree in Linguistics (currently doing a master's program). 
 * 2024--: started [ma.pona.la](https://ma.pona.la/), a pin map of tokiponists.
 * 2025--: member of the [Sitelen Pona Publishers and Typographers Association](https://sitelenpona.org/).
 * 2025--: started [sin kulupu](https://sin-kulupu.pona.la/), a Toki Pona newsletter.
-* 2025--: working on a [Toki Pona course](https://acipensersturio.github.io/toki-pona-101/).
+* 2025--: working on a [Toki Pona course](https://wasona.com/).
 
 ### Where to find me
 * Discord -- [@kala_asi](https://discord.com/users/183528471031447552)
