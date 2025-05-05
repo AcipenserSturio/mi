@@ -15,6 +15,7 @@ I have a bachelor's degree in Linguistics (currently doing a master's program). 
 * 2021--: making [video essays](https://www.youtube.com/playlist?list=PLeCE5N29ioyUoVgcTwcQofSlx2qqiZWQC) for suno pi toki pona.
 * 2021--: started [kulupu Linku](https://discord.gg/A3ZPqnHHsy), a Toki Pona dictionary and font infrastructure project.
 * 2021--2023: moderator on [ma pona](https://discord.gg/6zkugJFU4x), mostly did channel layout and bot stuff.
+* 2024--: started [poki Lapo](https://github.com/kulupu-lapo/poki), a Toki Pona library.
 * 2024--: event organiser for [suno pi toki pona](https://suno.pona.la), the yearly Toki Pona celebration.
 * 2024--: started [ma.pona.la](https://ma.pona.la/), a pin map of tokiponists.
 * 2025--: member of the [Sitelen Pona Publishers and Typographers Association](https://sitelenpona.org/).
