@@ -1,0 +1,15 @@
+---
+import { posts } from "@/utils/content";
+---
+
+<ul>
+  {
+    posts
+      .filter((x) => x.filePath != "content/index.mdx")
+      .map((post) => (
+        <li>
+          <a href={`./${post.id}/`}>{post.data.title}</a>
+        </li>
+      ))
+  }
+</ul>
