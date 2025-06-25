@@ -66,6 +66,6 @@ Standard Average European is not a strictly delineated set of languages; instead
 ✘ In Toki Pona, 'wan' and 'nanpa wan' form part of the regular paradigm.
 
 ## Conclusion
-Out of 17 features examined, only one (2.8) is unambiguously shared between SAE and Toki Pona, with three more (2.2, 2.4, 3.3) being difficult to interpret due to great typological difference between Toki Pona and languages in Europe. In (Haspelmath, 2001), which presents a combined map of 9 features (with greatest data availability), this gives it a score equivalent to Welsh, Georgian, and Armenian, i.e. highly peripheral.
+Out of 17 features examined, only one (2.8) is unambiguously shared between SAE and Toki Pona, with three more (2.2, 2.4, 3.3) being difficult to interpret due to great typological difference between Toki Pona and languages in Europe. In (Haspelmath, 2001), which presents a combined map of 9 features (with greatest data availability), this gives it a score equivalent to Welsh, Georgian, and Armenian, i.e. highly peripheral to the Standard European core.
 
 An interesting observation is that even in cases where European speakers could have influenced Toki Pona (2.9), this has not resulted in convergence with SAE.
