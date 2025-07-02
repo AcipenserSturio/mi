@@ -97,6 +97,8 @@ One of the defining features that define the vibes of brainfuck is that any reas
 
 Is using Toki Pona more effort for me than using English? Yes. I am sure my fluency in Toki Pona is lower than in English. Do I care to make myself native-level fluent? No. How many people do, and will toki pona taso 24/7? A non-zero amount, but not that many. "Is Toki Pona too difficult in practice for serious general use?" I leave it to the jan Tepos and jan Kitas of the world to decide.
 
+(Note: this doesn't mean that *everyone* who's been around <5 years isn't fluent. I know that people who stuck around tpt-communities, particularly VRChat, get good much faster than I did, which is only natural given a much higher dose of immersion and practice.)
+
 A good argument to make here would be: how do Esperanto and Toki Pona compare in terms of the number of speakers who actually speak the corresponding language 24/7 in a given community, for extended periods of time? I bet you can use this method to show Toki Pona far below Esperanto. Can a survey like this be conducted at all? I don't know, but you might. (And does it even matter?)
 
 > Meanwhile this server where only Toki Pona is allowed is almost a ghost town by comparison.
