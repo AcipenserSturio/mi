@@ -87,3 +87,5 @@ To fix the Sim tokens through SimPE:
 * Open Tools > Neighbourhood > Sim Browser, and choose Open on your Sim.
 * Open the Plugin View tab in the bottom panel, which should pull up *everything* to do with your Sim. (If you can't find the Plugin View, try toggling it twice in Window > Plugin View.)
 * Open More > Sim Memories.
+
+At this point I experienced the issue that in SimPE 0.77, all Sim Memories seem to be improperly read, resulting in attempted reading beyond end of stream. I installed SimPE 0.72, which *does* correctly read the memories of most sims... except mine, where it hangs. I don't have a solution right now, but I will keep thinking.
