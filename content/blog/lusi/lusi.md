@@ -21,7 +21,7 @@ By convention, Toki Pona derives proper names from endonyms, while keeping the c
 * [ру́сский](https://en.wiktionary.org/wiki/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9#Russian) <code>[ˈruskʲɪj]</code> -- Russian (language, ethnicity, etc).[^1]
 
 There are numerous ways to tokiponise these two words, but two versions are most notable:
-* The name *Losi* appears in the [2014 proper names](https://jan-ne.github.io/tp/names) list, and was first used in the early 2000s.
+* The name *Losi* was first used in the early 2000s, and appears in the [2014 proper names](https://jan-ne.github.io/tp/names) list.
 * The version *Lusi* started appearing in 2016 and became rather popular in 2022 onwards. It is still in the minority by total mentions, but the majority of Russian speakers prefer it.
 
 Both are <u>good enough</u> for regular conversation, and will be understood. However, there is value in explaining why this happened, and making recommendations.
@@ -47,7 +47,7 @@ Some country names in the 2014 list, like *ma Italija*, *ma Intonesija*, also ke
 
 Some people prefer to un-merge language and country names, in which case including *-ja* is justified. However, pay attention to the vowel pronunciation! *ma Lasija* makes more sense than *ma Losija*.[^2]
 
-### 3. Moose
+### 3. Moose 🫎
 
 The word 'losi' already exists in Russian and means [moose (plural)](https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D1%81%D0%B8). Some find that endearing, others frustrating. Ultimately it doesn't really matter, but it highlights that Russians see *ma/toki Losi* and immediately think of something unrelated.
 
