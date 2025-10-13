@@ -1,5 +1,6 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
+import { BaseHead, Footer, Header } from "selo-components";
+
 import { posts } from "@/utils/content";
 import { type CollectionEntry, render } from "astro:content";
 
@@ -17,11 +18,21 @@ const post = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description || ""}>
-  <article>
-    <h1>{post.data.title}</h1>
-    <section>
-      <Content />
-    </section>
-  </article>
-</BaseLayout>
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={post.data.title} description={post.data.description} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1>{post.data.title}</h1>
+        <section>
+          <Content />
+        </section>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
