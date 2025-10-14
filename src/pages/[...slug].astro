@@ -1,8 +1,11 @@
 ---
-import { BaseHead, Footer, Header } from "selo-components";
+import "selo-components/common.css"; // has to be above site-specific css
+
+import "@/styles/global.css";
 
 import { posts } from "@/utils/content";
 import { type CollectionEntry, render } from "astro:content";
+import { BaseHead, Footer, Header } from "selo-components";
 
 export async function getStaticPaths() {
   return posts.map((post, _) => ({
@@ -21,7 +24,11 @@ const { Content } = await render(post);
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={post.data.title} description={post.data.description} />
+    <BaseHead
+      title={post.data.title}
+      description={post.data.description}
+      goatcounter="kala-asi-li-pona-la.goatcounter.com"
+    />
   </head>
   <body>
     <Header />
@@ -33,6 +40,6 @@ const { Content } = await render(post);
         </section>
       </article>
     </main>
-    <Footer />
+    <Footer github="https://github.com/AcipenserSturio/mi" />
   </body>
 </html>
