@@ -1,41 +1,27 @@
 ---
 import "selo-components/common.css"; // has to be above site-specific css
 
-import "@/styles/global.css";
+import "@/global.css";
 
-import { posts } from "@/utils/content";
-import { type CollectionEntry, render } from "astro:content";
-import { BaseHead, Footer, Header } from "selo-components";
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import { Layout } from "selo-components";
 
 export const getStaticPaths = async () =>
-  posts.map((post) => ({
+  (await getCollection("content")).map((post) => ({
     params: { slug: post.id },
     props: post,
   }));
 
-const post: CollectionEntry<"blog"> = Astro.props;
+const post: CollectionEntry<"content"> = Astro.props;
 const { Content } = await render(post);
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead
-      title={post.data.title}
-      description={post.data.description}
-      goatcounter="kala-asi-li-pona-la.goatcounter.com"
-    />
-  </head>
-  <body>
-    <Header />
-    <main>
-      <article>
-        <h1>{post.data.title}</h1>
-        <section>
-          <Content />
-        </section>
-      </article>
-    </main>
-    <Footer github="https://github.com/AcipenserSturio/mi" />
-  </body>
-</html>
+<Layout
+  useNavbar
+  title={post.data.title}
+  description={post.data.description}
+  goatcounter="kala-asi-li-pona-la.goatcounter.com"
+  github="https://github.com/AcipenserSturio/mi"
+>
+  <Content />
+</Layout>
