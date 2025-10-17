@@ -2,6 +2,7 @@
 slug: "blog/pondering-xerographic-papers-video"
 title: "Pondering XerographicPaper's video"
 description: ""
+date: "2025-07-02"
 ---
 
 <style>

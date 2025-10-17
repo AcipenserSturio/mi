@@ -2,6 +2,7 @@
 slug: "blog/is-toki-pona-sae"
 title: "Is Toki Pona a Standard Average European language?"
 description: ""
+date: "2025-01-25"
 ---
 
 > First posted on [ma pona](https://discord.com/channels/301377942062366741/301380012156911616/1332712874174316574) on 2025-01-25.

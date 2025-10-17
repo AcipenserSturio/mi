@@ -2,6 +2,7 @@
 slug: "blog/sims-2-in-2025"
 title: "Running Sims 2 in 2025"
 description: ""
+date: "2025-07-29"
 ---
 Recently I found myself in possession of Sims 2 Legacy Edition. I used to play Sims 2 when I was ~12 so it was fun to revisit. Legacy Edition (and the Sims franchise as a whole) has developed a reputation for buggy gameplay with savefiles that accumulate errors over time, so I thought it would be helpful to document my tinkering.
 

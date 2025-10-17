@@ -4,7 +4,7 @@ import { defineCollection, z } from "astro:content";
 const contentSchema = z.object({
   title: z.string(),
   description: z.string(),
-  // date: z.coerce.date().optional(),
+  date: z.coerce.date().optional(),
 });
 
 export const collections = {

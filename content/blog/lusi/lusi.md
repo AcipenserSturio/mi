@@ -2,6 +2,7 @@
 slug: "blog/lusi"
 title: "How to refer to Russia and Russian in Toki Pona"
 description: "It used to be ma Losi and toki Losi. The preference today is ma Lusi and toki Lusi. Check out why!"
+date: "2025-10-01"
 ---
 
 ## tl;dr

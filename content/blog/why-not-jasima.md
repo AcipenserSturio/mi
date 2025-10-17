@@ -2,6 +2,7 @@
 slug: "blog/why-not-jasima"
 title: "Why do I not use jasima?"
 description: ""
+date: "2025-02-01"
 ---
 
 > First posted on [ma pona](https://discord.com/channels/301377942062366741/301380012156911616/1335255664569614416) on 2025-02-01. I've later written a shorter explanation for [Wasona](https://wasona.com/en/uncommon-words/#jasima).
