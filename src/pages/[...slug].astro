@@ -2,8 +2,7 @@
 import "selo-components/common.css"; // has to be above site-specific css
 
 import "@/global.css";
-
-import { type CollectionEntry, getCollection, render } from "astro:content";
+import { getCollection, render } from "astro:content";
 import { Layout } from "selo-components";
 
 export const getStaticPaths = async () =>
@@ -12,16 +11,10 @@ export const getStaticPaths = async () =>
     props: post,
   }));
 
-const post: CollectionEntry<"content"> = Astro.props;
-const { Content } = await render(post);
+const { Content } = await render(Astro.props);
+const post = Astro.props.data;
 ---
 
-<Layout
-  useNavbar
-  title={post.data.title}
-  description={post.data.description}
-  goatcounter="kala-asi-li-pona-la.goatcounter.com"
-  github="https://github.com/AcipenserSturio/mi"
->
+<Layout title={post.title} description={post.description}>
   <Content />
 </Layout>
