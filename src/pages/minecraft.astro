@@ -1,0 +1,1028 @@
+---
+import Row from "@/components/minecraft/Row.astro";
+import VersionCard from "@/components/minecraft/VersionCard.astro";
+import "@/styles/minecraft.css";
+import { BaseHead } from "selo-components";
+
+const icons = {
+  classic: [
+    "Grass Block",
+    "Dirt",
+    "Stone",
+    "Cobblestone",
+    "Oak Log",
+    "Oak Planks",
+    "Oak Leaves",
+    "Oak Sapling",
+    // "https://minecraft.wiki/images/Heart_%28icon%29.png",
+    "Sand",
+    "Gravel",
+    "https://minecraft.wiki/images/Water_JE16-a1.png",
+    "https://minecraft.wiki/images/Lava_JE19.gif",
+    "Glass",
+    "White Wool",
+    "Block of Gold",
+    "Block of Iron",
+    "Smooth Stone Slab",
+    "Bookshelf",
+    "Mossy Cobblestone",
+    "TNT",
+    "Bricks",
+    "Obsidian",
+    "Bedrock",
+    "Zombie Spawn Egg",
+    "Skeleton Spawn Egg",
+    "Creeper Spawn Egg",
+    "Spider Spawn Egg",
+    "Pig Spawn Egg",
+    "Sheep Spawn Egg",
+    // "https://minecraft.wiki/w/File:Zombie_JE3_BE2.png",
+    // "https://minecraft.wiki/w/File:Skeleton_JE6_BE4.png",
+    // "https://minecraft.wiki/w/File:Creeper_JE3_BE1.png",
+    // "https://minecraft.wiki/w/File:Spider_JE5_BE4.png",
+    // "https://minecraft.wiki/w/File:Temperate_Pig_JE4_BE2.png",
+    // "https://minecraft.wiki/w/File:White_Sheep_JE4_BE7.png",
+  ],
+  indev: [
+    // "Wheat Seeds",
+    "Crafting Table",
+    "Chest",
+    "Furnace",
+    "Cooked Porkchop",
+    "Wheat",
+    "Bread",
+    "Apple",
+    "Golden Apple",
+    // "Flint",
+    "Leather Cap",
+    "Iron Chestplate",
+    "Golden Leggings",
+    "Diamond Boots",
+    "Wooden Hoe",
+    "Stone Sword",
+    "Iron Axe",
+    "Golden Shovel",
+    "Diamond Pickaxe",
+    "Bow",
+    "Flint and Steel",
+    "Water Bucket",
+    "Lava Bucket",
+    "Coal",
+    "Iron Ingot",
+    "Gold Ingot",
+    "Diamond",
+    "Block of Diamond",
+    "Ladder",
+    "Oak Sign",
+    "Oak Door",
+    "Oak Stairs",
+    "Painting",
+    "Monster Spawner",
+    // "https://minecraft.wiki/images/Fire_1_%28texture%29_JE2-a2.gif",
+    "Stick",
+    "String",
+    "Feather",
+    "Gunpowder",
+    "Arrow",
+    // "Bowl",
+    "Saddle",
+    "Rail",
+    "Minecart",
+  ],
+  alpha: [
+    "Redstone",
+    "Redstone Torch",
+    "Oak Pressure Plate",
+    // "Stone Pressure Plate",
+    // "Stone Button",
+    "Lever",
+    "Iron Door",
+    "Ice",
+    // "Snowball",
+    "Clay",
+    // "Clay Ball",
+    "Cactus",
+    "Leather",
+    // "Milk Bucket",
+    "Sugar Cane",
+    "Paper",
+    "Book",
+    "Brick",
+    "Slimeball",
+    "Egg",
+    "Oak Boat",
+    "Jukebox",
+    "Music Disc Cat",
+    "Oak Fence",
+    "Compass.gif",
+    "Fishing Rod",
+    "Netherrack",
+    "Soul Sand",
+    "Glowstone",
+    "Carved Pumpkin",
+    "Jack o'Lantern",
+    "Clock.gif",
+    "Cooked Cod",
+    "Cow Spawn Egg",
+    "Slime Spawn Egg",
+    "Chicken Spawn Egg",
+    "Ghast Spawn Egg",
+    "Zombified Piglin Spawn Egg",
+  ],
+  beta: [
+    "Red Bed",
+    "Red Wool",
+    "Yellow Wool",
+    "Green Wool",
+    "Blue Wool",
+    "Brown Wool",
+    "Black Wool",
+    "Bone Meal",
+    "Red Dye",
+    "Yellow Dye",
+    "Green Dye",
+    "Lapis Lazuli",
+    "Cocoa Beans",
+    "Ink Sac",
+    "Spruce Log",
+    "Spruce Sapling",
+    "Birch Log",
+    "Birch Sapling",
+    "Sandstone",
+    "Smooth Stone",
+    "Cobblestone Slab",
+    "Oak Slab",
+    "Oak Trapdoor",
+    "Redstone Repeater",
+    "Piston",
+    "Sticky Piston",
+    "Dispenser",
+    "Note Block",
+    "Powered Rail",
+    "Detector Rail",
+    "Shears",
+    "Cobweb",
+    "Cake",
+    "Cookie",
+    "Map",
+    "Squid Spawn Egg",
+    "Wolf Spawn Egg",
+  ],
+  release: [
+    "Enchanting Table",
+    "Stone Bricks",
+    "Red Mushroom Block",
+    "Brown Mushroom Block",
+    "Mycelium",
+    "Lily Pad",
+    "Vines",
+    "Glass Pane",
+    "Iron Bars",
+    "Oak Fence Gate",
+    "Melon",
+    "Melon Slice",
+    "Cooked Chicken",
+    "Cooked Beef",
+    // "Rotten Flesh",
+    "Nether Bricks",
+    "Nether Wart",
+    "Blaze Rod",
+    "Brewing Stand",
+    "Water Bottle",
+    "Ghast Tear",
+    "Magma Cream",
+    "Spider Eye",
+    "Ender Pearl",
+    "End Portal Frame",
+    "End Stone",
+    "Dragon Egg",
+    "Mooshroom Spawn Egg",
+    "Villager Spawn Egg",
+    "Snow Golem Spawn Egg",
+    "Cave Spider Spawn Egg",
+    "Blaze Spawn Egg",
+    "Magma Cube Spawn Egg",
+    "Silverfish Spawn Egg",
+    "Enderman Spawn Egg",
+    "Ender Dragon Spawn Egg",
+  ],
+  v12_1: [],
+  v12_2: [
+    "Spruce Planks",
+    "Birch Planks",
+    "Jungle Log",
+    "Jungle Planks",
+    "Jungle Leaves",
+    "Jungle Sapling",
+    "Cut Sandstone",
+    "Chiseled Sandstone",
+    "Chiseled Stone Bricks",
+    "Redstone Lamp",
+    "Bottle_o%27_Enchanting.gif",
+    "Fire Charge",
+    "Iron Golem Spawn Egg",
+    "Ocelot Spawn Egg",
+  ],
+  v12_3: [
+    "Ender Chest",
+    "Oak Slab",
+    "Oak Stairs",
+    "Spruce Slab",
+    "Spruce Stairs",
+    "Birch Slab",
+    "Birch Stairs",
+    "Jungle Slab",
+    "Jungle Stairs",
+    "Sandstone Stairs",
+    "Emerald",
+    "Block of Emerald",
+    "Enchanted Golden Apple.gif",
+    "Book and Quill",
+    // "Tripwire Hook",
+  ],
+  v12_4: [
+    "Beacon",
+    "Command Block.gif",
+    "Carrot",
+    "Golden Carrot",
+    "Baked Potato",
+    "Flower Pot",
+    "Item Frame",
+    "Cobblestone Wall",
+    // "Creeper Head",
+    "Wither Skeleton Skull",
+    // "Nether Star.gif",
+    // "Carrot on a Stick",
+    "Pumpkin Pie",
+    "Anvil",
+    "Firework Rocket",
+    "Enchanted Book.gif",
+    "Bat Spawn Egg",
+    "Zombie Villager Spawn Egg",
+    "Witch Spawn Egg",
+    "Wither Skeleton Spawn Egg",
+    "Wither Spawn Egg",
+  ],
+  v13_1: [
+    "Block of Redstone",
+    "Hopper",
+    "Dropper",
+    "Redstone Comparator",
+    "Trapped Chest",
+    "Daylight Detector",
+    "Smooth Sandstone",
+    "Block of Quartz",
+    "Nether Quartz",
+    // "Nether Brick",
+    "Activator Rail",
+    "Minecart with TNT",
+    "Minecart with Hopper",
+  ],
+  v13_2: [
+    "Terracotta",
+    "Red Terracotta",
+    "Yellow Terracotta",
+    "Green Terracotta",
+    "Blue Terracotta",
+    "Red Carpet",
+    "Yellow Carpet",
+    "Green Carpet",
+    "Blue Carpet",
+    "Hay Bale",
+    "Block of Coal",
+    "Iron Horse Armor",
+    "Golden Horse Armor",
+    "Diamond Horse Armor",
+    "Lead",
+    "Name Tag",
+    "Skeleton Horse Spawn Egg",
+    "Horse Spawn Egg",
+    "Mule Spawn Egg",
+    "Donkey Spawn Egg",
+    // "Zombie Horse Spawn Egg",
+  ],
+  v13_3: [
+    "Acacia Log",
+    "Acacia Planks",
+    "Acacia Leaves",
+    "Acacia Sapling",
+    "Dark Oak Log",
+    "Dark Oak Planks",
+    "Dark Oak Leaves",
+    "Dark Oak Sapling",
+    "Red Stained Glass",
+    "Yellow Stained Glass",
+    "Green Stained Glass",
+    "Blue Stained Glass",
+    "Red Stained Glass Pane",
+    "Yellow Stained Glass Pane",
+    "Green Stained Glass Pane",
+    "Blue Stained Glass Pane",
+    "Packed Ice",
+    "Podzol",
+    "Red Sand",
+    "Azure Bluet",
+    "Peony",
+    "Rose Bush",
+    "Sunflower",
+    "Orange Tulip",
+    "Tropical Fish",
+    "Cooked Salmon",
+    "Pufferfish",
+  ],
+  v14_1: [
+    "Granite",
+    "Polished Granite",
+    "Diorite",
+    "Polished Diorite",
+    "Andesite",
+    "Polished Andesite",
+    "Prismarine.gif",
+    "Prismarine Bricks",
+    "Dark Prismarine",
+    "Sea Lantern.gif",
+    "Wet Sponge",
+    "Red Banner",
+    "Yellow Banner",
+    "Green Banner",
+    "Blue Banner",
+    "Spruce Fence",
+    "Birch Fence",
+    "Jungle Fence",
+    "Acacia Fence",
+    "Dark Oak Fence",
+    "Spruce Door",
+    "Birch Door",
+    "Jungle Door",
+    "Acacia Door",
+    "Dark Oak Door",
+    "Slime Block",
+    "Armor Stand",
+    "Coarse Dirt",
+    "Red Sandstone",
+    // "Iron Trapdoor",
+    "Cooked Mutton",
+    "Cooked Rabbit",
+    "Rabbit's Foot",
+    "Guardian Spawn Egg",
+    "Elder Guardian Spawn Egg",
+    "Endermite Spawn Egg",
+    "Rabbit Spawn Egg",
+  ],
+  v16_1: [
+    "Elytra",
+    "Shield",
+    "End Crystal.gif",
+    "Dragon's Breath",
+    "Dragon Head",
+    "End Stone Bricks",
+    "Purpur Block",
+    "Chorus Fruit",
+    "End Rod",
+    "Dirt Path",
+    "Spruce Boat",
+    "Birch Boat",
+    "Dark Oak Boat",
+    "Spectral Arrow",
+    "Beetroot",
+    "Shulker Spawn Egg",
+  ],
+  v16_2: [
+    "Bone Block",
+    "Magma Block.gif",
+    "Red Nether Bricks",
+    "Nether Wart Block",
+    "Polar Bear Spawn Egg",
+    "Stray Spawn Egg",
+    "Husk Spawn Egg",
+  ],
+  v16_3: [
+    "Observer",
+    "Totem of Undying",
+    "Shulker Shell",
+    "Shulker Box",
+    "Red Shulker Box",
+    "Yellow Shulker Box",
+    "Green Shulker Box",
+    "Blue Shulker Box",
+    "Llama Spawn Egg",
+    "Vindicator Spawn Egg",
+    "Evoker Spawn Egg",
+    "Vex Spawn Egg",
+    // "Iron Nugget",
+  ],
+  v17_1: [
+    "Red Concrete",
+    "Yellow Concrete",
+    "Green Concrete",
+    "Blue Concrete",
+    "Red Concrete Powder",
+    "Yellow Concrete Powder",
+    "Green Concrete Powder",
+    "Blue Concrete Powder",
+    "Red Glazed Terracotta",
+    "Yellow Glazed Terracotta",
+    "Green Glazed Terracotta",
+    "Blue Glazed Terracotta",
+    "Red Bed",
+    "Yellow Bed",
+    "Green Bed",
+    "Blue Bed",
+    "Parrot Spawn Egg",
+  ],
+  v18_1: [
+    "Oak Wood",
+    "Spruce Wood",
+    "Birch Wood",
+    "Jungle Wood",
+    "Acacia Wood",
+    "Dark Oak Wood",
+    "Stripped Oak Wood",
+    "Stripped Spruce Wood",
+    "Stripped Birch Wood",
+    "Stripped Jungle Wood",
+    "Stripped Acacia Wood",
+    "Stripped Dark Oak Wood",
+    "Tube Coral Block",
+    "Brain Coral Block",
+    "Bubble Coral Block",
+    "Fire Coral Block",
+    "Horn Coral Block",
+    "Dead Tube Coral Block",
+    "Dead Brain Coral Block",
+    "Dead Bubble Coral Block",
+    "Dead Fire Coral Block",
+    "Dead Horn Coral Block",
+    "Tube Coral",
+    "Tube Coral Fan",
+    "Brain Coral",
+    "Brain Coral Fan",
+    "Bubble Coral",
+    "Bubble Coral Fan",
+    "Fire Coral",
+    "Fire Coral Fan",
+    "Horn Coral",
+    "Horn Coral Fan",
+    "Dried Kelp Block",
+    "Kelp",
+    "Bubble Column.gif",
+    "Seagrass",
+    "Prismarine Stairs.gif",
+    "Prismarine Slab.gif",
+    "Prismarine Brick Stairs",
+    "Prismarine Brick Slab",
+    "Dark Prismarine Stairs",
+    "Dark Prismarine Slab",
+    "Blue Ice",
+    "Trident",
+    "Turtle Shell",
+    "Sea Pickle",
+    "Phantom Membrane",
+    "Nautilus Shell",
+    "Conduit",
+    "Phantom Spawn Egg",
+    "Turtle Spawn Egg",
+    "Cod Spawn Egg",
+    "Salmon Spawn Egg",
+    "Pufferfish Spawn Egg",
+    "Tropical Fish Spawn Egg",
+    "Drowned Spawn Egg",
+    "Dolphin Spawn Egg",
+  ],
+  v19_1: [
+    "Barrel",
+    "Cartography Table",
+    "Grindstone",
+    "Lectern",
+    "Smithing Table",
+    "Loom",
+    "Blast Furnace",
+    "Smoker",
+    "Composter",
+    "Scaffolding",
+    "Campfire",
+    "Bamboo",
+    "Wither Rose",
+    "Spruce Sign",
+    "Stone Stairs",
+    "https://minecraft.wiki/images/ItemSprite_skull-charge-banner-pattern.png",
+    "White Dye",
+    "Bell",
+    "Crossbow",
+    "Stonecutter.gif",
+    "Ominous Banner",
+    "Lantern",
+    "Sweet Berries",
+    "Cat Spawn Egg",
+    "Panda Spawn Egg",
+    "Pillager Spawn Egg",
+    "Ravager Spawn Egg",
+    "Fox Spawn Egg",
+    "Wandering Trader Spawn Egg",
+    "Trader Llama Spawn Egg",
+  ],
+  v19_2: [
+    "Bee Nest",
+    "Beehive",
+    "Honey Bottle",
+    "Honeycomb",
+    "Bee Spawn Egg",
+    "Honey Block",
+    "Honeycomb Block",
+  ],
+  v20_1: [
+    "Ancient Debris",
+    "Netherite Scrap",
+    "Netherite Ingot",
+    "Block of Netherite",
+    "Netherite Chestplate",
+    "Netherite Pickaxe",
+    "Crimson Stem.gif",
+    "Stripped Crimson Stem",
+    "Crimson Planks",
+    "Crimson Fungus",
+    "Crimson Nylium",
+    "Shroomlight",
+    "Weeping Vines",
+    "Warped Stem.gif",
+    "Stripped Warped Stem",
+    "Warped Planks",
+    "Warped Fungus",
+    "Warped Nylium",
+    "Twisting Vines",
+    "Basalt",
+    "Polished Basalt",
+    "Blackstone",
+    "Polished Blackstone Bricks",
+    "Gilded Blackstone",
+    "Nether Gold Ore",
+    "Soul Soil",
+    "Soul Fire.gif",
+    "Soul Lantern",
+    "Soul Campfire",
+    "Target",
+    "Respawn Anchor",
+    "Lodestone",
+    // "Warped Fungus on a Stick",
+    "Quartz Bricks",
+    "Iron Chain",
+    "Music Disc Pigstep",
+    "Piglin Spawn Egg",
+    "Piglin Brute Spawn Egg",
+    "Hoglin Spawn Egg",
+    "Zoglin Spawn Egg",
+    "Strider Spawn Egg",
+  ],
+  v21_1: [
+    "Block of Copper",
+    "Exposed Copper",
+    "Weathered Copper",
+    "Oxidized Copper",
+    "Deepslate",
+    "Cobbled Deepslate",
+    "Polished Deepslate",
+    "Deepslate Bricks",
+    "Deepslate Tiles",
+    "Deepslate Diamond Ore",
+    "Deepslate Redstone Ore",
+    "Deepslate Gold Ore",
+    "Deepslate Iron Ore",
+    "Deepslate Coal Ore",
+    "Block of Raw Copper",
+    "Block of Raw Iron",
+    "Block of Raw Gold",
+    "Block of Amethyst",
+    "Amethyst Cluster",
+    "Calcite",
+    "Tuff",
+    "Dripstone Block",
+    "Pointed Dripstone",
+    "Rooted Dirt",
+    "Moss Block",
+    "Big Dripleaf",
+    "Azalea",
+    "Copper Ore",
+    "Copper Ingot",
+    "Raw Copper",
+    "Raw Iron",
+    "Raw Gold",
+    "Lightning Rod",
+    "Spyglass",
+    "Tinted Glass",
+    "Candle",
+    "Powder Snow Bucket",
+    "Sculk Sensor.gif",
+    "Glow Lichen",
+    "Glow Ink Sac",
+    "Axolotl Spawn Egg",
+    "Glow Squid Spawn Egg",
+    "Goat Spawn Egg",
+  ],
+  v21_2: ["Music Disc Otherside"],
+  v22_1: [
+    "Mangrove Log",
+    "Stripped Mangrove Log",
+    "Mangrove Planks",
+    "Mangrove Leaves",
+    "Mangrove Propagule",
+    "Mangrove Roots",
+    "Mud",
+    "Packed Mud",
+    "Mud Bricks",
+    "Bucket of Tadpole",
+    "Ochre Froglight",
+    "Pearlescent Froglight",
+    "Verdant Froglight",
+    "Sculk.gif",
+    "Sculk Shrieker.gif",
+    "Sculk Catalyst",
+    "Recovery Compass.gif",
+    "Music Disc 5",
+    "Oak Boat with Chest",
+    "Goat Horn",
+    "Frog Spawn Egg",
+    "Warden Spawn Egg",
+    "Allay Spawn Egg",
+  ],
+  v23_1: [
+    "Cherry Log",
+    "Stripped Cherry Log",
+    "Cherry Planks",
+    "Cherry Leaves",
+    "Cherry Sapling",
+    "Block of Bamboo",
+    "Block of Stripped Bamboo",
+    "Bamboo Planks",
+    "Bamboo Mosaic",
+    "Chiseled Bookshelf",
+    "Oak Hanging Sign",
+    "Piglin Head",
+    "Netherite Upgrade",
+    "Coast Armor Trim",
+    "Decorated Pot",
+    "Archer Pottery Sherd",
+    "Suspicious Sand",
+    "Suspicious Gravel",
+    "Brush",
+    "Pitcher Plant",
+    "Torchflower",
+    "Calibrated Sculk Sensor.gif",
+    "Camel Spawn Egg",
+    "Sniffer Spawn Egg",
+  ],
+  v23_2: [],
+  v24_1: ["Armadillo Scute", "Wolf Armor", "Armadillo Spawn Egg"],
+  v24_2: [
+    "Crafter",
+    "Copper Bulb",
+    "Chiseled Copper",
+    "Copper Grate",
+    "Copper Door",
+    "Polished Tuff",
+    "Tuff Bricks",
+    "Wind Charge",
+    "Mace",
+    "Ominous Bottle",
+    "https://minecraft.wiki/images/ItemSprite_trial-key.png",
+    "Ominous Trial Key",
+    "Music Disc Precipice",
+    "Music Disc Creator",
+    "Music Disc Creator %28Music Box%29",
+    "Bogged Spawn Egg",
+    "Breeze Spawn Egg",
+  ],
+  v24_3: [
+    "Bundle",
+    "Red Bundle",
+    "Yellow Bundle",
+    "Green Bundle",
+    "Blue Bundle",
+  ],
+  v24_4: [
+    "Pale Oak Log",
+    "Stripped Pale Oak Log",
+    "Pale Oak Planks",
+    "Pale Oak Leaves",
+    "Pale Oak Sapling",
+    "Creaking Heart",
+    "Pale Moss Block",
+    "Block of Resin",
+    "Resin Bricks",
+    "Creaking Spawn Egg",
+  ],
+  v25_1: [
+    "Leaf Litter",
+    "Wildflowers",
+    "Firefly Bush",
+    "https://minecraft.wiki/images/BlockSprite_cactus-flower.png",
+    "https://minecraft.wiki/images/BlockSprite_tall-dry-grass.png",
+    "Blue Egg",
+    "Brown Egg",
+  ],
+  v25_2: [
+    "Dried Ghast",
+    "Happy Ghast Spawn Egg",
+    "Red Harness",
+    "Yellow Harness",
+    "Green Harness",
+    "Blue Harness",
+    "Music Disc Tears",
+    "Music Disc Lava Chicken",
+  ],
+  v25_3: [
+    "Copper Chest",
+    "Copper Golem Statue",
+    "Copper Pickaxe",
+    "Copper Chestplate",
+    "Copper Horse Armor",
+    "Copper Bars",
+    "Copper Chain",
+    "Copper Lantern",
+    "Oak Shelf",
+    "Copper Golem Spawn Egg",
+  ],
+  v25_4: [
+    "Diamond Nautilus Armor",
+    "https://minecraft.wiki/images/ItemSprite_diamond-spear.png?e0f60",
+    "Netherite Horse Armor",
+    "Nautilus Spawn Egg",
+    "Zombie Nautilus Spawn Egg",
+    "Camel Husk Spawn Egg",
+    "Parched Spawn Egg",
+  ],
+};
+---
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Minecraft version history"
+      description="In 2025, Mojang announced a new versioning system. Some people are upset because it breaks 15 years of continuity. But what if we had the new system all along?"
+    />
+    <slot name="head" />
+  </head>
+  <body>
+    <main>
+      <h1>Minecraft version history: in a new light</h1>
+      <p>
+        In 2026, Minecraft <a
+          href="https://www.minecraft.net/en-us/article/minecraft-new-version-numbering-system"
+          >will start numbering versions by year</a
+        >. Some people are upset because it breaks 15 years of continuity. <b
+          >But what if we had the new system all along?</b
+        >
+      </p>
+      <p>
+        The list of blocks, items, and entities is not comprehensive, omitting
+        some stuff that was obviously added together (wool colours, armour
+        materials, shaped variants, etc.)
+      </p>
+      <p>The spawn egg represents added mobs, not the actual spawn egg item.</p>
+      <p>The chart uses modern textures throughout.</p>
+      <article style="display: grid;">
+        <Row label="2009">
+          <VersionCard
+            title="Minecraft Classic"
+            description="Early block palette, limited world size, mobs, health bar, (first) multiplayer"
+            icons={icons.classic}
+          />
+        </Row>
+        <Row label="2010">
+          <VersionCard
+            title="Minecraft Indev & Infdev"
+            description="Crafting, inventory, infinite terrain, dynamic lighting, food, clouds"
+            icons={icons.indev}
+          />
+          <VersionCard
+            title="Minecraft Alpha"
+            description="Multiplayer, the Nether, biomes"
+            icons={icons.alpha}
+          />
+        </Row>
+        <Row label="2011">
+          <VersionCard
+            title="Minecraft Beta"
+            description="Skipping the night, weather"
+            icons={icons.beta}
+          />
+          <VersionCard
+            title="Adventure Update"
+            description="Hunger, sprinting, enchanting, brewing, the End, mineshafts, villages"
+            icons={icons.release}
+          />
+        </Row>
+        <Row label="2012">
+          <!-- <VersionCard title="12.1" icons={icons.v12_1} /> -->
+          <VersionCard
+            version="12.1-12.2"
+            title=""
+            description="Spawn eggs, jungle, plank types"
+            icons={icons.v12_2}
+          />
+          <VersionCard
+            version="12.3"
+            title=""
+            description="Trading, desert pyramids, jungle temples"
+            icons={icons.v12_3}
+          />
+          <VersionCard
+            version="12.4"
+            title="Pretty Scary Update"
+            description="Wither, instamining, enchanted books"
+            icons={icons.v12_4}
+          />
+        </Row>
+        <Row label="2013">
+          <VersionCard
+            version="13.1"
+            title="Redstone Update"
+            description="Redstone components, quartz"
+            icons={icons.v13_1}
+          />
+          <VersionCard
+            version="13.2"
+            title="Horse Update"
+            description="Horses, terracotta, baby zombies"
+            icons={icons.v13_2}
+          />
+          <VersionCard
+            version="13.3"
+            title="The Update that Changed the World"
+            description="Mesa, savannah, ice spikes, new world gen"
+            icons={icons.v13_3}
+          />
+        </Row>
+        <Row label="2014">
+          <VersionCard
+            version="14.1"
+            title="Bountiful Update"
+            description="Ocean monument, world border, spectator mode"
+            icons={icons.v14_1}
+          />
+        </Row>
+        <Row label="2015" />
+        <Row label="2016">
+          <VersionCard
+            version="16.1"
+            title="Combat Update"
+            description="Gliding, off-hand, outer End islands, igloos"
+            icons={icons.v16_1}
+          />
+          <VersionCard
+            version="16.2"
+            title="Frostburn Update"
+            description="Fossils, auto-jump"
+            icons={icons.v16_2}
+          />
+          <VersionCard
+            version="16.3"
+            title="Exploration Update"
+            description="Shulker boxes, woodland mansions"
+            icons={icons.v16_3}
+          />
+        </Row>
+        <Row label="2017">
+          <VersionCard
+            version="17.1"
+            title="World of Color Update"
+            description="Recipe book, advancements"
+            icons={icons.v17_1}
+          />
+        </Row>
+        <Row label="2018">
+          <VersionCard
+            version="18.1"
+            title="Update Aquatic"
+            description="Swimming, ocean temperature biomes, shipwrecks, icebergs, buried treasure"
+            icons={icons.v18_1}
+          />
+        </Row>
+        <Row label="2019">
+          <VersionCard
+            version="19.1"
+            title="Village & Pillage"
+            description="Trading overhaul, patrols and raids, texture update, bamboo forests, pillager outposts"
+            icons={icons.v19_1}
+            cols={3.3}
+          />
+          <VersionCard
+            version="19.2"
+            title="Buzzy Bees"
+            description="Bees"
+            icons={icons.v19_2}
+          />
+        </Row>
+        <Row label="2020">
+          <VersionCard
+            version="20.1"
+            title="Nether Update"
+            description="Nether biomes, netherite, bastions, ruined portals"
+            icons={icons.v20_1}
+          />
+        </Row>
+        <Row label="2021">
+          <VersionCard
+            version="21.1"
+            title="Caves & Cliffs: Part I"
+            description="Dripstone caves, lush caves, deepslate, copper, amethyst geodes"
+            icons={icons.v21_1}
+            cols={3.3}
+          />
+          <VersionCard
+            version="21.2"
+            title="Caves & Cliffs: Part II"
+            description="Overworld generation overhaul"
+            icons={icons.v21_2}
+          />
+        </Row>
+        <Row label="2022">
+          <VersionCard
+            version="22.1"
+            title="The Wild Update"
+            description="Deep dark, mangrove swamp"
+            icons={icons.v22_1}
+          />
+        </Row>
+        <Row label="2023">
+          <VersionCard
+            version="23.1"
+            title="Trails & Tales"
+            description="Cherry grove, archaeology, armor trims, trail ruins"
+            icons={icons.v23_1}
+            cols={3.3}
+          />
+          <VersionCard
+            version="23.2"
+            title="Bats and Pots"
+            description="Decorated pot functionality, remodeled bats"
+            icons={icons.v23_2}
+          />
+        </Row>
+        <Row label="2024">
+          <VersionCard
+            version="24.1"
+            title="Armored Paws"
+            description="Armadillos, wolf variants"
+            icons={icons.v24_1}
+          />
+          <VersionCard
+            version="24.2"
+            title="Tricky Trials"
+            description="Trial chambers, new paintings"
+            icons={icons.v24_2}
+          />
+          <VersionCard
+            version="24.3"
+            title="Bundles of Bravery"
+            description="Bundles"
+            icons={icons.v24_3}
+          />
+          <VersionCard
+            version="24.4"
+            title="The Garden Awakens"
+            description="Pale garden"
+            icons={icons.v24_4}
+          />
+        </Row>
+        <Row label="2025">
+          <VersionCard
+            version="25.1"
+            title="Spring to Life"
+            description="Mob variants, more foliage"
+            icons={icons.v25_1}
+          />
+          <VersionCard
+            version="25.2"
+            title="Chase the Skies"
+            description="Happy ghasts"
+            icons={icons.v25_2}
+          />
+          <VersionCard
+            version="25.3"
+            title="The Copper Age"
+            description="Copper golems, copper stuff"
+            icons={icons.v25_3}
+          />
+          <VersionCard
+            version="25.4"
+            title="Mounts of Mayhem"
+            description="Spears, nautilus"
+            icons={icons.v25_4}
+          />
+        </Row>
+      </article>
+      <footer>
+        <p>
+          Chart put together by <b>u/AcipenserSturio</b>.
+          <br />
+          Images and Minecraft version documentation by <b>minecraft.wiki</b>.
+          <br />
+          <b>Faithful</b> font is <a
+            href="https://github.com/Faithful-Resource-Pack/Website/blob/main/COPYRIGHT.md"
+            >licensed</a
+          > under the OFL.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

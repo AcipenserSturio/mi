@@ -1,0 +1,31 @@
+---
+interface Props {
+  label: string;
+}
+const { label } = Astro.props;
+---
+
+<style>
+  .row-container {
+    display: flex;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  .row > * {
+    /*flex: 1 1 0;*/
+    /*flex: 1 1 0%;*/
+    /*min-width: 0;*/
+  }
+  h2 {
+    margin: 8px 0px;
+  }
+</style>
+
+<div class="row-container">
+  <h2>{label}</h2>
+  <div class="row">
+    <slot />
+  </div>
+</div>

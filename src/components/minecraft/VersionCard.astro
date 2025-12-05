@@ -1,0 +1,78 @@
+---
+interface Props {
+  version?: string;
+  title: string;
+  description?: string;
+  icons: string[];
+  cols?: number;
+}
+const { version = "", title, description = "", icons, cols = 1 } = Astro.props;
+---
+
+<style>
+  div {
+    background-color: #444;
+    width: 100%;
+    padding: 6px;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 0;
+    /*border-radius: 10px;*/
+    margin: 3px;
+    border-image: url("https://minecraft.wiki/images/Inventory_background.png")
+      4 fill repeat;
+    color: #000;
+    flex-basis: 0;
+  }
+  h3 {
+    margin: 0px;
+    color: #3f3f3f;
+    font-size: 28px;
+  }
+  img {
+    background: #8b8b8b no-repeat center center / 32px 32px;
+    border: 2px solid;
+    border-color: #373737 #fff #fff #373737;
+    width: 32px;
+    height: 32px;
+  }
+  span {
+    display: inline-block;
+    line-height: 0;
+  }
+  p {
+    color: #3f3f3f;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  b {
+    display: inline-block;
+    color: #882888;
+    translate: -1px -1px;
+    text-shadow: 2px 2px #88288877;
+    margin-right: 10px;
+  }
+</style>
+<div style={`flex-grow: ${cols};`}>
+  <h3>
+    {version && <b>{version}</b>}{title}
+  </h3>
+  <p>{description}</p>
+  <span>
+    {
+      icons.map((icon) => (
+        <img
+          src={
+            icon.startsWith("https")
+              ? icon.replace("w/File:", "images/")
+              : `https://minecraft.wiki/images/Invicon_${icon.replaceAll(" ", "_")}.png`.replaceAll(
+                  "gif.png",
+                  "gif",
+                )
+          }
+        />
+      ))
+    }</span
+  >
+</div>
