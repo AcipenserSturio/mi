@@ -53,10 +53,4 @@
     width: 100%;
     resize: vertical;
   }
-
-  @media (max-width: 600px) {
-    div {
-      flex-direction: column;
-    }
-  }
 </style>
