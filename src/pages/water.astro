@@ -1,0 +1,99 @@
+---
+import "@/styles/water.css";
+import { BaseHead } from "selo-components";
+
+const letters = {
+  a: ["atl", "Nahuatl"],
+  b: ["biyo", "Somali"],
+  c: ["c̣q̇ali", "Georgian"],
+  d: ["dŵr", "Welsh"],
+  e: ["eau", "French"],
+  f: ["faní", "Rohingya"],
+  g: ["g̱ántl", "Haida"],
+  h: ["húdōr", "Ancient Greek"],
+  i: ["imaq", "Inuktitut"],
+  j: ["jaʼ", "K'iche'"],
+  k: ["kuuyi", "Hopi"],
+  l: ["lee", "Afar"],
+  m: ["māʔ", "Arabic"],
+  n: ["nước", "Vietnamese"],
+  o: ["omi", "Yoruba"],
+  p: ["pānī", "Hindi"],
+  q: ["qla", "Nuxalk"],
+  r: ["ruwā", "Hausa"],
+  s: ["su", "Turkish"],
+  t: ["tubig", "Tagalog"],
+  u: ["uisce", "Irish"],
+  v: ["vesi", "Finnish"],
+  w: ["water", "English"],
+  x: ["xi", "Chechen"],
+  y: ["yaku", "Quechua"],
+  z: ["zanum", "Kavalan"],
+};
+---
+
+<style>
+  body {
+    background-color: #89c3f7;
+    text-align: center;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+  }
+  h1,
+  h2 {
+    font-family: "Comic Sans MS";
+    font-size: 220%;
+    margin: 0;
+  }
+  img {
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+  }
+  div {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 100px;
+    flex-grow: 1;
+  }
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));*/
+  }
+  span {
+    color: #444;
+    font-size: 80%;
+  }
+</style>
+
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Learn the alphabet!"
+      description="A completely normal alphabet for children. Nothing silly going on."
+    />
+  </head>
+  <body>
+    <div><h1>Learn the alphabet!</h1></div>
+    <article>
+      {
+        Object.entries(letters).map(([char, [word, lang]]) => (
+          <div>
+            <h2>{`${char.toUpperCase()}${char}`}</h2>
+            <img src="https://clipart-library.com/newhp/glass-of-water-clipart-md.png" />
+            <span>is for</span> <b>{word}</b>
+            <br />
+            <i>{lang}</i>
+          </div>
+        ))
+      }
+    </article>
+  </body>
+</html>
