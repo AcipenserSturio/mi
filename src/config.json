@@ -6,5 +6,6 @@
   "url_github": "https://github.com/AcipenserSturio/mi/",
 
   "use_navbar": false,
+  "use_socials": false,
   "use_language_toggle": false
 }
