@@ -1,0 +1,15 @@
+---
+import { Timeline } from "@/components/chart/Chart.tsx";
+import { BaseHead } from "selo-components";
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title="Chart" description="WIP Chart" />
+  </head>
+  <body style="background-color:white">
+    <main style="max-width: 600px; margin: auto">
+      <Timeline client:only="react" />
+    </main>
+  </body>
+</html>
