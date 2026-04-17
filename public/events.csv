@@ -1,12 +1,40 @@
 start,end,track,label
-2022-05-24,2022-05-31,Terraforming,Snowing the taiga
+2022-03-05,2022-05-24,Distractions,Starter base and Nether hub
+2022-05-24,2022-05-31,Terrain,Snowing the taiga
 2022-05-31,2022-06-16,Farm,Warped farm
-2022-05-31,2022-06-16,Building,Citadel entrance
-2022-06-20,2022-07-07,Building,Four more towers
-2022-06-20,2022-07-01,Terraforming,More terrain under Citadel
+2022-05-31,2022-06-16,Pregame building,Citadel front
+2022-06-17,2022-07-08,Distractions,Double Life
+2022-06-20,2022-07-07,Pregame building,Four more towers
+2022-06-20,2022-07-01,Terrain,Terrain under Citadel
 2022-07-01,2022-07-07,Farm,Sculk block farm
-2022-07-21,2022-08-03,Digging,Digging out levels 1-2
-2022-08-03,2022-08-06,Building,L1: Crypt
+2022-07-21,2022-08-03,Terrain,Digging out levels 1-2
+2022-08-03,2022-08-06,Level building,L1 Crypt
 2022-08-06,2022-08-13,Farm,Ice and warped farms
-2022-08-16,2022-08-20,Building,L1: Wings
-2023-09-10,2023-09-17,Watching,Phase 1
+2022-08-16,2022-08-20,Level building,L1 Wings
+2022-08-23,2022-08-30,Pregame building,Great Hall
+2022-09-13,2022-09-14,Terrain,Digging level 3
+2022-09-13,2022-09-15,Level building,L1 Basement
+2022-09-24,2022-09-29,Distractions,Basalt Assault
+2022-10-07,2022-10-18,Redstone,"Main bus, clank, artifact spots"
+2022-10-18,2022-10-19,Audio,Heartbeat players
+2022-10-27,2022-12-20,Distractions,Empires crossover
+2022-12-20,2022-12-24,Level building,Level 2
+2023-01-10,2023-01-11,Audio,More heartbeat players
+2023-01-12,2023-01-14,Pregame building,Start UI & ride
+2023-01-28,2023-02-04,Level building,"L1 ceiling, stairs to L2"
+2023-02-07,2023-02-16,Pregame building,Deepfrost Citadel
+2023-02-21,2023-02-26,Redstone,"Hazard, L2 doors"
+2023-02-27,2023-03-02,Level building,Dripleaf & trapdoors
+2023-02-29,2023-03-11,Audio,Card announcer
+2023-03-03,2023-04-21,Distractions,Limited Life
+2023-03-14,2023-03-15,Redstone,Coins & embers
+2023-09-09,2023-09-16,Watching,P. 1
+2023-09-17,2023-09-24,Watching,P. 2
+2023-09-24,2023-10-01,Watching,P. 3
+2023-10-01,2023-10-14,Watching,Phase 4
+2023-10-20,2023-12-15,Distractions,Secret Life
+2023-10-25,2023-10-30,Watching,P. 5
+2023-10-30,2023-11-06,Watching,P. 6
+2023-11-07,2023-11-17,Watching,P. 7
+2023-11-17,2023-12-02,Watching,Phase 8
+2023-12-03,2023-12-09,Watching,P. 9

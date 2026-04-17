@@ -4,8 +4,8 @@
   import { timeMonth, timeWeek } from "d3-time";
   import { timeFormat } from "d3-time-format";
 
-  export let width = 2700;
-  export let height = 320;
+  export let width = 3500;
+  export let height = 420;
   export let csvText = "";
 
   const margin = { top: 40, right: 20, bottom: 40, left: 20 };
