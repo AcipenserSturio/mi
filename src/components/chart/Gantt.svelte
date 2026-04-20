@@ -5,7 +5,7 @@
   import { timeFormat } from "d3-time-format";
 
   export let width = 4000;
-  export let height = 520;
+  export let height = 600;
   export let csvText = "";
 
   const margin = { top: 40, right: 20, bottom: 40, left: 20 };
