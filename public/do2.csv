@@ -39,13 +39,13 @@ start,end,track,label
 2023-03-30,2023-04-01,Audio & HUD,Card callouts
 2023-04-06,2023-04-09,Level 1,"L1 ravagers & evokers, berries"
 2023-04-06,2023-04-09,Level 2,"L2 baby den"
-2023-04-09,2023-04-13,Watching,Tango & Zed test runs
+2023-04-09,2023-04-13,Testing,Tango & Zed test runs
 2023-04-15,2023-04-16,Terrain,Digging for Frost Ember shop
 2023-04-16,2023-04-22,Pregame building,Frost Ember Shop & Gauntlet
-2023-04-24,2023-04-25,Level 2,Bush & axls
+2023-04-24,2023-04-25,Level 2,L2 Berries & axolotl pond
 2023-04-26,2023-05-02,Audio & HUD,Map UI
 2023-04-26,2023-05-02,Redstone,L2 hazards
-2023-05-03,2023-05-04,Watching,Tango test run
+2023-05-03,2023-05-04,Testing,Tango test run
 2023-05-11,2023-05-13,Redstone,Beacons
 2023-05-23,2023-06-22,Redstone Shulker,"RedstoneTek2"
 2023-05-25,2023-06-01,Level 3,Level 3
@@ -54,9 +54,9 @@ start,end,track,label
 2023-06-19,2023-06-20,Level 2,L2 evokers
 2023-06-19,2023-12-20,Version,"Minecraft 1.20.1 (Trails & Tales)"
 2023-06-21,2023-06-22,Audio & HUD,Card bought audio
-2023-06-27,2023-06-30,Pregame building,Ember shop & animated door
+2023-06-27,2023-06-30,Pregame building,Crown shop & animated door
 2023-07-03,2023-07-04,Level 2,L2 ravagers
-2023-07-05,2023-07-06,Redstone,Card programming
+2023-07-05,2023-07-06,Redstone,Program cards
 2023-07-06,2023-08-03,Redstone Shulker,"RedstoneTek3"
 2023-07-10,2023-07-11,Farm,Warden farm
 2023-07-15,2023-07-18,Audio & HUD,New central audio
@@ -65,6 +65,12 @@ start,end,track,label
 2023-07-25,2023-08-02,Level 3,Level 4
 2023-08-03,2023-08-08,Pregame building,Shop fixes
 2023-08-08,2023-08-29,Redstone Shulker,"RedstoneTek4"
+2023-08-08,2023-08-12,Level 1,L1 Zoning & unstuckificating
+2023-08-11,2023-08-12,Level 2,L2 Zoning
+2023-08-11,2023-08-12,Pregame building,Easter Egg monument
+2023-08-18,2023-08-29,Testing,Test runs
+2023-09-07,2023-09-08,Testing,Final test runs with Zed
+2023-08-22,2023-09-08,Redstone,Misc bugfixing
 2023-09-09,2023-09-16,Watching,P. 1
 2023-09-17,2023-09-24,Watching,P. 2
 2023-09-24,2023-10-01,Watching,P. 3

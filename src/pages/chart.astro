@@ -1,7 +1,8 @@
 ---
 import Gantt from "@/components/chart/Gantt.svelte";
 import { BaseHead } from "selo-components";
-import csvFile from "/events.csv?url&raw";
+import do2 from "/do2.csv?url&raw";
+import do3 from "/do3.csv?url&raw";
 ---
 
 <html lang="en">
@@ -9,6 +10,7 @@ import csvFile from "/events.csv?url&raw";
     <BaseHead title="Chart" description="WIP Chart" />
   </head>
   <body>
-    <Gantt csvText={csvFile} client:only="svelte" />
+    <Gantt csvText={do2} width={4000} height={600} client:only="svelte" />
+    <Gantt csvText={do3} width={4000} height={200} client:only="svelte" />
   </body>
 </html>
