@@ -1,0 +1,19 @@
+---
+import GanttHistoric from "@/components/chart/GanttHistoric.svelte";
+import { BaseHead } from "selo-components";
+import ppl from "/ppl.csv?url&raw";
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title="Chart" description="WIP Chart" />
+  </head>
+  <body>
+    <GanttHistoric
+      csvText={ppl}
+      width={7000}
+      height={13000}
+      client:only="svelte"
+    />
+  </body>
+</html>
