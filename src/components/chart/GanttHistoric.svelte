@@ -9,13 +9,14 @@
   export let height = 400;
   export let csvText = "";
 
-  const margin = { top: 40, right: 200, bottom: 40, left: 40 };
+  const margin = { top: 40, right: 300, bottom: 40, left: 40 };
 
   let data = [];
   let tracks = [];
   let xScale, yScale;
   let ticks = [];
   let maxScore = 1;
+  let minScore = 0;
 
   $: if (csvText) {
     data = csvParse(csvText, (d, i) => ({
@@ -25,6 +26,7 @@
       start: +d.start,
       end: d.end == "ALIVE" ? 2026 : +d.end,
       label: d.label,
+      desc: d.desc,
     }))
       .filter((row) => row.end && row.start)
       .filter((row) => row.start >= -700);
@@ -46,8 +48,8 @@
 
     const minDate = Math.min(...data.map((d) => d.start));
     const maxDate = Math.max(...data.map((d) => d.end));
+    minScore = Math.min(...data.map((d) => d.score));
     maxScore = Math.max(...data.map((d) => d.score));
-    console.log(maxScore);
 
     xScale = scaleTime({
       domain: [minDate, maxDate],
@@ -101,13 +103,17 @@
           x={xScale(d.start)}
           y={yScale(d.track)}
           width={xScale(d.end) - xScale(d.start)}
-          height="5"
-          fill={interpolateViridis(1 - (d.score - 30) / (maxScore - 30))}
+          height="7"
+          fill={interpolateViridis(
+            1 - (d.score - minScore) / (maxScore - minScore),
+          )}
           rx="3"
         />
 
-        <text x={xScale(d.start)} y={yScale(d.track) - 3} font-size="14">
-          {d.label}
+        <text x={xScale(d.start)} y={yScale(d.track) - 4} font-size="16">
+          <tspan font-weight="bold">{d.label}</tspan><tspan font-size="10"
+            >, {d.desc.replaceAll(/ ?\(.*?\)/g, "")}</tspan
+          >
         </text>
       </g>
     {/each}
