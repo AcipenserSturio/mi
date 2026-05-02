@@ -27,20 +27,20 @@
       label: d.label,
     }))
       .filter((row) => row.end && row.start)
-      .filter((row) => row.end > -700)
-      // .filter((row) => row.score > 150)
-      // .filter((row) => row.score - ((row.start + row.end) / 2 - 1700) / 5 > 110)
-      // .filter(
-      //   (row) =>
-      //     row.end < 1700 ||
-      //     (row.end < 1800 && row.score > 100) ||
-      //     (row.end < 1900 && row.score > 120) ||
-      //     (row.end < 2000 && row.score > 150) ||
-      //     row.score > 160,
-      // )
-      // .sort((a, b) => a.start > b.start)
-      // .sort((a, b) => a.end > b.end);
-      .sort((a, b) => a.start + a.end > b.start + b.end);
+      .filter((row) => row.start >= -700);
+    // .filter((row) => row.score > 150)
+    // .filter((row) => row.score - ((row.start + row.end) / 2 - 1700) / 5 > 110)
+    // .filter(
+    //   (row) =>
+    //     row.end < 1700 ||
+    //     (row.end < 1800 && row.score > 100) ||
+    //     (row.end < 1900 && row.score > 120) ||
+    //     (row.end < 2000 && row.score > 150) ||
+    //     row.score > 160,
+    // )
+    // .sort((a, b) => a.start > b.start)
+    // .sort((a, b) => a.end > b.end);
+    // .sort((a, b) => a.start + a.end > b.start + b.end);
 
     tracks = Array.from(new Set(data.map((d) => d.track)));
 
@@ -61,9 +61,9 @@
     });
 
     ticks = [
-      -1000, -900, -800, -700, -600, -500, -400, -300, -200, -100, 1, 100, 200,
-      300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500,
-      1600, 1700, 1800, 1900, 2000,
+      -700, -600, -500, -400, -300, -200, -100, 1, 100, 200, 300, 400, 500, 600,
+      700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900,
+      2000,
     ];
   }
 
@@ -102,7 +102,7 @@
           y={yScale(d.track)}
           width={xScale(d.end) - xScale(d.start)}
           height="5"
-          fill={interpolateViridis(1 - (d.score - 100) / (maxScore - 100))}
+          fill={interpolateViridis(1 - (d.score - 30) / (maxScore - 30))}
           rx="3"
         />
 

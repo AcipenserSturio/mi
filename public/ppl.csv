@@ -1,545 +1,1047 @@
-label,score,track,start,end
-Michael Jackson,282,Q2831,1958,2009
-Jesus,279,Q302,-7,30
-Donald Trump,254,Q22686,1946,ALIVE
-Barack Obama,251,Q76,1961,ALIVE
-Ronald Reagan,249,Q9960,1911,2004
-Adolf Hitler,247,Q352,1889,1945
-Leonardo da Vinci,239,Q762,1452,1519
-Isaac Newton,235,Q935,1642,1727
-Confucius,234,Q4604,-552,-479
-Nelson Mandela,230,Q8023,1918,2013
-Vladimir Putin,230,Q7747,1952,ALIVE
-William Shakespeare,230,Q692,1564,1616
-Albert Einstein,228,Q937,1879,1955
-Aristotle,224,Q868,-384,-322
-Joe Biden,224,Q6279,1942,ALIVE
-Muhammad,223,Q9458,571,632
-Wolfgang Amadeus Mozart,222,Q254,1756,1791
-Johann Sebastian Bach,217,Q1339,1685,1750
-Plato,217,Q859,-427,-347
-Corbin Bleu,216,Q4617,1989,ALIVE
-Julius Caesar,215,Q1048,-100,-44
-Napoleon,214,Q517,1769,1821
-Alexander the Great,213,Q8409,-356,-323
-George W. Bush,212,Q207,1946,ALIVE
-Vincent van Gogh,211,Q5582,1853,1890
-George Washington,211,Q23,1732,1799
-Ludwig van Beethoven,210,Q255,1770,1827
-Michelangelo,210,Q5592,1475,1564
-Vladimir Lenin,209,Q1394,1870,1924
-The Buddha,209,Q9441,-563,-483
-Christopher Columbus,208,Q7322,1451,1506
-Elizabeth II,208,Q9682,1926,2022
-Augustus,207,Q1405,-63,14
-Karl Marx,206,Q9061,1818,1883
-Mustafa Kemal Atatürk,206,Q5152,1881,1938
-Charles Darwin,205,Q1035,1809,1882
-Abraham Lincoln,205,Q91,1809,1865
-Pablo Picasso,204,Q5593,1881,1973
-Joseph Stalin,203,Q855,1878,1953
-Mahatma Gandhi,203,Q1001,1869,1948
-Galileo Galilei,203,Q307,1564,1642
-Salvador Dalí,201,Q5577,1904,1989
-Socrates,201,Q913,-470,-399
-Charlie Chaplin,198,Q882,1889,1977
-Marilyn Monroe,195,Q4616,1926,1962
-Homer,194,Q6691,-900,-800
-Dante Alighieri,192,Q1067,1265,1321
-François Hollande,191,Q157,1954,ALIVE
-Martin Luther,190,Q9554,1483,1546
-Thomas Edison,190,Q8743,1847,1931
-Archimedes,189,Q8739,-287,-212
-Marie Skłodowska-Curie,189,,UNKNOWN,UNKNOWN
-Johann Wolfgang von Goethe,189,Q5879,1749,1832
-Sigmund Freud,188,Q9215,1856,1939
-Lionel Messi,186,Q615,1987,ALIVE
-Elvis Presley,184,Q303,1935,1977
-Leo Tolstoy,183,Q7243,1828,1910
-Carl Linnaeus,182,Q1043,1707,1778
-Mao Zedong,181,Q5816,1893,1976
-Winston Churchill,181,Q8016,1874,1965
-Naruhito,181,Q217096,1960,ALIVE
-Hans Christian Andersen,181,Q5673,1805,1875
-Miguel de Cervantes,181,Q5682,1547,1616
-Marco Polo,180,Q6101,1254,1324
-Franklin D. Roosevelt,180,Q8007,1882,1945
-Victor Hugo,180,Q535,1802,1885
-Pope Francis,179,Q450675,1936,2025
-Immanuel Kant,178,Q9312,1724,1804
-René Descartes,178,Q9191,1596,1650
-Martin Luther King Jr.,178,Q8027,1929,1968
-Fyodor Dostoevsky,178,Q991,1821,1881
-Ferdinand Magellan,176,Q1496,1480,1521
-Genghis Khan,176,Q720,1162,1227
-Rembrandt,175,Q5598,1606,1669
-John F. Kennedy,175,Q9696,1917,1963
-Nicolaus Copernicus,174,Q619,1473,1543
-Cristiano Ronaldo,174,Q11571,1985,ALIVE
-Friedrich Nietzsche,174,Q9358,1844,1900
-Voltaire,174,Q9068,1694,1778
-Bill Gates,172,Q5284,1955,ALIVE
-Bill Clinton,172,Q1124,1946,ALIVE
-Virgil,172,Q1398,-70,-19
-Franz Kafka,171,Q905,1883,1924
-Neil Armstrong,170,Q1615,1930,2012
-Walt Disney,170,Q8704,1901,1966
-Raphael,170,Q5597,1483,1520
-Volodymyr Zelenskyy,170,Q3874799,1978,ALIVE
-Angela Merkel,170,Q567,1954,ALIVE
-Abraham,170,Q9181,UNKNOWN,UNKNOWN
-Steve Jobs,169,Q19837,1955,2011
-Charles de Gaulle,169,Q2042,1890,1970
-Nikola Tesla,169,Q9036,1856,1943
-Charles Dickens,169,Q5686,1812,1870
-Vasco da Gama,168,Q7328,1469,1524
-Lady Gaga,168,Q19848,1986,ALIVE
-Anton Chekhov,168,Q5685,1860,1904
-Matsuo Basho,168,,UNKNOWN,UNKNOWN
-Frida Kahlo,166,Q5588,1907,1954
-Euclid,166,Q8747,-333,UNKNOWN
-Jimmy Carter,164,Q23685,1924,2024
-Frédéric Chopin,163,Q1268,1810,1849
-Francisco Goya,163,Q5432,1746,1828
-Adam Smith,162,Q9381,1723,1790
-Charlemagne,162,Q3044,748,814
-James Cook,161,Q7324,1728,1779
-Roald Amundsen,161,Q926,1872,1928
-Emmanuel Macron,161,Q3052772,1977,ALIVE
-Moses,161,Q9077,-1393,-1273
-Johannes Gutenberg,161,Q8958,1400,1468
-Leonhard Euler,161,Q7604,1707,1783
-Justin Bieber,160,Q34086,1994,ALIVE
-Carl Friedrich Gauss,160,Q6722,1777,1855
-Thomas Jefferson,160,Q11812,1743,1826
-Alan Turing,159,Q7251,1912,1954
-Alfred Nobel,159,Q23810,1833,1896
-Eminem,158,Q5608,1972,ALIVE
-Richard Wagner,158,Q1511,1813,1883
-Pythagoras,158,Q10261,-550,-490
-Otto von Bismarck,158,Q8442,1815,1898
-Augustine of Hippo,158,Q8018,354,430
-Thomas Aquinas,158,Q9438,1225,1274
-Jean-Jacques Rousseau,157,Q6527,1712,1778
-Kamala Harris,157,Q10853588,1964,ALIVE
-George H. W. Bush,157,Q23505,1924,2018
-J. R. R. Tolkien,157,Q892,1892,1973
-Mark Twain,157,Q7245,1835,1910
-Pyotr Ilyich Tchaikovsky,156,Q7315,1840,1893
-Mikhail Gorbachev,156,Q30487,1931,2022
-Charles III,156,Q43274,1948,ALIVE
-Gottfried Wilhelm Leibniz,156,Q9047,1646,1716
-James Joyce,156,Q6882,1882,1941
-Hokusai,155,Q5586,1760,1849
-"Mary, mother of Jesus",155,Q345,-18,48
-Dmitri Mendeleev,155,Q9106,1834,1907
-Elon Musk,154,Q317521,1971,ALIVE
-Joan of Arc,154,Q7226,1412,1431
-Harry S. Truman,154,Q11613,1884,1972
-Madonna,153,Q1744,1958,ALIVE
-Benito Mussolini,153,Q23559,1883,1945
-Lech Wałęsa,153,Q444,1943,ALIVE
-Peter the Great,153,Q8479,1672,1725
-Fidel Castro,153,Q11256,1926,2016
-Richard Nixon,153,Q9588,1913,1994
-Jawaharlal Nehru,153,Q1047,1889,1964
-Akira Kurosawa,152,Q8006,1910,1998
-Selena Gomez,152,Q83287,1992,ALIVE
-Niccolò Machiavelli,152,Q1399,1469,1527
-Margaret Thatcher,152,Q7416,1925,2013
-Cleopatra,152,Q635,-69,-30
-Lord Byron,152,Q5679,1788,1824
-Henri Matisse,151,Q5589,1869,1954
-Simón Bolívar,151,Q8605,1783,1830
-Nicolas Sarkozy,151,Q329,1955,ALIVE
-Michael Faraday,151,Q8750,1791,1867
-Stephen Hawking,151,Q17714,1942,2018
-Ernest Hemingway,151,Q23434,1899,1961
-Beyoncé,150,Q36153,1981,ALIVE
-Elizabeth I,150,Q7207,1533,1603
-Paul the Apostle,150,Q9200,5,66
-Johannes Kepler,150,Q8963,1571,1630
-Henry Ford,149,Q8768,1863,1947
-Laozi,149,Q9333,-604,-500
-Pope Benedict XVI,149,Q2494,1927,2022
-John Adams,149,Q11806,1735,1826
-Freddie Mercury,148,Q15869,1946,1991
-Edgar Allan Poe,148,Q16867,1809,1849
-Sophocles,148,Q7235,-496,-406
-Antonio Vivaldi,147,Q1340,1678,1741
-Jean-Paul Sartre,147,Q9364,1905,1980
-John Locke,147,Q9353,1632,1704
-Osama bin Laden,147,Q1317,1957,2011
-Enrico Fermi,147,Q8753,1901,1954
-Max Planck,147,Q9021,1858,1947
-George Orwell,147,Q3335,1903,1950
-Hernán Cortés,146,Q7326,1485,1547
-Taylor Swift,146,Q26876,1989,ALIVE
-Queen Victoria,146,Q9439,1819,1901
-Noam Chomsky,146,Q9049,1928,ALIVE
-Pope John Paul II,146,Q989,1920,2005
-Pelé,146,Q12897,1940,2022
-Dwight D. Eisenhower,146,Q9916,1890,1969
-Alfred Hitchcock,145,Q7374,1899,1980
-Narendra Modi,145,Q1058,1950,ALIVE
-Recep Tayyip Erdoğan,145,Q39259,1954,ALIVE
-Xi Jinping,145,Q15031,1953,ALIVE
-Pope Leo XIV,145,Q6109517,1955,ALIVE
-Michael Schumacher,145,Q9671,1969,ALIVE
-Lyndon B. Johnson,145,Q9640,1908,1973
-Woodrow Wilson,145,Q34296,1856,1924
-Jorge Luis Borges,145,Q909,1899,1986
-Shakira,144,Q34424,1977,ALIVE
-Mother Teresa,144,Q30547,1910,1997
-Theodore Roosevelt,144,Q33866,1858,1919
-Steven Spielberg,143,Q8877,1946,ALIVE
-Bob Dylan,143,Q392,1941,ALIVE
-Hillary Clinton,143,Q6294,1947,ALIVE
-Muammar Gaddafi,143,Q19878,1942,2011
-James Watt,143,Q9041,1736,1819
-Gerald Ford,143,Q9582,1913,2006
-Herodotus,143,Q26825,-484,-425
-Murasaki Shikibu,143,Q81731,973,1014
-Louis Armstrong,142,Q1779,1901,1971
-Louis XIV,142,Q7742,1638,1715
-Niels Bohr,142,Q7085,1885,1962
-Diego Maradona,142,Q17515,1960,2020
-Angelina Jolie,141,Q13909,1975,ALIVE
-Andy Warhol,141,Q5603,1928,1987
-Benjamin Franklin,141,Q34969,1706,1790
-Saladin,141,Q8581,1138,1193
-Agatha Christie,141,Q35064,1890,1976
-Wilhelm Röntgen,140,Q35149,1845,1923
-Neymar,140,Q142794,1992,ALIVE
-Geoffrey Chaucer,140,Q5683,1343,1400
-Celine Dion,139,Q5105,1968,ALIVE
-Albert Camus,139,Q34670,1913,1960
-Kim Il Sung,139,Q41117,1912,1994
-Hugo Chávez,139,Q8440,1954,2013
-Ernest Rutherford,139,Q9123,1871,1937
-Tim Berners-Lee,139,Q80,1955,ALIVE
-Muhammad Ali,139,Q36107,1942,2016
-Roger Federer,139,Q1426,1981,ALIVE
-Mark Zuckerberg,138,Q36215,1984,ALIVE
-John Lennon,138,Q1203,1940,1980
-Kim Jong Un,138,Q56226,1984,ALIVE
-Dmitry Medvedev,138,Q23530,1965,ALIVE
-Jane Austen,138,Q36322,1775,1817
-Marcel Proust,138,Q7199,1871,1922
-Franz Schubert,137,Q7312,1797,1828
-Georg Wilhelm Friedrich Hegel,137,Q9235,1770,1831
-James Madison,137,Q11813,1751,1836
-James Monroe,137,Q11815,1758,1831
-Rihanna,136,Q36844,1988,ALIVE
-Hirohito,136,Q34479,1901,1989
-Leon Trotsky,136,Q33391,1879,1940
-Umar,136,Q8467,586,644
-Shinzo Abe,136,Q132345,1954,2022
-Blaise Pascal,136,Q1290,1623,1662
-Andrew Jackson,136,Q11817,1767,1845
-Indira Gandhi,136,Q1149,1917,1984
-John Maynard Keynes,135,Q9317,1883,1946
-Scarlett Johansson,135,Q34436,1984,ALIVE
-George Frideric Handel,135,Q7302,1685,1759
-Boris Yeltsin,135,Q34453,1931,2007
-Novak Djokovic,135,Q5812,1987,ALIVE
-Rafael Nadal,135,Q10132,1986,ALIVE
-John Quincy Adams,135,Q11816,1767,1848
-Ulysses S. Grant,135,Q34836,1822,1885
-Ovid,135,Q7198,-43,17
-Marlon Brando,134,Q34012,1924,2004
-Robin Williams,134,Q83338,1951,2014
-Igor Stravinsky,134,Q7314,1882,1971
-Constantine the Great,134,Q8413,272,337
-James Clerk Maxwell,134,Q9095,1831,1879
-J. K. Rowling,133,Q34660,1965,ALIVE
-Bob Marley,132,Q409,1945,1981
-Claude Monet,132,Q296,1840,1926
-Georges Pompidou,132,Q2185,1911,1974
-Cyrus the Great,132,Q8423,-600,-530
-Cicero,131,Q1541,-106,-43
-Calvin Coolidge,131,Q36023,1872,1933
-Bradley Cooper,130,Q205707,1975,ALIVE
-Johannes Brahms,130,Q7294,1833,1897
-Jacques Chirac,130,Q2105,1932,2019
-Andrew Johnson,130,Q8612,1808,1875
-Martin Van Buren,130,Q11820,1782,1862
-Alexander Graham Bell,129,Q34286,1847,1922
-Herbert Hoover,129,Q35236,1874,1964
-John Tyler,129,Q11881,1790,1862
-William Howard Taft,129,Q35648,1857,1930
-Bruce Lee,128,Q16397,1940,1973
-Saint Peter,128,Q33923,-1,65
-James Buchanan,128,Q12325,1791,1868
-James K. Polk,128,Q11891,1795,1849
-Zachary Taylor,128,Q11896,1784,1850
-Friedrich Engels,127,Q34787,1820,1895
-Leonardo DiCaprio,127,Q38111,1974,ALIVE
-Ferdinand Marcos,127,Q1463,1917,1989
-Grover Cleveland,127,Q35171,1837,1908
-James A. Garfield,127,Q34597,1831,1881
-Millard Fillmore,127,Q12306,1800,1874
-William Henry Harrison,127,Q11869,1773,1841
-Oscar Wilde,127,Q30875,1854,1900
-Judy Garland,126,Q11637,1922,1969
-Sean Connery,126,Q4573,1930,2020
-Ho Chi Minh,126,Q36014,1890,1969
-Nikita Khrushchev,126,Q35314,1894,1971
-Alexander Lukashenko,126,Q2866,1954,ALIVE
-Benjamin Netanyahu,126,Q43723,1949,ALIVE
-Boris Johnson,126,Q180589,1964,ALIVE
-Malala Yousafzai,126,Q32732,1997,ALIVE
-Rishi Sunak,126,Q20055561,1980,ALIVE
-Bertrand Russell,126,Q33760,1872,1970
-Franklin Pierce,126,Q12312,1804,1869
-Luiz Inácio Lula da Silva,125,Q37181,1945,ALIVE
-Warren G. Harding,125,Q35286,1865,1923
-Jules Verne,125,Q33977,1828,1905
-Brad Pitt,124,Q35332,1963,ALIVE
-Avril Lavigne,124,Q30449,1984,ALIVE
-Giacomo Puccini,124,Q7311,1858,1924
-Paul McCartney,124,Q2599,1942,ALIVE
-William McKinley,124,Q35041,1843,1901
-Britney Spears,123,Q11975,1981,ALIVE
-Whitney Houston,123,Q34389,1963,2012
-Chiang Kai-shek,123,Q16574,1887,1975
-Benjamin Harrison,123,Q35678,1833,1901
-Arnold Schwarzenegger,122,Q2685,1947,ALIVE
-Chris Pratt,122,Q503706,1979,ALIVE
-Toshiro Mifune,122,Q37001,1920,1997
-Steven Seagal,122,Q82110,1952,ALIVE
-Jim Morrison,122,Q44301,1943,1971
-David Cameron,122,Q192,1966,ALIVE
-Jair Bolsonaro,122,Q10304982,1955,ALIVE
-Theresa May,122,Q264766,1956,ALIVE
-Ali,122,Q39619,599,661
-Zoroaster,122,Q35811,-628,-551
-Ariana Grande,121,Q151892,1993,ALIVE
-Ludwig Wittgenstein,121,Q9391,1889,1951
-Robert Mugabe,121,Q10707,1924,2019
-Tony Blair,121,Q9545,1953,ALIVE
-Hippocrates,121,Q5264,-460,-370
-Chester A. Arthur,121,Q35498,1829,1886
-Rutherford B. Hayes,121,Q35686,1822,1893
-Rudyard Kipling,121,Q34743,1865,1936
-Edmund Hillary,120,Q33817,1919,2008
-Johnny Depp,120,Q37175,1963,ALIVE
-Catherine the Great,120,Q36450,1729,1796
-Justin Trudeau,120,Q3099714,1971,ALIVE
-James Prescott Joule,120,Q8962,1818,1889
-Zinedine Zidane,120,Q1835,1972,ALIVE
-Arthur Conan Doyle,120,Q35610,1859,1930
-Greta Thunberg,119,Q56434717,2003,ALIVE
-Bashar al-Assad,119,Q44329,1965,ALIVE
-Yasser Arafat,119,Q34211,1929,2004
-Florence Nightingale,119,Q37103,1820,1910
-Usain Bolt,119,Q1189,1986,ALIVE
-Aleksandr Solzhenitsyn,119,Q34474,1918,2008
-George Bernard Shaw,119,Q19185,1856,1950
-Emma Watson,118,Q39476,1990,ALIVE
-Tom Hanks,118,Q2263,1956,ALIVE
-14th Dalai Lama,118,Q17293,1935,ALIVE
-Ptolemy,118,Q34943,100,170
-Isaac Asimov,118,Q34981,1920,1992
-Andrew Garfield,117,Q23891,1983,ALIVE
-Baruch Spinoza,117,Q35802,1632,1677
-Francisco Franco,117,Q29179,1892,1975
-Bernie Sanders,117,Q359442,1941,ALIVE
-Kim Jong Il,117,Q10665,1941,2011
-Guglielmo Marconi,117,Q36488,1874,1937
-Fibonacci,117,Q8763,1170,1240
-Al Pacino,116,Q41163,1940,ALIVE
-Audrey Hepburn,116,Q42786,1929,1993
-Nicole Kidman,116,Q37459,1967,ALIVE
-Robert De Niro,116,Q36949,1943,ALIVE
-David Bowie,116,Q5383,1947,2016
-Akihito,116,Q37979,1933,ALIVE
-Alexander Fleming,116,Q37064,1881,1955
-Francis Bacon,116,Q37388,1561,1626
-Francesco Totti,116,Q20110,1976,ALIVE
-Elizabeth Taylor,115,Q34851,1932,2011
-Demi Lovato,115,Q41173,1992,ALIVE
-Jennifer Lopez,115,Q40715,1969,ALIVE
-Miley Cyrus,115,Q4235,1992,ALIVE
-Caligula,115,Q1409,12,41
-Hannibal,115,Q36456,-247,-183
-Adam,115,Q70899,UNKNOWN,-3074
-David Beckham,115,Q10520,1975,ALIVE
-Alexandre Dumas,115,Q38337,1802,1870
-Émile Zola,115,Q504,1840,1902
-Natalie Portman,114,Q37876,1981,ALIVE
-Leonid Brezhnev,114,Q765165,1906,1982
-Pol Pot,114,Q39464,1925,1998
-Gregor Mendel,114,Q37970,1822,1884
-Pierre Curie,114,Q37463,1859,1906
-Wright brothers,114,Q35820,UNKNOWN,ALIVE
-Friedrich Schiller,114,Q22670,1759,1805
-Henrik Ibsen,114,Q36661,1828,1906
-Hermann Hesse,114,Q25973,1877,1962
-Josh Duhamel,113,Q19794,1972,ALIVE
-Meryl Streep,113,Q873,1949,ALIVE
-Adele,113,Q23215,1988,ALIVE
-Martin Heidegger,113,Q48301,1889,1976
-Søren Kierkegaard,113,Q6512,1813,1855
-John the Baptist,113,Q40662,-6,30
-Werner Heisenberg,113,Q40904,1901,1976
-Antoine de Saint-Exupéry,113,Q2908,1900,1944
-Chris Pine,112,Q23466,1980,ALIVE
-Julia Roberts,112,Q40523,1967,ALIVE
-Rowan Atkinson,112,Q23760,1955,ALIVE
-Sandra Bullock,112,Q40791,1964,ALIVE
-Taylor Lautner,112,Q23359,1992,ALIVE
-Will Smith,112,Q40096,1968,ALIVE
-Mariah Carey,112,Q41076,1969,ALIVE
-Marcus Aurelius,112,Q1430,121,180
-Nero,112,Q1413,37,68
-Richard Feynman,112,Q39246,1918,1988
-H. G. Wells,112,Q42511,1866,1946
-Honoré de Balzac,112,Q9711,1799,1850
-T. S. Eliot,112,Q37767,1888,1965
-Tom Cruise,111,Q37079,1962,ALIVE
-Tom Holland,111,Q2023710,1996,ALIVE
-Helmut Kohl,111,Q2518,1930,2017
-Nicholas II,111,Q40787,1868,1918
-John Calvin,111,Q37577,1509,1564
-Pope John XXIII,111,Q23873,1881,1963
-Ada Lovelace,111,Q7259,1815,1852
-Stephen King,111,Q39829,1947,ALIVE
-George Lucas,110,Q38222,1944,ALIVE
-Morgan Freeman,110,Q48337,1937,ALIVE
-Jimi Hendrix,110,Q5928,1942,1970
-Katy Perry,110,Q42493,1984,ALIVE
-Tupac Shakur,110,Q6107,1971,1996
-Abu Bakr,110,Q334923,573,634
-Trajan,110,Q1425,53,117
-Tutankhamun,110,Q12154,-1343,-1324
-Pope John Paul I,110,Q37278,1912,1978
-Carl Jung,110,Q41532,1875,1961
-Kylian Mbappé,110,Q21621995,1998,ALIVE
-Michael Jordan,110,Q41421,1963,ALIVE
-Giovanni Boccaccio,110,Q1402,1313,1375
-Jack Nicholson,109,Q39792,1937,ALIVE
-Jason Bateman,109,Q284636,1969,ALIVE
-Jim Carrey,109,Q40504,1962,ALIVE
-Nicolas Cage,109,Q42869,1964,ALIVE
-Kylie Minogue,109,Q11998,1968,ALIVE
-Petrarch,109,Q1401,1304,1374
-François Mitterrand,109,Q2038,1916,1996
-Hammurabi,109,Q36359,-1810,-1750
-Louis XVI,109,Q7732,1754,1793
-Juan Carlos I,109,Q19943,1938,ALIVE
-Olaf Scholz,109,Q61053,1958,ALIVE
-Ruhollah Khomeini,109,Q38823,1902,1989
-Maya Angelou,109,Q19526,1928,2014
-Rumi,109,Q43347,1207,1273
-Clint Eastwood,108,Q43203,1930,ALIVE
-Amy Winehouse,108,Q15897,1983,2011
-Christina Aguilera,108,Q41594,1980,ALIVE
-George Harrison,108,Q2643,1943,2001
-Hector Berlioz,108,Q1151,1803,1869
-David Hume,108,Q37160,1711,1776
-Thomas Hobbes,108,Q37621,1588,1679
-George VI,108,Q280856,1895,1952
-Rosa Parks,108,Q41921,1913,2005
-Alexei Navalny,108,Q155979,1976,2024
-Gerhard Schröder,108,Q2530,1944,ALIVE
-Hu Jintao,108,Q15029,1942,ALIVE
-Michelle Obama,108,Q13133,1964,ALIVE
-David,108,Q41370,-1040,-969
-Pope Paul VI,108,Q16975,1897,1978
-Lewis Carroll,108,Q38082,1832,1898
-Samuel Beckett,108,Q37327,1906,1989
-W. B. Yeats,108,Q40213,1865,1939
-Sylvester Stallone,107,Q40026,1946,ALIVE
-Johannes Vermeer,107,Q41264,1632,1675
-Arthur Schopenhauer,107,Q38193,1788,1860
-Julian Assange,107,Q360,1971,ALIVE
-Keir Starmer,107,Q6383803,1962,ALIVE
-John McCain,107,Q10390,1936,2018
-Eve,107,Q830183,-3760,UNKNOWN
-Solomon,107,Q37085,-990,-931
-Alessandro Volta,107,Q680,1745,1827
-John Steinbeck,107,Q39212,1902,1968
-Nikolai Gogol,107,Q43718,1809,1852
-William Faulkner,107,Q38392,1897,1962
-Jennifer Lawrence,106,Q189490,1990,ALIVE
-Keanu Reeves,106,Q43416,1964,ALIVE
-Johnny Cash,106,Q42775,1932,2003
-Kendall Jenner,106,Q1375057,1995,ALIVE
-Ali Khamenei,106,Q57336,1939,2026
-Felipe VI,106,Q191045,1968,ALIVE
-Al Gore,106,Q19673,1948,ALIVE
-Mahmoud Ahmadinejad,106,Q34448,1956,ALIVE
-Henry VIII,106,Q38370,1491,1547
-Ronaldo (Brazilian footballer),106,Q529207,1976,ALIVE
-Charles Baudelaire,106,Q501,1821,1867
-El Greco,106,Q301,1541,1614
-Amerigo Vespucci,105,Q47674,1454,1512
-Halle Berry,105,Q1033016,1966,ALIVE
-Mila Kunis,105,Q37628,1983,ALIVE
-Frank Sinatra,105,Q40912,1915,1998
-Attila,105,Q36724,395,453
-Gordon Brown,105,Q10648,1951,ALIVE
-Noah,105,Q81422,-2948,-1998
-André-Marie Ampère,105,Q675,1775,1836
-Henri Becquerel,105,Q41269,1852,1908
-Tycho Brahe,105,Q36620,1546,1601
-Gustave Flaubert,105,Q43444,1821,1880
-John Milton,105,Q79759,1608,1674
-Bruce Willis,104,Q2680,1955,ALIVE
-Jennifer Aniston,104,Q32522,1969,ALIVE
-Montesquieu,104,Q15975,1689,1755
-David Ben-Gurion,104,Q37610,1886,1973
-Henry Kissinger,104,Q66107,1923,2023
-Valéry Giscard d'Estaing,104,Q2124,1926,2020
-Ivan the Terrible,104,Q7996,1530,1584
-Hassan Rouhani,104,Q348144,1948,ALIVE
-Liz Truss,104,Q272201,1975,ALIVE
-Francis of Assisi,104,Q676555,1182,1226
-Kobe Bryant,104,Q25369,1978,2020
-Luis Suárez,104,Q26517,1987,ALIVE
-Serena Williams,104,Q11459,1981,ALIVE
-Felix Mendelssohn,103,Q46096,1809,1847
-Joseph Goebbels,103,Q41749,1897,1945
-Melania Trump,103,Q432473,1970,ALIVE
-Pierre-Simon Laplace,103,Q44481,1749,1827
-Mary Shelley,103,Q47152,1797,1851
-Warren Buffett,102,Q47213,1930,ALIVE
-Anthony Hopkins,102,Q65932,1937,ALIVE
-Grace Kelly,102,Q3925,1929,1982
-James Cameron,102,Q42574,1954,ALIVE
-Kevin Costner,102,Q11930,1955,ALIVE
-Ringo Starr,102,Q2632,1940,ALIVE
-Democritus,102,Q41980,-460,-360
-William the Conqueror,102,Q37594,1028,1087
-Petro Poroshenko,102,Q58077,1965,ALIVE
-Paul Dirac,102,Q47480,1902,1984
-Johan Cruyff,102,Q17163,1947,2016
-Aeschylus,102,Q40939,-525,-456
-Daniel Defoe,102,Q40946,1660,1731
-Walt Whitman,102,Q81438,1819,1892
-Erasmus,102,Q43499,1466,1536
-Buzz Aldrin,101,Q2252,1930,ALIVE
-Dwayne Johnson,101,Q10738,1972,ALIVE
-George Clooney,101,Q23844,1961,ALIVE
-John Travolta,101,Q80938,1954,ALIVE
-Mel Gibson,101,Q42229,1956,ALIVE
-Claude Debussy,101,Q4700,1862,1918
-Franz Liszt,101,Q41309,1811,1886
-Augusto Pinochet,101,Q368,1915,2006
-Golda Meir,101,Q42992,1898,1978
-"William, Prince of Wales",101,Q36812,1982,ALIVE
-Yoshihide Suga,101,Q122465,1948,ALIVE
-Justinian I,101,Q41866,482,565
-Kublai Khan,101,Q7523,1215,1294
-Tiberius,101,Q1407,-42,37
-J. Robert Oppenheimer,101,Q132537,1904,1967
-Horace,101,Q6197,-65,-8
-Daniel Radcliffe,100,Q38119,1989,ALIVE
-Harrison Ford,100,Q81328,1942,ALIVE
-Jodie Foster,100,Q41351,1962,ALIVE
-Nicolás Maduro,100,Q58132,1962,ALIVE
-"Charles V, Holy Roman Emperor",100,Q32500,1500,1558
-William Herschel,100,Q14277,1738,1822
-Luka Modrić,100,Q483837,1985,ALIVE
-Emily Brontë,100,Q80137,1818,1848
+label,track,start,end,score
+Archilochus,0,-680,-645,51
+Ashurbanipal,1,-685,-631,73
+Draco (legislator),2,-650,-600,54
+Necho II,3,-700,-595,44
+Psamtik II,4,-700,-589,40
+Apries,5,-650,-567,39
+Aesop,6,-620,-564,105
+Nebuchadnezzar II,7,-642,-561,89
+Alcaeus,8,-630,-560,48
+Solon,9,-638,-558,79
+Stesichorus,10,-630,-555,35
+Zoroaster,11,-628,-551,123
+Sappho,12,-650,-550,112
+Thales of Miletus,13,-650,-548,117
+Anaximander,14,-620,-547,87
+Nabonidus,15,-615,-538,48
+Cyrus the Great,16,-600,-530,135
+Mahavira,17,-599,-527,81
+Amasis II,18,-610,-526,46
+Anaximenes of Miletus,19,-585,-525,78
+Cambyses II,20,-559,-522,69
+Lucius Junius Brutus,21,-540,-509,39
+Laozi,22,-604,-500,153
+Ānanda,23,-600,-500,52
+Sushruta,24,-600,-500,47
+Himilco,25,-550,-500,31
+Sun Tzu,26,-544,-496,112
+Lucius Tarquinius Superbus,27,-600,-495,57
+Cleisthenes,28,-565,-492,58
+Pythagoras,29,-550,-490,160
+Miltiades,30,-550,-489,49
+Darius the Great,31,-550,-486,99
+Anacreon,32,-570,-485,55
+Śāriputra,33,-568,-484,46
+The Buddha,34,-563,-483,214
+Confucius,35,-552,-479,239
+Xenophanes,36,-570,-478,73
+Heraclitus,37,-535,-470,97
+Parmenides,38,-515,-470,86
+Simonides of Ceos,39,-556,-468,44
+Xerxes I,40,-519,-465,84
+Pāṇini,41,-520,-460,73
+Ajatashatru,42,-500,-460,41
+Themistocles,43,-524,-459,71
+Aeschylus,44,-525,-456,104
+Bacchylides,45,-516,-451,37
+Pindar,46,-522,-450,68
+Cimon,47,-510,-450,42
+Epicharmus of Cos,48,-524,-435,32
+Lucius Quinctius Cincinnatus,49,-519,-430,41
+Empedocles,50,-490,-430,84
+Phidias,51,-490,-430,70
+Pericles,52,-494,-429,94
+Anaxagoras,53,-500,-428,81
+Zeno of Elea,54,-490,-425,78
+Herodotus,55,-484,-425,147
+Artaxerxes I,56,-500,-424,66
+Protagoras,57,-486,-420,72
+Hippocrates of Chios,58,-470,-410,40
+Sophocles,59,-496,-406,154
+Euripides,60,-480,-406,100
+Alcibiades,0,-450,-404,67
+Socrates,61,-470,-399,205
+Thucydides,62,-460,-395,93
+Mozi,63,-470,-391,56
+Aristophanes,1,-448,-386,101
+Hippocrates,64,-460,-370,123
+Amyntas III of Macedon,2,-450,-370,33
+Dionysius I of Syracuse,3,-430,-367,41
+Antisthenes,4,-445,-365,62
+Nectanebo I,5,-450,-362,40
+Epaminondas,6,-418,-362,53
+Democritus,65,-460,-360,106
+Eudoxus of Cnidus,7,-408,-355,65
+Xenophon,8,-430,-354,92
+Plato,9,-427,-347,220
+Archytas,10,-430,-345,57
+Nectanebo II,11,-400,-343,44
+Isocrates,12,-436,-338,48
+Artaxerxes III,13,-425,-338,58
+Philip II of Macedon,14,-385,-336,82
+Praxiteles,15,-395,-330,53
+Darius III,16,-380,-330,77
+Bessus,17,-400,-329,45
+Diogenes,18,-412,-323,84
+Alexander the Great,19,-356,-323,220
+Aristotle,20,-384,-322,231
+Demosthenes,21,-384,-322,76
+Antipater,22,-397,-319,46
+Porus,23,-400,-316,51
+Olympias,24,-375,-316,51
+Eumenes,25,-362,-316,37
+Apelles,26,-370,-306,48
+Antigonus I Monophthalmus,27,-382,-301,51
+Lysippos,28,-390,-300,49
+Chandragupta Maurya,29,-340,-297,82
+Cassander,30,-355,-296,46
+Menander,31,-340,-292,70
+Megasthenes,32,-350,-290,43
+Mencius,33,-372,-289,76
+Pytheas,34,-359,-289,58
+Zhuang Zhou,35,-369,-288,71
+Theophrastus,36,-371,-287,74
+Ptolemy I Soter,37,-365,-285,78
+Chanakya,38,-375,-283,125
+Demetrius I Poliorcetes,39,-336,-283,44
+Lysimachus,40,-361,-281,50
+Seleucus I Nicator,41,-358,-281,73
+Qu Yuan,42,-343,-278,58
+Bindusara,43,-320,-273,53
+Pyrrhus of Epirus,44,-318,-272,75
+Pyrrho,45,-360,-270,50
+Epicurus,46,-342,-270,100
+Zeno of Citium,47,-334,-263,70
+Ptolemy II Philadelphus,48,-308,-246,67
+Callimachus,49,-320,-243,53
+Aratus,50,-315,-240,39
+Ashoka,51,-304,-232,164
+Han Fei,52,-279,-232,59
+Xunzi (philosopher),53,-313,-230,57
+Aristarchus of Samos,54,-310,-230,72
+Hamilcar Barca,55,-275,-228,59
+Ptolemy III Euergetes,56,-284,-222,55
+Hiero II of Syracuse,57,-308,-215,41
+Apollonius of Rhodes,58,-295,-215,52
+Archimedes,59,-287,-212,191
+Qin Shi Huang,60,-259,-210,185
+Li Si,61,-280,-208,47
+Marcus Claudius Marcellus,62,-270,-208,34
+Hasdrubal Barca,63,-245,-207,40
+Quintus Fabius Pictor,64,-254,-201,31
+Livius Andronicus,65,-280,-200,55
+Emperor Gaozu of Han,66,-256,-195,61
+Eratosthenes,67,-276,-194,102
+Apollonius of Perga,68,-262,-190,69
+Antiochus III the Great,69,-242,-187,62
+Plautus,70,-250,-184,67
+Philopoemen,71,-253,-183,34
+Hannibal,72,-247,-183,116
+Scipio Africanus,73,-235,-183,68
+Modu Chanyu,74,-234,-174,41
+Ennius,75,-239,-169,50
+Antiochus IV Epiphanes,76,-215,-164,55
+Kaṇāda,0,-200,-160,49
+Terence,1,-185,-159,62
+Cato the Elder,77,-234,-149,70
+Masinissa,78,-238,-148,45
+Tiberius Gracchus,2,-162,-133,52
+Mithridates I of Parthia,3,-195,-132,49
+Carneades,79,-213,-129,43
+Scipio Aemilianus,4,-185,-129,46
+Gaius Gracchus,5,-154,-122,44
+Polybius,6,-200,-120,70
+Hipparchus,7,-190,-120,77
+Zhang Qian,8,-200,-114,41
+Dong Zhongshu,9,-179,-104,31
+Jugurtha,10,-160,-104,47
+Emperor Wu of Han,11,-156,-87,68
+Gaius Marius,12,-157,-86,65
+Sima Qian,13,-145,-86,124
+Sulla,14,-138,-78,68
+Quintus Sertorius,15,-123,-72,39
+Spartacus,16,-103,-71,86
+Mithridates VI Eupator,17,-134,-63,65
+Catiline,18,-108,-62,47
+Tigranes the Great,19,-140,-55,73
+Lucretius,20,-94,-55,81
+Catullus,21,-84,-54,74
+Marcus Licinius Crassus,22,-115,-53,69
+Posidonius,23,-135,-51,55
+Ptolemy XII Auletes,24,-117,-51,50
+Pompey,25,-106,-48,88
+Cato the Younger,26,-95,-46,52
+Vercingetorix,27,-80,-46,68
+Julius Caesar,28,-100,-44,217
+Cicero,29,-106,-43,135
+Marcus Junius Brutus,30,-85,-42,65
+Sallust,31,-86,-35,52
+Mark Antony,32,-83,-30,92
+Cleopatra,33,-69,-30,158
+Diodorus Siculus,34,-90,-20,72
+Virgil,35,-70,-19,177
+Vitruvius,36,-80,-15,80
+Horace,37,-65,-8,103
+Herod the Great,38,-74,-4,73
+Hillel the Elder,39,-50,8,33
+Augustus,40,-63,14,214
+Livy,41,-59,17,89
+Ovid,42,-43,17,143
+Saint Joseph,43,-30,20,90
+Arminius,44,-17,21,75
+Strabo,45,-64,23,95
+Wang Mang,46,-45,23,49
+Jesus,47,-7,30,281
+John the Baptist,48,-6,30,115
+Tiberius,49,-42,37,104
+Caligula,50,12,41,116
+James the Great,51,1,44,88
+Philo,52,-15,45,57
+"Mary, mother of Jesus",53,-18,48,162
+Claudius,54,-10,54,97
+Boudica,55,30,61,76
+Seneca the Younger,56,-4,65,100
+Saint Peter,57,-1,65,129
+Paul the Apostle,58,5,66,154
+Mark the Evangelist,59,12,68,84
+Nero,60,37,68,113
+Thomas the Apostle,61,1,72,83
+Matthew the Apostle,62,10,74,92
+Vespasian,63,9,79,91
+Pope Linus,64,10,79,97
+Pliny the Elder,65,20,79,91
+Philip the Apostle,66,5,80,74
+Kujula Kadphises,67,20,80,31
+Titus,68,41,81,90
+Dioscorides,69,40,90,49
+Domitian,0,51,96,92
+Nerva,70,30,98,82
+John the Apostle,71,11,99,86
+Josephus,72,37,100,75
+Martial,73,40,104,56
+Decebalus,1,100,106,46
+Simon the Zealot,2,100,107,75
+Ignatius of Antioch,74,35,108,65
+Pliny the Younger,3,61,113,75
+Pope Alexander I,4,100,116,85
+Trajan,5,53,117,111
+Plutarch,75,40,120,101
+Tacitus,6,56,120,92
+Cai Lun,76,48,121,73
+Apollodorus of Damascus,7,50,125,45
+Suetonius,8,70,126,70
+Epictetus,9,50,138,71
+Hadrian,10,76,138,98
+Zhang Heng,11,78,139,62
+Kanishka,12,78,144,52
+Papias of Hierapolis,13,70,150,40
+Aśvaghoṣa,14,80,150,45
+Polycarp,15,69,155,55
+Marcion of Sinope,16,85,160,46
+Antoninus Pius,17,86,161,89
+Ptolemy,18,100,170,122
+Apuleius,19,125,170,76
+Arrian,20,89,175,56
+Pausanias (geographer),21,110,180,55
+Gaius (jurist),22,120,180,40
+Marcus Aurelius,23,121,180,116
+Commodus,24,161,192,81
+Lucian,25,120,200,73
+Irenaeus,26,130,202,63
+Papinian,27,142,211,39
+Septimius Severus,28,146,211,86
+Clement of Alexandria,29,150,215,59
+Julia Domna,30,165,217,43
+Caracalla,31,188,217,86
+Macrinus,32,164,218,78
+Tertullian,33,150,220,69
+Cao Cao,34,155,220,62
+Guan Yu,35,162,220,46
+Elagabalus,36,203,222,80
+Liu Bei,37,161,223,45
+Cao Pi,38,187,226,45
+Cassius Dio,39,150,229,65
+Zhuge Liang,40,181,234,48
+Severus Alexander,41,208,235,77
+Maximinus Thrax,42,173,238,72
+Ardashir I,43,180,242,63
+Philip the Arab,44,204,249,76
+Nagarjuna,45,150,250,108
+Herodian,46,170,250,37
+Sima Yi,47,179,251,33
+Origen,48,185,254,68
+Gallienus,49,218,268,67
+Plotinus,50,205,270,78
+Mani (prophet),51,216,274,70
+Aurelian,52,214,275,82
+Zenobia,53,240,275,60
+Emperor Wu of Jin,54,236,290,35
+Liu Hui,55,225,295,38
+Galen,56,200,300,117
+Porphyry of Tyre,57,233,301,57
+Saint George,58,275,303,88
+Diocletian,59,244,316,87
+Iamblichus,60,240,320,47
+Tiridates III of Armenia,61,255,330,35
+Pope Sylvester I,0,300,335,85
+Arius,62,250,336,72
+Constantine the Great,63,272,337,141
+Eusebius,64,265,339,66
+Saint Nicholas,65,250,350,99
+Pappus of Alexandria,66,290,350,50
+Anthony the Great,67,251,357,67
+Constantius II,1,317,361,72
+Wang Xizhi,2,321,361,34
+Saint Marinus,68,275,366,39
+Hilary of Poitiers,3,315,367,55
+Athanasius of Alexandria,69,296,373,69
+Ephrem the Syrian,4,306,373,48
+Valentinian I,5,321,375,73
+Ermanaric,70,291,376,38
+Shapur II,6,309,379,61
+Basil of Caesarea,7,329,379,72
+Samudragupta,8,335,380,51
+Pope Damasus I,9,305,384,80
+Cyril of Jerusalem,10,313,386,45
+Gregory of Nazianzus,11,329,389,70
+Gregory of Nyssa,12,335,395,55
+Theodosius I,13,347,395,88
+Martin of Tours,14,316,397,77
+Ambrose,15,339,397,79
+Vasubandhu,16,300,399,45
+Theon of Alexandria,17,335,400,33
+John Chrysostom,18,349,407,75
+Stilicho,19,359,408,51
+Arcadius,20,377,408,72
+Alaric I,21,400,410,77
+Kumārajīva,22,344,413,44
+Gwanggaeto the Great,23,374,413,34
+Hypatia,24,360,415,101
+Jerome,25,345,420,86
+Faxian,26,340,422,46
+Tao Yuanming,27,365,427,37
+Augustine of Hippo,28,354,430,164
+Bahram V,29,406,438,48
+Mesrop Mashtots,30,362,440,68
+Socrates of Constantinople,31,380,440,42
+Cyril of Alexandria,32,376,444,60
+Peter Chrysologus,33,380,450,34
+Nestorius,34,381,451,63
+Theodoric I,35,393,451,54
+Attila,36,395,453,107
+Flavius Aetius,37,390,454,64
+Theodoret,38,393,457,38
+Saint Patrick,39,385,461,71
+Pope Leo I,40,390,461,86
+Leo I (emperor),41,401,474,60
+Gaiseric,42,389,477,61
+Julius Nepos,43,430,480,71
+Proclus,44,412,485,49
+Syagrius,45,430,487,44
+Zeno (emperor),46,425,491,65
+Odoacer,47,433,493,72
+Chandragupta II,48,400,500,44
+Buddhaghosa,49,401,500,39
+Zu Chongzhi,50,429,500,38
+Romulus Augustulus,51,462,510,84
+Clovis I,52,466,511,86
+Anastasius I Dicorus,53,430,518,61
+Boethius,54,480,525,74
+Theodoric the Great,55,454,526,80
+Anthemius of Tralles,56,474,534,42
+Isidore of Miletus,57,442,537,40
+Bodhidharma,58,483,540,61
+Tribonian,59,475,542,34
+Imru' al-Qais,60,501,544,33
+Clotilde,61,474,545,42
+Benedict of Nursia,62,480,547,79
+Theodora (wife of Justinian I),63,500,548,60
+Dionysius Exiguus,64,475,550,44
+Aryabhata,65,476,550,92
+Bumin Qaghan,66,490,552,31
+Totila,67,510,552,50
+Romanos the Melodist,68,490,556,33
+Justinian I,69,482,565,104
+Procopius,70,500,565,57
+Belisarius,71,505,565,67
+John Philoponus,72,490,570,36
+Alboin,73,530,572,40
+Khosrow I,74,501,579,61
+Gregory of Tours,75,538,594,47
+Columba,76,521,597,53
+Pope Gregory I,77,540,604,95
+Emperor Wen of Sui,78,541,604,41
+Augustine of Canterbury,0,550,605,48
+Antarah ibn Shaddad,79,525,608,33
+Emperor Yang of Sui,1,569,617,35
+Khadija bint Khuwaylid,2,557,619,90
+Hamza ibn Abd al-Muttalib,3,568,625,46
+Khosrow II,4,570,628,58
+Chlothar II,5,584,629,53
+Muhammad,6,571,632,229
+Fatima,7,604,632,92
+Abu Bakr,8,573,634,112
+Isidore of Seville,9,560,636,71
+Pope Honorius I,10,585,638,77
+Abu Sufyan ibn Harb,11,580,640,51
+Heraclius,12,575,641,86
+Bilal ibn Rabah,13,581,642,61
+Khalid ibn al-Walid,14,592,642,69
+Umar,15,586,644,139
+Emperor Taizong of Tang,16,598,649,51
+Yazdegerd III,17,624,652,52
+Abbas ibn Abd al-Muttalib,18,568,653,58
+Uthman,19,574,656,98
+Zubayr ibn al-Awwam,20,594,656,51
+Salman the Persian,21,568,657,50
+Ali,22,599,661,126
+Xuanzang,23,602,664,68
+Constans II,24,630,668,61
+Hasan ibn Ali,25,625,669,72
+Brahmagupta,26,598,670,117
+Aisha,27,605,678,97
+Abu Hurayra,28,602,679,47
+Mu'awiya I,29,603,680,83
+Husayn ibn Ali,30,626,680,88
+Yazid I,31,646,683,62
+Anania Shirakatsi,32,610,685,32
+Ibn Abbas,33,619,688,51
+Abd Allah ibn al-Zubayr,34,624,692,54
+Abd Allah ibn Umar ibn al-Khattab,35,610,693,41
+Asparuh of Bulgaria,36,640,701,54
+Kahina,37,668,703,41
+Wu Zetian,38,624,705,67
+Abd al-Malik ibn Marwan,39,646,705,68
+Ali al-Sajjad,40,659,713,46
+Pepin of Herstal,41,645,714,44
+Al-Hajjaj ibn Yusuf,42,661,714,38
+Tariq ibn Ziyad,43,670,720,58
+Hasan al-Basri,44,642,728,37
+Pope Gregory II,45,669,731,78
+Abd al-Rahman ibn Abd Allah al-Ghafiqi,46,650,732,38
+Muhammad al-Baqir,47,677,733,41
+Bede,48,672,735,70
+Leo III the Isaurian,49,675,741,68
+Charles Martel,50,688,741,83
+"Liutprand, King of the Lombards",51,680,744,38
+John of Damascus,52,675,749,67
+An Lushan,53,703,757,37
+Wang Wei,54,699,759,42
+Emperor Xuanzong of Tang,55,685,762,42
+Li Bai,56,701,762,160
+Padmasambhava,57,717,762,56
+Ja'far al-Sadiq,58,702,765,65
+Abu Hanifa,59,699,767,80
+Pepin the Short,60,715,768,82
+Du Fu,61,712,770,119
+Constantine V,62,718,775,59
+Roland,63,737,778,57
+Abd al-Rahman I,64,731,788,60
+Malik ibn Anas,65,711,795,67
+Trisong Detsen,66,742,798,31
+Musa al-Kazim,67,745,799,41
+Irene of Athens,68,752,803,63
+Alcuin,69,724,804,54
+Harun al-Rashid,70,766,809,85
+Charlemagne,71,748,814,168
+Krum,72,755,814,49
+Abu Nuwas,73,756,814,148
+Jabir ibn Hayyan,74,721,815,91
+Pope Leo III,75,750,816,80
+Ali al-Rida,76,770,818,47
+Al-Shafi'i,77,767,820,66
+Adi Shankara,78,788,820,81
+Thomas the Slav,0,800,823,35
+Han Yu,79,768,824,45
+Al-Ma'mun,80,786,833,57
+Kūkai,81,774,835,43
+Babak Khorramdin,82,798,838,41
+Louis the Pious,83,778,840,82
+Al-Mu'tasim,84,796,842,49
+Abu Tammam,1,804,845,35
+Al-Khwarizmi,85,750,846,152
+Bai Juyi,86,772,846,48
+Ahmad ibn Hanbal,87,780,855,72
+Lothair I,88,795,855,65
+Kenneth MacAlpin,2,810,858,55
+Al-Jahiz,89,775,868,47
+Ali al-Hadi,3,829,868,34
+Al-Kindi,4,801,870,74
+Muhammad al-Bukhari,5,810,870,76
+Hunayn ibn Ishaq,6,808,873,35
+Muslim ibn al-Hajjaj,7,817,875,62
+Louis II of Italy,8,825,875,57
+John Scotus Eriugena,9,800,877,51
+Charles the Bald,10,823,877,79
+Rurik,11,830,879,70
+Ahmad ibn Tulun,12,835,884,33
+Basil I,13,811,886,59
+Abbas ibn Firnas,14,810,887,56
+Charles the Fat,15,839,888,70
+Abu Hanifa Dinawari,16,828,895,34
+Alfred the Great,17,849,899,93
+Al-Mu'tadid,18,854,902,41
+Boris I of Bulgaria,19,828,907,44
+Árpád,20,845,907,53
+Ingólfr Arnarson,21,848,910,51
+Oleg the Wise,22,845,912,63
+Budai,23,850,916,40
+Al-Tabari,24,839,922,61
+Edward the Elder,25,874,924,58
+Abu Bakr al-Razi,26,866,925,88
+Simeon I of Bulgaria,27,864,927,59
+Pope John X,28,860,929,72
+Rollo,29,846,932,54
+Harald Fairhair,30,851,933,51
+Abu al-Hasan al-Ash'ari,31,873,935,46
+"Wenceslaus I, Duke of Bohemia",32,907,935,47
+Henry the Fowler,33,876,936,64
+Æthelstan,34,895,939,71
+Rudaki,35,859,941,61
+Saadia Gaon,36,882,942,37
+Taejo of Goryeo,37,877,943,38
+Abu Mansur al-Maturidi,38,893,944,34
+Edmund I,39,920,946,59
+Al-Farabi,40,872,951,83
+Eadred,41,923,955,58
+Al-Masudi,42,896,957,64
+Constantine VII,43,905,959,60
+Eadwig,44,940,959,58
+Abd al-Rahman III,45,891,961,58
+Al-Mutanabbi,46,920,965,35
+Hrotsvitha,47,935,968,32
+Olga of Kiev,48,890,969,59
+Nikephoros II Phokas,49,912,969,54
+Sviatoslav I,50,942,972,72
+Otto the Great,51,912,973,86
+Gwangjong of Goryeo,52,925,975,32
+Al-Mu'izz li-Din Allah,53,931,975,34
+"Edgar, King of England",54,943,975,57
+Emperor Taizu of Song,55,927,976,41
+"Otto II, Holy Roman Emperor",56,955,983,62
+Harald Bluetooth,57,911,985,57
+Abd al-Rahman al-Sufi,58,903,986,54
+Hugh Capet,59,940,996,78
+"Otto III, Holy Roman Emperor",60,980,1002,59
+Erik the Red,61,950,1003,65
+Al-Zahrawi,62,936,1010,53
+Almanzor,63,938,1010,38
+Samuel of Bulgaria,64,958,1014,43
+Murasaki Shikibu,65,973,1014,144
+Vladimir the Great,66,958,1015,75
+Æthelred the Unready,67,967,1016,59
+Ferdowsi,68,940,1020,104
+Leif Erikson,69,972,1020,102
+Al-Hakim bi-Amr Allah,70,985,1021,45
+Basil II,71,958,1025,67
+Sei Shōnagon,72,966,1025,60
+Bolesław I the Brave,73,967,1025,63
+Mahmud of Ghazni,74,971,1030,64
+Sancho III of Pamplona,75,985,1035,39
+Cnut,76,994,1035,76
+Avicenna,77,980,1037,162
+Ibn al-Haytham,78,965,1038,92
+Stephen I of Hungary,79,969,1038,70
+"Conrad II, Holy Roman Emperor",80,990,1039,53
+Harold Harefoot,81,1016,1040,57
+Harthacnut,82,1018,1042,54
+Al-Biruni,83,973,1048,96
+Guido of Arezzo,84,992,1050,59
+Yaroslav the Wise,85,978,1054,64
+Atiśa,86,982,1054,40
+Pope Leo IX,87,1002,1054,71
+Constantine IX Monomachos,88,1000,1055,53
+"Henry III, Holy Roman Emperor",89,1016,1056,56
+"Macbeth, King of Scotland",90,1005,1057,55
+Henry I of France,91,1008,1060,64
+Tughril I,92,990,1063,53
+Harald Hardrada,93,1015,1066,60
+Harold Godwinson,94,1022,1066,73
+Lady Godiva,95,990,1067,57
+Alp Arslan,96,1029,1072,62
+Robert Guiscard,97,1016,1085,51
+Pope Gregory VII,98,1020,1085,80
+Wang Anshi,99,1021,1086,40
+William the Conqueror,100,1028,1087,107
+Malcolm III of Scotland,101,1031,1093,49
+Shen Kuo,102,1031,1095,58
+Pope Urban II,103,1035,1099,89
+William II of England,0,1060,1100,69
+Godfrey of Bouillon,1,1060,1100,67
+Władysław I Herman,104,1043,1102,35
+Rashi,105,1040,1105,48
+Yusuf ibn Tashfin,106,1009,1106,42
+"Henry IV, Holy Roman Emperor",2,1050,1106,67
+Philip I of France,3,1052,1108,63
+Anselm of Canterbury,107,1033,1109,72
+Alfonso VI of León and Castile,108,1040,1109,47
+Al-Ghazali,4,1058,1111,123
+"Coloman, King of Hungary",5,1070,1116,43
+Alexios I Komnenos,109,1048,1118,69
+Pope Paschal II,6,1050,1118,68
+Baldwin I of Jerusalem,7,1058,1118,49
+Hasan-i Sabbah,110,1037,1124,46
+David IV,8,1073,1125,53
+"Henry V, Holy Roman Emperor",9,1086,1125,54
+Omar Khayyam,111,1048,1131,115
+Henry I of England,10,1068,1135,75
+"Lothair III, Holy Roman Emperor",11,1075,1137,48
+Louis VI of France,12,1081,1137,63
+Avempace,13,1095,1139,52
+Peter Abelard,14,1079,1142,76
+John II Komnenos,15,1087,1143,57
+Geoffrey of Monmouth,16,1100,1150,58
+Anna Komnene,17,1083,1153,57
+David I of Scotland,18,1084,1153,53
+Bernard of Clairvaux,19,1090,1153,67
+"Stephen, King of England",20,1095,1154,65
+Roger II of Sicily,21,1095,1154,51
+Abdul Qadir Gilani,22,1078,1166,54
+Muhammad al-Idrisi,23,1110,1166,84
+Empress Matilda,24,1102,1167,66
+Thomas Becket,25,1119,1170,60
+Hildegard of Bingen,26,1098,1179,91
+Manuel I Komnenos,27,1118,1180,70
+Louis VII of France,28,1120,1180,70
+Pope Alexander III,29,1100,1181,78
+Chrétien de Troyes,30,1135,1181,62
+Henry the Young King,31,1155,1183,52
+Afonso I of Portugal,32,1109,1185,67
+Ibn Tufayl,33,1110,1185,49
+Bhāskara II,34,1114,1185,59
+Henry II of England,35,1133,1189,81
+Frederick Barbarossa,36,1122,1190,93
+Saladin,37,1138,1193,144
+Guy of Lusignan,38,1150,1194,47
+Henry the Lion,39,1129,1195,51
+Averroes,40,1126,1198,112
+Minamoto no Yoritomo,41,1147,1199,49
+Richard I of England,42,1157,1199,100
+Zhu Xi,43,1130,1200,113
+Eleanor of Aquitaine,44,1124,1204,64
+Maimonides,45,1138,1204,87
+Enrico Dandolo,46,1107,1205,46
+Muhammad of Ghor,47,1144,1206,44
+Nizami Ganjavi,48,1141,1209,72
+Arnaut Daniel,49,1150,1210,45
+Pope Innocent III,50,1160,1216,84
+"John, King of England",51,1166,1216,87
+Shota Rustaveli,52,1172,1216,79
+"Otto IV, Holy Roman Emperor",53,1175,1218,56
+Saint Dominic,54,1170,1221,66
+Philip II of France,55,1165,1223,77
+Francis of Assisi,56,1182,1226,106
+Louis VIII of France,57,1187,1226,71
+Genghis Khan,58,1162,1227,181
+Jochi,59,1182,1227,63
+Pérotin,60,1155,1230,46
+Anthony of Padua,61,1195,1231,72
+Tolui,62,1191,1232,55
+Fibonacci,63,1170,1240,118
+Pope Gregory IX,64,1160,1241,76
+Snorri Sturluson,65,1179,1241,68
+Ögedei Khan,66,1186,1241,81
+"Frederick II, Holy Roman Emperor",67,1194,1250,81
+Giovanni da Pian del Carpine,68,1182,1252,47
+Batu Khan,69,1205,1255,77
+Möngke Khan,70,1209,1259,55
+Alexander Nevsky,71,1220,1263,75
+Hulegu Khan,72,1217,1265,77
+Louis IX of France,73,1214,1270,87
+Henry III of England,74,1207,1272,74
+Nasir al-Din al-Tusi,75,1201,1273,65
+Rumi,76,1207,1273,117
+Bonaventure,77,1221,1274,64
+Thomas Aquinas,78,1225,1274,162
+Madhvacharya,79,1190,1278,50
+Ottokar II of Bohemia,80,1233,1278,48
+Albertus Magnus,81,1193,1280,78
+Alfonso X of Castile,82,1221,1284,59
+Peter III of Aragon,83,1239,1285,49
+Philip III of France,84,1245,1285,67
+Saadi Shirazi,85,1210,1291,82
+Rudolf I of Germany,86,1218,1291,60
+Roger Bacon,87,1220,1292,72
+Kublai Khan,88,1215,1294,102
+Cimabue,89,1240,1302,59
+Arnolfo di Cambio,90,1240,1302,43
+Pope Boniface VIII,91,1235,1303,74
+William Wallace,92,1270,1305,82
+Wenceslaus II of Bohemia,93,1271,1305,44
+Edward I,94,1239,1307,82
+Duns Scotus,95,1265,1308,67
+"Henry VII, Holy Roman Emperor",96,1275,1313,51
+Philip IV of France,97,1268,1314,79
+Ramon Llull,98,1232,1316,61
+Louis X of France,99,1289,1316,65
+Rashid al-Din Hamadani,100,1247,1318,55
+Duccio,101,1255,1319,63
+Dante Alighieri,102,1265,1321,200
+Philip V of France,103,1293,1322,59
+Marco Polo,104,1254,1324,184
+Amir Khusrau,105,1253,1325,70
+Osman I,106,1258,1326,98
+Edward II,107,1284,1327,73
+Ibn Taymiyya,108,1263,1328,66
+Charles IV of France,109,1294,1328,64
+Robert the Bruce,110,1274,1329,73
+Pope John XXII,111,1244,1334,72
+Giotto,112,1267,1337,93
+Mansa Musa,113,1280,1337,79
+Gediminas,114,1275,1341,49
+"Louis IV, Holy Roman Emperor",115,1282,1347,57
+Ambrogio Lorenzetti,116,1290,1348,47
+William of Ockham,117,1285,1349,79
+Philip VI of France,118,1293,1350,68
+Stefan Dušan,0,1308,1355,47
+Jean Buridan,119,1295,1358,46
+John II of France,1,1319,1364,65
+Ibn Battuta,2,1304,1368,146
+Ibn Kathir,3,1301,1373,45
+Petrarch,4,1304,1374,112
+Giovanni Boccaccio,5,1313,1375,111
+Edward the Black Prince,6,1330,1376,60
+Guillaume de Machaut,7,1300,1377,54
+Edward III,8,1312,1377,79
+"Charles IV, Holy Roman Emperor",9,1316,1378,75
+Charles V of France,10,1338,1380,72
+Catherine of Siena,11,1347,1380,67
+Louis I of Hungary,12,1326,1382,55
+John Wycliffe,13,1320,1384,69
+Pope Urban VI,14,1318,1389,72
+Hafez,15,1326,1389,135
+Murad I,16,1326,1389,74
+Dmitry Donskoy,17,1350,1389,61
+Antipope Clement VII,18,1342,1394,40
+Hongwu Emperor,19,1328,1398,61
+John of Gaunt,20,1340,1399,55
+Jadwiga of Poland,21,1374,1399,58
+Geoffrey Chaucer,22,1343,1400,144
+Richard II of England,23,1367,1400,71
+Timur,24,1336,1405,143
+Ibn Khaldun,25,1332,1406,138
+Tokhtamysh,26,1342,1406,50
+Taejo of Joseon,27,1335,1408,46
+Margaret I of Denmark,28,1353,1412,63
+Owain Glyndŵr,29,1354,1415,41
+Jan Hus,30,1369,1415,84
+Mircea the Elder,31,1355,1418,35
+Antipope John XXIII,32,1370,1419,49
+Charles VI of France,33,1368,1422,75
+Henry V of England,34,1386,1422,80
+Masaccio,35,1401,1428,76
+Vytautas the Great,36,1352,1430,52
+Pope Martin V,37,1369,1431,73
+Joan of Arc,38,1412,1431,161
+Zheng He,39,1371,1433,145
+Władysław II Jagiełło,40,1362,1434,70
+Jan van Eyck,41,1390,1441,80
+Filippo Brunelleschi,42,1377,1446,67
+Ulugh Beg,43,1394,1449,75
+Sejong the Great,44,1397,1450,69
+Lorenzo Ghiberti,45,1378,1455,50
+Fra Angelico,46,1400,1455,73
+Erik of Pomerania,47,1381,1459,47
+Pachacuti,48,1380,1460,46
+Prince Henry the Navigator,49,1394,1460,66
+Charles VII of France,50,1403,1461,74
+François Villon,51,1431,1463,75
+Cosimo de' Medici,52,1389,1464,56
+Rogier van der Weyden,53,1390,1464,61
+Donatello,54,1386,1466,103
+Johannes Gutenberg,55,1400,1468,168
+Skanderbeg,56,1405,1468,78
+Henry VI of England,57,1421,1471,72
+Vlad the Impaler,58,1431,1476,84
+Mehmed II,59,1432,1481,108
+Louis XI,60,1423,1483,75
+Edward IV,61,1442,1483,74
+Pope Sixtus IV,62,1414,1484,77
+Jami,63,1414,1492,66
+Piero della Francesca,64,1415,1492,67
+Casimir IV Jagiellon,65,1427,1492,49
+Lorenzo de' Medici,66,1449,1492,75
+"Frederick III, Holy Roman Emperor",67,1415,1493,63
+Tomás de Torquemada,68,1420,1498,52
+Pope Alexander VI,69,1431,1503,93
+Isabella I of Castile,70,1451,1504,97
+Christopher Columbus,71,1451,1506,215
+Gentile Bellini,72,1429,1507,49
+Sandro Botticelli,73,1445,1510,104
+Bayezid II,74,1447,1512,72
+Amerigo Vespucci,75,1454,1512,107
+Pope Julius II,76,1443,1513,89
+Giovanni Bellini,77,1430,1516,68
+Hieronymus Bosch,78,1450,1516,87
+Leonardo da Vinci,79,1452,1519,243
+Pedro Álvares Cabral,80,1467,1520,81
+Raphael,81,1483,1520,179
+Ferdinand Magellan,82,1480,1521,182
+Vasco da Gama,83,1469,1524,172
+Niccolò Machiavelli,84,1469,1527,157
+Albrecht Dürer,85,1471,1528,165
+Thomas More,86,1478,1535,98
+Erasmus,87,1466,1536,104
+Anne Boleyn,88,1507,1536,92
+Guru Nanak,89,1469,1539,95
+Francisco Pizarro,90,1478,1541,87
+Nicolaus Copernicus,91,1473,1543,179
+Martin Luther,92,1483,1546,198
+Hernán Cortés,93,1485,1547,154
+Henry VIII,94,1491,1547,109
+François Rabelais,95,1494,1553,95
+Edward VI,96,1537,1553,87
+Jacques Cartier,97,1491,1557,153
+"Charles V, Holy Roman Emperor",98,1500,1558,105
+Mary I,99,1516,1558,93
+Michelangelo,100,1475,1564,215
+John Calvin,101,1509,1564,112
+Suleiman the Magnificent,102,1494,1566,137
+Nostradamus,103,1503,1566,103
+Pieter Bruegel the Elder,104,1525,1569,84
+Giorgio Vasari,105,1511,1574,78
+Titian,106,1488,1576,98
+Luís de Camões,107,1524,1580,91
+Teresa of Ávila,108,1515,1582,77
+Oda Nobunaga,109,1534,1582,76
+Ivan the Terrible,110,1530,1584,108
+Pope Gregory XIII,111,1502,1585,89
+Mimar Sinan,112,1490,1588,133
+Paolo Veronese,113,1528,1588,73
+Catherine de' Medici,114,1519,1589,80
+Henry III of France,0,1551,1589,72
+Michel de Montaigne,115,1533,1592,90
+Tintoretto,116,1518,1594,78
+Giovanni Pierluigi da Palestrina,117,1525,1594,109
+Francis Drake,118,1540,1596,112
+Willem Barentsz,1,1550,1597,78
+Philip II of Spain,119,1527,1598,98
+Giordano Bruno,120,1548,1600,113
+Elizabeth I,121,1533,1603,158
+Akbar,122,1542,1605,156
+Boris Godunov,2,1552,1605,71
+Henry IV of France,3,1553,1610,88
+Caravaggio,4,1571,1610,104
+El Greco,123,1541,1614,107
+Miguel de Cervantes,124,1547,1616,188
+William Shakespeare,5,1564,1616,235
+John Napier,6,1550,1617,80
+James VI and I,7,1566,1625,88
+Francis Bacon,8,1561,1626,119
+Abbas the Great,9,1571,1629,78
+Johannes Kepler,10,1571,1630,153
+Lope de Vega,11,1562,1635,97
+Iskandar Muda,12,1583,1636,75
+Peter Paul Rubens,13,1577,1640,156
+Murad IV,14,1612,1640,71
+Galileo Galilei,15,1564,1642,210
+Cardinal Richelieu,16,1585,1642,82
+Hugo Grotius,17,1583,1645,75
+Miyamoto Musashi,18,1584,1645,73
+Charles I of England,19,1600,1649,96
+René Descartes,20,1596,1650,182
+William Harvey,21,1578,1657,83
+Oliver Cromwell,22,1599,1658,99
+Abel Tasman,23,1603,1659,101
+Diego Velázquez,24,1599,1660,157
+Blaise Pascal,25,1623,1662,137
+Nicolas Poussin,26,1594,1665,81
+Pierre de Fermat,27,1601,1665,98
+Shah Jahan,28,1592,1666,94
+Rembrandt,29,1606,1669,183
+Molière,30,1622,1673,171
+John Milton,31,1608,1674,107
+Johannes Vermeer,32,1632,1675,108
+Baruch Spinoza,33,1632,1677,123
+Thomas Hobbes,34,1588,1679,110
+Evliya Çelebi,35,1611,1682,61
+Bartolomé Esteban Murillo,36,1617,1682,77
+Johannes Hevelius,37,1611,1687,61
+Robert Boyle,38,1627,1691,102
+Matsuo Bashō,39,1644,1694,171
+Jean de La Fontaine,40,1621,1695,90
+Christiaan Huygens,41,1629,1695,101
+Juana Inés de la Cruz,42,1651,1695,65
+Henry Purcell,43,1659,1695,63
+Charles II of Spain,44,1661,1700,80
+William III of England,45,1650,1702,80
+John Locke,46,1632,1704,151
+"Leopold I, Holy Roman Emperor",47,1640,1705,70
+Jacob Bernoulli,48,1655,1705,73
+Aurangzeb,49,1618,1707,85
+"Anne, Queen of Great Britain",50,1665,1714,89
+Louis XIV,51,1638,1715,146
+Gottfried Wilhelm Leibniz,52,1646,1716,159
+Pope Clement XI,53,1649,1721,77
+Antonie van Leeuwenhoek,54,1632,1723,102
+Peter the Great,55,1672,1725,158
+Isaac Newton,56,1642,1727,238
+George I of Great Britain,57,1660,1727,83
+Daniel Defoe,58,1660,1731,104
+Ahmed III,59,1673,1736,69
+Anna of Russia,60,1693,1740,73
+Antonio Vivaldi,61,1678,1741,153
+Vitus Bering,62,1681,1741,84
+Edmond Halley,63,1656,1742,92
+Anders Celsius,64,1701,1744,96
+Jonathan Swift,65,1667,1745,102
+Robert Walpole,66,1676,1745,83
+"Charles VII, Holy Roman Emperor",67,1697,1745,65
+Johann Sebastian Bach,68,1685,1750,222
+George Berkeley,69,1685,1753,87
+Montesquieu,70,1689,1755,107
+Pope Benedict XIV,71,1675,1758,82
+Canaletto,72,1697,1758,70
+George Frideric Handel,73,1685,1759,139
+William Hogarth,74,1697,1764,73
+Louis XV,75,1710,1774,96
+David Hume,76,1711,1776,111
+Voltaire,77,1694,1778,179
+Carl Linnaeus,78,1707,1778,187
+Jean-Jacques Rousseau,79,1712,1778,162
+James Cook,80,1728,1779,170
+Daniel Bernoulli,81,1700,1782,84
+Leonhard Euler,82,1707,1783,165
+Denis Diderot,83,1713,1784,102
+Frederick the Great,84,1712,1786,95
+Benjamin Franklin,85,1706,1790,144
+Adam Smith,86,1723,1790,170
+Wolfgang Amadeus Mozart,87,1756,1791,231
+Louis XVI,88,1754,1793,111
+Antoine Lavoisier,89,1743,1794,110
+Catherine the Great,90,1729,1796,121
+Edmund Burke,91,1729,1797,83
+George Washington,92,1732,1799,217
+Immanuel Kant,93,1724,1804,184
+Friedrich Schiller,94,1759,1805,116
+Joseph Haydn,95,1732,1809,137
+Jane Austen,96,1775,1817,146
+James Watt,97,1736,1819,147
+Napoleon,98,1769,1821,220
+William Herschel,99,1738,1822,102
+Lord Byron,100,1788,1824,154
+John Adams,101,1735,1826,155
+Thomas Jefferson,102,1743,1826,165
+Alessandro Volta,103,1745,1827,108
+Ludwig van Beethoven,104,1770,1827,218
+Francisco Goya,105,1746,1828,165
+Franz Schubert,106,1797,1828,146
+Joseph Fourier,107,1768,1830,120
+Simón Bolívar,108,1783,1830,154
+James Monroe,109,1758,1831,141
+Georg Wilhelm Friedrich Hegel,110,1770,1831,142
+Johann Wolfgang von Goethe,111,1749,1832,196
+James Madison,112,1751,1836,143
+André-Marie Ampère,113,1775,1836,108
+Alexander Pushkin,114,1799,1837,179
+Andrew Jackson,115,1767,1845,140
+John Quincy Adams,116,1767,1848,140
+Hokusai,117,1760,1849,164
+James K. Polk,118,1795,1849,133
+Edgar Allan Poe,0,1809,1849,154
+Frédéric Chopin,1,1810,1849,173
+Carl Friedrich Gauss,119,1777,1855,164
+Arthur Schopenhauer,120,1788,1860,112
+Martin Van Buren,121,1782,1862,135
+Abraham Lincoln,2,1809,1865,208
+Jean-Auguste-Dominique Ingres,122,1780,1867,123
+Michael Faraday,123,1791,1867,154
+James Buchanan,124,1791,1868,133
+Charles Dickens,3,1812,1870,175
+Hans Christian Andersen,4,1805,1875,185
+James Clerk Maxwell,5,1831,1879,139
+Fyodor Dostoevsky,6,1821,1881,185
+Charles Darwin,7,1809,1882,213
+Richard Wagner,8,1813,1883,164
+Karl Marx,9,1818,1883,214
+Victor Hugo,10,1802,1885,187
+Ulysses S. Grant,11,1822,1885,139
+Vincent van Gogh,12,1853,1890,218
+Pyotr Ilyich Tchaikovsky,13,1840,1893,166
+Friedrich Engels,14,1820,1895,131
+Louis Pasteur,15,1822,1895,171
+Alfred Nobel,16,1833,1896,163
+Johannes Brahms,17,1833,1897,138
+Otto von Bismarck,18,1815,1898,164
+Friedrich Nietzsche,19,1844,1900,178
+Anton Chekhov,20,1860,1904,174
+Dmitri Mendeleev,21,1834,1907,160
+Leo Tolstoy,22,1828,1910,190
+Mark Twain,23,1835,1910,164
+Octave Mirbeau,24,1848,1917,143
+Sarah Bernhardt,25,1844,1923,167
+Woodrow Wilson,26,1856,1924,148
+Vladimir Lenin,27,1870,1924,213
+Roald Amundsen,28,1872,1928,165
+Thomas Edison,29,1847,1931,193
+Marie Curie,30,1867,1934,197
+Mustafa Kemal Atatürk,31,1881,1938,212
+Sigmund Freud,32,1856,1939,193
+Rabindranath Tagore,33,1861,1941,167
+Nikola Tesla,34,1856,1943,175
+Franklin D. Roosevelt,35,1882,1945,190
+Adolf Hitler,36,1889,1945,248
+Max Planck,37,1858,1947,149
+Mahatma Gandhi,38,1869,1948,207
+George Orwell,39,1903,1950,151
+Joseph Stalin,40,1878,1953,210
+Henri Matisse,41,1869,1954,157
+Frida Kahlo,42,1907,1954,174
+Alan Turing,43,1912,1954,164
+Albert Einstein,44,1879,1955,237
+Ernest Hemingway,45,1899,1961,152
+Marilyn Monroe,46,1926,1962,202
+John F. Kennedy,47,1917,1963,178
+Winston Churchill,48,1874,1965,183
+Walt Disney,49,1901,1966,177
+Che Guevara,50,1928,1967,176
+Martin Luther King Jr.,51,1929,1968,187
+Yuri Gagarin,52,1934,1968,174
+Charles de Gaulle,53,1890,1970,173
+Pablo Picasso,54,1881,1973,212
+J. R. R. Tolkien,55,1892,1973,163
+Mao Zedong,56,1893,1976,185
+Charlie Chaplin,57,1889,1977,203
+Elvis Presley,58,1935,1977,189
+Huang Xianfan,59,1899,1982,171
+Salvador Dalí,60,1904,1989,208
+Marlene Dietrich,61,1901,1992,168
+Richard Nixon,62,1913,1994,157
+Ronald Reagan,63,1911,2004,250
+Michael Jackson,64,1958,2009,283
+Neil Armstrong,65,1930,2012,176
+Nelson Mandela,66,1918,2013,234
+Elizabeth II,67,1926,2022,215
+Mikhail Gorbachev,68,1931,2022,160
+Jimmy Carter,69,1924,2024,166
+Pope Francis,70,1936,2025,184
+Joe Biden,71,1942,2026,230
+Donald Trump,72,1946,2026,261
+George W. Bush,73,1946,2026,216
+Bill Clinton,74,1946,2026,174
+Charles III,75,1948,2026,161
+Vladimir Putin,76,1952,2026,233
+François Hollande,77,1954,2026,193
+Angela Merkel,78,1954,2026,174
+Bill Gates,79,1955,2026,180
+Naruhito,80,1960,2026,183
+Barack Obama,81,1961,2026,256
+Rafael Correa,82,1963,2026,158
+Kamala Harris,83,1964,2026,163
+Jimmy Wales,84,1966,2026,190
+Anna Netrebko,85,1971,2026,164
+Elon Musk,86,1971,2026,160
+Eminem,87,1972,2026,159
+Emmanuel Macron,88,1977,2026,167
+Volodymyr Zelenskyy,89,1978,2026,174
+Beyoncé,90,1981,2026,156
+Cristiano Ronaldo,91,1985,2026,180
+Lady Gaga,92,1986,2026,173
+Lionel Messi,93,1987,2026,189
+Corbin Bleu,94,1989,2026,219
+Selena Gomez,95,1992,2026,158
+Neymar,96,1992,2026,141
+Ariana Grande,97,1993,2026,125
+Justin Bieber,98,1994,2026,161
+Malala Yousafzai,99,1997,2026,128
