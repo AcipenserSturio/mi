@@ -110,11 +110,15 @@
           rx="3"
         />
 
-        <text x={xScale(d.start)} y={yScale(d.track) - 4} font-size="16">
-          <tspan font-weight="bold">{d.label}</tspan><tspan font-size="10"
-            >, {d.desc.replaceAll(/ ?\(.*?\)/g, "")}</tspan
-          >
-        </text>
+        <a
+          target="_blank"
+          href={`https://en.wikipedia.org/wiki/${d.label.replace(" ", "_")}`}
+          ><text x={xScale(d.start)} y={yScale(d.track) - 4} font-size="16">
+            <tspan font-weight="bold">{d.label}</tspan><tspan font-size="10"
+              >, {d.desc.replaceAll(/ ?\(.*?\)/g, "")}</tspan
+            >
+          </text></a
+        >
       </g>
     {/each}
   {/if}
@@ -123,9 +127,5 @@
 <style>
   svg {
     font-family: system-ui, sans-serif;
-  }
-
-  text {
-    pointer-events: none;
   }
 </style>
