@@ -1,28 +1,47 @@
-start,end,region,label,span_start,span_end
--1600,-1046,China,Shang
--1046,-256,China,Zhou
--221,-207,China,Qin
--202,220,China,Han
-220,280,China,Three Kingdoms
-266,420,China,Jin
-420,581,China,Northern dynasties,0,0.5
-420,581,China,Southern dynasties,0.5,1
-581,618,China,Sui
-618,907,China,Tang
-907,1271,China,"Five dynasties & Song"
-1271,1368,China,Yuan
-1368,1644,China,Ming
-1644,1912,China,Qing
-1912,1949,China,Republic of China
-1949,2026,China,People's Republic of China
--1000,300,Japan,Yayoi
-300,538,Japan,Kofun
-538,710,Japan,Asuka
-710,794,Japan,Nara
-794,1185,Japan,Heian
-1185,1333,Japan,Kamakura
-1336,1573,Japan,Ashikaga
-1573,1603,Japan,Oda-Toyotomi
-1603,1868,Japan,Tokugawa
-1868,1947,Japan,Imperial Japan
-1947,2026,Japan,Modern Japan
+start,end,region,colour,label,span_start,span_end
+-1600,-1046,China,China,Shang
+-1046,-256,China,China,Zhou
+-221,-207,China,China,Qin
+-202,220,China,China,Han
+220,280,China,China,Three Kingdoms
+280,420,China,China,Jin
+420,581,China,China,Northern dynasties,0,0.5
+420,581,China,China,Southern dynasties,0.5,1
+581,618,China,China,Sui
+618,907,China,China,Tang
+907,979,China,China,Five dynasties,0,0.5
+979,1127,China,China,Northern Song,0,0.5
+1127,1271,China,China,Southern Song,0,0.5
+916,1125,China,China,Liao,0.5,1
+1125,1234,China,China,Jin,0.5,1
+1271,1368,China,China,Yuan
+1368,1644,China,China,Ming
+1644,1912,China,China,Qing
+1912,1949,China,China,Republic of China
+1949,2026,China,China,People's Republic of China,0,0.75
+1949,2026,China,China,Taiwan,0.75,1
+-1000,300,Japan,Japan,Yayoi
+300,538,Japan,Japan,Kofun
+538,710,Japan,Japan,Asuka
+710,794,Japan,Japan,Nara
+794,1185,Japan,Japan,Heian
+1185,1333,Japan,Japan,Kamakura
+1336,1573,Japan,Japan,Ashikaga
+1573,1603,Japan,Japan,Oda-Toyotomi
+1603,1868,Japan,Japan,Tokugawa
+1868,1947,Japan,Japan,Imperial Japan
+1947,2026,Japan,Japan,Modern Japan
+-37,668,Korea,Korea,Gogureyo,0,0.33
+-18,660,Korea,Korea,Baekje,0.33,0.67
+-57,668,Korea,Korea,Silla,0.67,1
+668,892,Korea,Korea,Unified Silla,0.33,1
+698,926,Korea,Korea,Balhae,0,0.33
+892,936,Korea,Korea,Baekje,0.33,0.67
+892,935,Korea,Korea,Silla,0.67,1
+936,1392,Korea,Korea,Goryeo
+1392,1910,Korea,Korea,Joseon
+1910,1945,Korea,Japan,Japanese occupation
+1945,2026,Korea,Korea,North Korea,0,0.5
+1945,2026,Korea,Korea,South Korea,0.5,1
+1788,1901,Australia,Britain,Colonial Australia
+1901,2026,Australia,Other,Federated Australia

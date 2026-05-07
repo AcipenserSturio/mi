@@ -8,6 +8,7 @@
   export let height = 400;
   export let csvText = "";
   export let csvTracks = "";
+  export let csvColours = "";
 
   const margin = { top: 40, right: 300, bottom: 40, left: 40 };
 
@@ -15,6 +16,7 @@
   let tracks = [];
   let xScale, yScale;
   let ticks = [];
+  let colours = [];
   // let maxScore = 1;
   // let minScore = 0;
 
@@ -26,6 +28,7 @@
       start: +d.start,
       end: +d.end,
       label: d.label,
+      colour: d.colour,
       span_start: d.span_start ? +d.span_start : 0,
       span_end: d.span_end ? +d.span_end : 1,
       // desc: d.desc,
@@ -35,6 +38,11 @@
       track: d.track,
       weight: +d.weight,
     }));
+    colours = csvParse(csvColours, (d, i) => ({
+      label: d.label,
+      hex: d.hex,
+    }));
+    console.log(colours);
 
     const minDate = Math.min(...data.map((d) => d.start));
     const maxDate = Math.max(...data.map((d) => d.end));
@@ -94,7 +102,9 @@
           width={xScale(d.end) - xScale(d.start) - 1}
           height={yScale({ track: d.track, span: [d.span_start, d.span_end] })
             .height}
-          fill="#ddd"
+          fill={colours.find((colour) => colour.label == d.colour)
+            ? colours.find((colour) => colour.label == d.colour).hex
+            : "#ddd"}
           rx="5"
         />
         <text

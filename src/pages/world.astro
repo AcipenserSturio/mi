@@ -3,6 +3,7 @@ import GanttWorld from "@/components/chart/GanttWorld.svelte";
 import { BaseHead } from "selo-components";
 import periods from "/world/periods.csv?url&raw";
 import tracks from "/world/tracks.csv?url&raw";
+import colours from "/world/colours.csv?url&raw";
 ---
 
 <html lang="en">
@@ -13,8 +14,9 @@ import tracks from "/world/tracks.csv?url&raw";
     <GanttWorld
       csvText={periods}
       csvTracks={tracks}
+      csvColours={colours}
       width={5000}
-      height={1500}
+      height={3000}
       client:only="svelte"
     />
   </body>
