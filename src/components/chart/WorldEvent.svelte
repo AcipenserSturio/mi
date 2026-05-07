@@ -38,9 +38,13 @@
         ? colours.find((colour) => colour.label == d.colour).hex
         : "#ddd"}
       rx="5"
-      opacity="0.9"
     />
-    <text x={xScale(d.start)} y={yScale(y()).y + 20} font-size="16">
+    <text
+      x={xScale(d.start)}
+      y={yScale(y()).y + 20}
+      font-size="16"
+      width={xScale(d.end) - xScale(d.start)}
+    >
       <tspan font-weight="bold">{d.label}</tspan>
     </text>
   </g>

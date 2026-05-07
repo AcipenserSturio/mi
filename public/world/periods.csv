@@ -20,8 +20,8 @@ start,end,region,colour,label
 1989,2026,Poland,Polish,Poland
 1330,1881,Romania,Other,Wallachia & Moldavia
 1881,1947,Romania,Other,Kingdom of Romania
-1945,1989 ,Romania,Russian,Soviet Romania
-1989 ,2026,Romania,Other,Romania
+1945,1989,Romania,Russian,Soviet Romania
+1989,2026,Romania,Other,Romania
 895,1000,Hungary,Other,Principality of Hungary
 1000,1526,Hungary,Other,Kingdom of Hungary
 1526,1699,Hungary - Royal,Austrian,Royal Hungary
@@ -29,7 +29,53 @@ start,end,region,colour,label
 1699,1915,Hungary,Austrian,Habsburg Hungary
 1915,1945,Hungary,Other,Interwar Hungary
 1945,1989,Hungary,Russian,Soviet Hungary
-1989,2026,Hungary,Other,Modern Hungary
+1989,2026,Hungary,Other,Hungary
+872,1397,Norway,Other,Norway
+970,1150,Sweden,Swedish,Sweden
+1150,1397,Sweden-Finland,Swedish,Sweden
+936,1397,Denmark,Danish,Denmark
+1397,1523,Scandinavia,Danish,Kalmar Union
+1523,1814,Denmark-Norway,Danish,Denmark-Norway
+1814,2026,Denmark,Danish,Denmark
+1814,1905,Sweden-Norway,Swedish,Sweden-Norway
+1905,2026,Norway,Other,Norway
+1905,2026,Sweden,Swedish,Sweden
+1523,1809,Sweden-Finland,Swedish,Sweden
+1809,1814,Sweden,Swedish,
+1809,1917,Finland,Russian,Russian Finland
+1917,2026,Finland,Other,Finland
+46,410,England,Roman,Roman Britain
+410,1066,England,Other,"Britons, Anglo-Saxons, Danes"
+1066,1154,England,English,Norman
+1154,1216,England,English,Angevin
+1216,1399,England,English,Plantagenet
+1399,1461,England,English,Lancaster
+1461,1485,England,English,York
+1485,1603,England,English,Tudor
+843,1603,Scotland,Other,Scotland
+853,1170,Ireland,Other,Gaelic Irish Kingdoms
+1170,1318,Ireland,English,Lordship of Ireland
+1318,1542,Ireland,Other,Gaelic Irish Kingdoms
+1542,1801,Ireland,English,Kingdom of Ireland
+1603,1714,Great Britain,English,Stuart
+1714,1801,Great Britain,English,Hanoverian
+1801,1923,Britain,English,United Kingdom
+1923,2026,Great Britain,English,United Kingdom
+1923,2026,Ireland,Other,Ireland
+-50,481,France,Roman,Roman Gaul
+481,751,France,French,Merovingian France
+751,987,France,French,Carolingian France
+987,1328,France,French,Capetian France
+1328,1589,France,French,Valois France
+1589,1792,France,French,Bourbon France
+1792,1804,France,French,First Republic
+1804,1814,France,French,First Empire
+1814,1848,France,French,Restoration
+1848,1852,France,French,Second Republic
+1852,1870,France,French,Second Empire
+1870,1940,France,French,Third Republic
+1940,1944,France,German,Vichy France
+1944,2026,France,French,Postwar France
 -3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
 -2686,-2181,Egypt,Egyptian,Old Kingdom
 -2181,-2061,Egypt,Egyptian,First Intermediate
