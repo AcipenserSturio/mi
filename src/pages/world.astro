@@ -1,0 +1,21 @@
+---
+import GanttWorld from "@/components/chart/GanttWorld.svelte";
+import { BaseHead } from "selo-components";
+import periods from "/world/periods.csv?url&raw";
+import tracks from "/world/tracks.csv?url&raw";
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title="Chart" description="WIP Chart" />
+  </head>
+  <body>
+    <GanttWorld
+      csvText={periods}
+      csvTracks={tracks}
+      width={5000}
+      height={1500}
+      client:only="svelte"
+    />
+  </body>
+</html>

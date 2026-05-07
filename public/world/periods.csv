@@ -1,0 +1,28 @@
+start,end,region,label,span_start,span_end
+-1600,-1046,China,Shang
+-1046,-256,China,Zhou
+-221,-207,China,Qin
+-202,220,China,Han
+220,280,China,Three Kingdoms
+266,420,China,Jin
+420,581,China,Northern dynasties,0,0.5
+420,581,China,Southern dynasties,0.5,1
+581,618,China,Sui
+618,907,China,Tang
+907,1271,China,"Five dynasties & Song"
+1271,1368,China,Yuan
+1368,1644,China,Ming
+1644,1912,China,Qing
+1912,1949,China,Republic of China
+1949,2026,China,People's Republic of China
+-1000,300,Japan,Yayoi
+300,538,Japan,Kofun
+538,710,Japan,Asuka
+710,794,Japan,Nara
+794,1185,Japan,Heian
+1185,1333,Japan,Kamakura
+1336,1573,Japan,Ashikaga
+1573,1603,Japan,Oda-Toyotomi
+1603,1868,Japan,Tokugawa
+1868,1947,Japan,Imperial Japan
+1947,2026,Japan,Modern Japan
