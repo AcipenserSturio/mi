@@ -1,47 +1,64 @@
-start,end,region,colour,label,span_start,span_end
--1600,-1046,China,China,Shang
--1046,-256,China,China,Zhou
--221,-207,China,China,Qin
--202,220,China,China,Han
-220,280,China,China,Three Kingdoms
-280,420,China,China,Jin
-420,581,China,China,Northern dynasties,0,0.5
-420,581,China,China,Southern dynasties,0.5,1
-581,618,China,China,Sui
-618,907,China,China,Tang
-907,979,China,China,Five dynasties,0,0.5
-979,1127,China,China,Northern Song,0,0.5
-1127,1271,China,China,Southern Song,0,0.5
-916,1125,China,China,Liao,0.5,1
-1125,1234,China,China,Jin,0.5,1
-1271,1368,China,China,Yuan
-1368,1644,China,China,Ming
-1644,1912,China,China,Qing
-1912,1949,China,China,Republic of China
-1949,2026,China,China,People's Republic of China,0,0.75
-1949,2026,China,China,Taiwan,0.75,1
--1000,300,Japan,Japan,Yayoi
-300,538,Japan,Japan,Kofun
-538,710,Japan,Japan,Asuka
-710,794,Japan,Japan,Nara
-794,1185,Japan,Japan,Heian
-1185,1333,Japan,Japan,Kamakura
-1336,1573,Japan,Japan,Ashikaga
-1573,1603,Japan,Japan,Oda-Toyotomi
-1603,1868,Japan,Japan,Tokugawa
-1868,1947,Japan,Japan,Imperial Japan
-1947,2026,Japan,Japan,Modern Japan
--37,668,Korea,Korea,Gogureyo,0,0.33
--18,660,Korea,Korea,Baekje,0.33,0.67
--57,668,Korea,Korea,Silla,0.67,1
-668,892,Korea,Korea,Unified Silla,0.33,1
-698,926,Korea,Korea,Balhae,0,0.33
-892,936,Korea,Korea,Baekje,0.33,0.67
-892,935,Korea,Korea,Silla,0.67,1
-936,1392,Korea,Korea,Goryeo
-1392,1910,Korea,Korea,Joseon
-1910,1945,Korea,Japan,Japanese occupation
-1945,2026,Korea,Korea,North Korea,0,0.5
-1945,2026,Korea,Korea,South Korea,0.5,1
-1788,1901,Australia,Britain,Colonial Australia
+start,end,region,colour,label
+880,1240,Russia,East Slavic,Kyivan Rus
+1240,1547,Russia,East Slavic,Rus principalities
+1547,1721,Russia,East Slavic,Tsardom of Russia
+1721,1917,Russia,East Slavic,Russian Empire
+1917,1991,Russia,East Slavic,Soviet Russia
+1991,2026,Modern Russia,East Slavic,Russian Federation
+1991,2026,Ruthenia,East Slavic,Ukraine & Belarus
+-3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
+-2686,-2181,Egypt,Egyptian,Old Kingdom
+-2181,-2061,Egypt,Egyptian,First Intermediate
+-2061,-1649,Egypt,Egyptian,Middle Kingdom
+-1649,-1549,Egypt,Egyptian,Second Intermediate
+-1549,-1077,Egypt,Egyptian,New Kingdom
+-1069,-653,Egypt,Egyptian,Third Intermediate
+-653,-332,Egypt,Egyptian,Late Egypt
+-332,-30,Egypt,Greek,Hellenistic Egypt
+-30,313,Egypt,Roman,Roman Egypt
+-1600,-1046,China,Chinese,Shang
+-1046,-256,China,Chinese,Zhou
+-221,-207,China,Chinese,Qin
+-202,220,China,Chinese,Han
+220,280,China,Chinese,Three Kingdoms
+280,420,China,Chinese,Jin
+420,581,China - North,Chinese,Northern dynasties
+420,581,China - South,Chinese,Southern dynasties
+581,618,China,Chinese,Sui
+618,907,China,Chinese,Tang
+907,979,China - South,Chinese,Five dynasties
+979,1127,China - South,Chinese,Northern Song
+1127,1271,China - South,Chinese,Southern Song
+916,1125,China - North,Chinese,Liao
+1125,1234,China - North,Chinese,Jin
+1271,1368,China,Chinese,Yuan
+1368,1644,China,Chinese,Ming
+1644,1912,China,Chinese,Qing
+1912,1949,China,Chinese,Republic of China
+1949,2026,China - Mainland,Chinese,People's Republic of China
+1949,2026,China - Taiwan,Chinese,Taiwan
+-1000,300,Japan,Japanese,Yayoi
+300,538,Japan,Japanese,Kofun
+538,710,Japan,Japanese,Asuka
+710,794,Japan,Japanese,Nara
+794,1185,Japan,Japanese,Heian
+1185,1333,Japan,Japanese,Kamakura
+1336,1573,Japan,Japanese,Ashikaga
+1573,1603,Japan,Japanese,Oda-Toyotomi
+1603,1868,Japan,Japanese,Tokugawa
+1868,1947,Japan,Japanese,Imperial Japan
+1947,2026,Japan,Japanese,Modern Japan
+-37,668,Korea - North,Korean,Gogureyo
+-18,660,Korea - West,Korean,Baekje
+-57,668,Korea - East,Korean,Silla
+668,892,Korea - South,Korean,Unified Silla
+698,926,Korea - North,Korean,Balhae
+892,936,Korea - West,Korean,Baekje
+892,935,Korea - East,Korean,Silla
+936,1392,Korea,Korean,Goryeo
+1392,1910,Korea,Korean,Joseon
+1910,1945,Korea,Korean,Japanese occupation
+1945,2026,North Korea,Korean,North Korea
+1945,2026,South Korea,Korean,South Korea
+1788,1901,Australia,English,Colonial Australia
 1901,2026,Australia,Other,Federated Australia

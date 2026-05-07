@@ -3,17 +3,20 @@
   import { timeFormat } from "d3-time-format";
   import { createWeightedTimeScale } from "@/components/chart/timescale.ts";
   import { scaleBand } from "@/components/chart/tracks.ts";
+  import WorldEvent from "./WorldEvent.svelte";
 
   export let width = 600;
   export let height = 400;
   export let csvText = "";
   export let csvTracks = "";
   export let csvColours = "";
+  export let csvSubregions = "";
 
   const margin = { top: 40, right: 300, bottom: 40, left: 40 };
 
   let data = [];
   let tracks = [];
+  let subregions = [];
   let xScale, yScale;
   let ticks = [];
   let colours = [];
@@ -29,9 +32,16 @@
       end: +d.end,
       label: d.label,
       colour: d.colour,
+      // desc: d.desc,
       span_start: d.span_start ? +d.span_start : 0,
       span_end: d.span_end ? +d.span_end : 1,
-      // desc: d.desc,
+    }));
+    subregions = csvParse(csvSubregions, (d, i) => ({
+      id: i,
+      parent: d.parent,
+      subregion: d.subregion,
+      span_start: +d.span_start,
+      span_end: +d.span_end,
     }));
     tracks = csvParse(csvTracks, (d, i) => ({
       id: i,
@@ -60,9 +70,11 @@
     });
 
     ticks = [
-      -1600, -1500, -1400, -1300, -1200, -1100, -1000, -900, -800, -700, -600,
-      -500, -400, -300, -200, -100, 1, 100, 200, 300, 400, 500, 600, 700, 800,
-      900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000,
+      -3000, -2900, -2800, -2700, -2600, -2500, -2400, -2300, -2200, -2100,
+      -2000, -1900, -1800, -1700, -1600, -1500, -1400, -1300, -1200, -1100,
+      -1000, -900, -800, -700, -600, -500, -400, -300, -200, -100, 1, 100, 200,
+      300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500,
+      1600, 1700, 1800, 1900, 2000,
     ];
   }
 
@@ -95,17 +107,20 @@
 
     <!-- Events -->
     {#each data as d}
-      <g>
+      <WorldEvent {d} {xScale} {yScale} {colours} {tracks} {subregions}
+      ></WorldEvent>
+      <!-- <g>
         <rect
           x={xScale(d.start)}
           y={yScale({ track: d.track, span: [d.span_start, d.span_end] }).y}
-          width={xScale(d.end) - xScale(d.start) - 1}
+          width={xScale(d.end) - xScale(d.start)}
           height={yScale({ track: d.track, span: [d.span_start, d.span_end] })
             .height}
           fill={colours.find((colour) => colour.label == d.colour)
             ? colours.find((colour) => colour.label == d.colour).hex
             : "#ddd"}
           rx="5"
+          opacity="0.9"
         />
         <text
           x={xScale(d.start)}
@@ -115,7 +130,7 @@
         >
           <tspan font-weight="bold">{d.label}</tspan>
         </text>
-      </g>
+      </g> -->
     {/each}
   {/if}
 </svg>

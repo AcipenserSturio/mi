@@ -1,5 +1,9 @@
 label,hex
-China,#DFA800
-Korea,#4D669E
-Japan,#9F526F
-Britain,#FF9090
+Chinese,#DFA800
+Korean,#4D669E
+Japanese,#9F526F
+English,#FF9090
+Egyptian,#C7B187
+Greek,#87B0D8
+Roman,#993300
+East Slavic,#C0C000
