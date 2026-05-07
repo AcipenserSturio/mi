@@ -1,11 +1,35 @@
 start,end,region,colour,label
-880,1240,Russia,East Slavic,Kyivan Rus
-1240,1547,Russia,East Slavic,Rus principalities
-1547,1721,Russia,East Slavic,Tsardom of Russia
-1721,1917,Russia,East Slavic,Russian Empire
-1917,1991,Russia,East Slavic,Soviet Russia
-1991,2026,Modern Russia,East Slavic,Russian Federation
-1991,2026,Ruthenia,East Slavic,Ukraine & Belarus
+880,1240,Russia,Other,Kyivan Rus
+1240,1547,Russia,Other,Rus principalities
+1547,1721,Russia,Russian,Tsardom of Russia
+1721,1917,Russia,Russian,Russian Empire
+1917,1991,Russia,Russian,Soviet Russia
+1991,2026,Modern Russia,Russian,Russian Federation
+1991,2026,Ruthenia,Other,Ukraine & Belarus
+966,1385,Poland,Polish,Piast Poland
+1385,1569,Poland,Polish,Jagiellonian Poland
+1569,1795,Poland,Polish,Polish-Lithuanian Commonwealth
+1795,1915,Poland - West,German,Prussian Partition
+1795,1807,Poland - East,Russian,Russian Partition
+1795,1915,Poland - South,Austrian,Austrian Partition
+1807,1815,Poland - East,French,Duchy of Warsaw
+1815,1915,Poland - East,Russian,Congress Poland
+1915,1939,Poland,Polish,Interwar Poland
+1939,1945,Poland,German,Poland under occupation
+1945,1989,Poland,Russian,Soviet Poland
+1989,2026,Poland,Polish,Poland
+1330,1881,Romania,Other,Wallachia & Moldavia
+1881,1947,Romania,Other,Kingdom of Romania
+1945,1989 ,Romania,Russian,Soviet Romania
+1989 ,2026,Romania,Other,Romania
+895,1000,Hungary,Other,Principality of Hungary
+1000,1526,Hungary,Other,Kingdom of Hungary
+1526,1699,Hungary - Royal,Austrian,Royal Hungary
+1526,1699,Hungary - Ottoman,Turkish,Ottoman Hungary
+1699,1915,Hungary,Austrian,Habsburg Hungary
+1915,1945,Hungary,Other,Interwar Hungary
+1945,1989,Hungary,Russian,Soviet Hungary
+1989,2026,Hungary,Other,Modern Hungary
 -3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
 -2686,-2181,Egypt,Egyptian,Old Kingdom
 -2181,-2061,Egypt,Egyptian,First Intermediate
