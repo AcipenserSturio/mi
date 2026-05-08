@@ -44,6 +44,65 @@ start,end,region,colour,label
 1809,1814,Sweden,Swedish,
 1809,1917,Finland,Russian,Russian Finland
 1917,2026,Finland,Other,Finland
+,,,,
+-22,406,Belgium,Roman,Roman Belgica
+-15,476,Alps,Roman,Rhaetia & Noricum
+600,734,Benelux,Other,Frisian Kingdom
+734,843,Benelux,French,Carolingian Frisia
+843,962,Benelux,French,Lotharingia
+962,1384,Benelux,German,Holy Roman Empire (Low Countries)
+1384,1482,Benelux,French,Burgundian Netherlands
+1482,1581,Benelux,Austrian,Habsburg Netherlands
+1581,1714,Belgium,Spanish,Spanish Netherlands
+1714,1795,Belgium,Austrian,Austrian Netherlands
+1795,1815,Belgium,French,French Belgium
+1815,1830,Benelux,Dutch,Kingdom of the Netherlands
+1830,2026,Belgium,Other,Belgium
+1581,1795,Netherlands,Dutch,Dutch Republic
+1795,1815,Netherlands,French,Batavia
+1830,2026,Netherlands,Dutch,Netherlands
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+788,962 ,Austria,French,Carolingian Bavaria
+843,962 ,Rhine,French,East Francia
+962 ,1806,Rhine,German,Holy Roman Empire (German minors)
+983,1157,Prussia,German,Holy Roman Empire (Northern March)
+1157,1701,Prussia,German,Brandenburg
+1701,1870,Prussia,German,Prussia
+962 ,1453,Austria,German,Holy Roman Empire (Bavaria)
+1032,1291,Switzerland,German,Holy Roman Empire (Burgundy)
+534,751,Switzerland,French,Merovingian Burgundy
+751,879,Switzerland,French,Carolingian Burgundy
+879,1032,Switzerland,Other,Lower and Upper Burgundy
+1291,1798,Switzerland,Other,Swiss Confederacy
+1798,1814,Switzerland,French,Napoleonic Switzerland
+1814,2026,Switzerland,Other,Switzerland
+1002,1198,Bohemia,German,Bohemia
+1198,1526,Bohemia,German,Kingdom of Bohemia
+1526,1918,Bohemia,Austrian,Habsburg Bohemia
+1918,1938,Bohemia,Other,Czechoslovakia
+1938,1945,Bohemia,German,German occupation
+1945,1989,Bohemia,Russian,Soviet Czechoslovakia
+1989,1992,Bohemia,Other,Czechoslovakia
+1992,2026,Bohemia,Other,"Czechia, Slovakia"
+1453,1918,Austria,Austrian,Habsburg Austria
+1918,1938,Austria,Austrian,Interwar Austria
+1938,1945,Austria,German,Anschluss
+1945,1955,Austria,Other,Allied occupation
+1955,2026,Austria,Austrian,Austria
+1806,1813,Rhine,French,Confederation of the Rhine
+1813,1870,Rhine,German,German Confederation states
+1870,1918,Germany,German,German Empire
+1918,1933,Germany,German,Weimar Republic
+1933,1945,Germany,German,Nazi Germany
+1945,1990,Rhine,German,West Germany
+1945,1990,Prussia,Russian,East Germany
+1990,2026,Germany,German,Germany
+,,,,
+,,,,
 46,410,England,Roman,Roman Britain
 410,1066,England,Other,"Britons, Anglo-Saxons, Danes"
 1066,1154,England,English,Norman
@@ -88,7 +147,7 @@ start,end,region,colour,label
 1139,1230,Castille,Spanish,Castille-Leon
 1230,1479,Castille,Spanish,Kingdom of Castille
 1479,1492,Spain,Spanish,
-1492,1516,Spain,Spanish,Kingdom of Spain
+1492,1516,Spain,Spanish,Spain
 1516,1700,Spain,Spanish,Habsburg Spain
 1700,1808,Spain,Spanish,Bourbon Spain
 1808,1813,Spain,French,Napoleonic Spain

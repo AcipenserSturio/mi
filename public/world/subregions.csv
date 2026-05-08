@@ -11,13 +11,23 @@ Eastern Europe,Hungary - Ottoman,0.6,0.8
 Eastern Europe,Romania,0.8,1
 Eastern Europe,Wallachia,0.8,0.9
 Eastern Europe,Moldavia,0.9,1
-Scandinavia,Denmark,0,0.25
-Scandinavia,Norway,0.25,0.5
-Scandinavia,Sweden,0.5,0.75
-Scandinavia,Finland,0.75,1
-Scandinavia,Denmark-Norway,0,0.5
+Scandinavia,Denmark,0.75,1
+Scandinavia,Norway,0.5,0.75
+Scandinavia,Sweden,0.25,0.5
+Scandinavia,Finland,0,0.25
+Scandinavia,Denmark-Norway,0.5,1
 Scandinavia,Sweden-Norway,0.25,0.75
-Scandinavia,Sweden-Finland,0.5,1
+Scandinavia,Sweden-Finland,0,0.5
+Central Europe,Netherlands,0,0.125
+Central Europe,Belgium,0.125,0.25
+Central Europe,Benelux,0,0.25
+Central Europe,Rhine,0.25,0.5
+Central Europe,Prussia,0.5,0.625
+Central Europe,Germany,0.25,0.625
+Central Europe,Bohemia,0.625,0.75
+Central Europe,Austria,0.75,0.875
+Central Europe,Switzerland,0.875,1
+Central Europe,Alps,0.75,1
 Iberia,Portugal,0,0.25
 Iberia,Castille,0.25,0.5
 Iberia,Aragon,0.5,0.75
