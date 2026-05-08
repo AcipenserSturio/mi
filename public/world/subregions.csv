@@ -33,6 +33,11 @@ Britain,Scotland,0.25,0.5
 Britain,Ireland,0,0.25
 Britain,Great Britain,0.25,1
 North Africa,Egypt,0.5,1
+North Africa,Egypt Intermediate,0.55,0.95
+North Africa,Maghreb,0,0.5
+North Africa,Tunis,0,0.133
+North Africa,Algeria,0.133,0.267
+North Africa,Morocco,0.267,0.5
 China,China - North,0.5,1
 China,China - South,0,0.5
 China,China - Mainland,0.25,1

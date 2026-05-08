@@ -11,7 +11,7 @@ start,end,region,colour,label
 1569,1795,Poland,Polish,Polish-Lithuanian Commonwealth
 1795,1915,Poland - West,German,Prussian Partition
 1795,1807,Poland - East,Russian,Russian Partition
-1795,1915,Poland - South,Austrian,Austrian Partition
+1795,1915,Poland - South,Austrian,Austrian Galicia-Lodomeria
 1807,1815,Poland - East,French,Duchy of Warsaw
 1815,1915,Poland - East,Russian,Congress Poland
 1915,1939,Poland,Polish,Interwar Poland
@@ -136,18 +136,34 @@ start,end,region,colour,label
 962,1870,Italy North,Italian,North Italian city-states and republics
 1870,1946,Italy,Italian,Kingdom of Italy
 1946,2026,Italy,Italian,Italian Republic
-,,,,
-,,,,
 -3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
 -2686,-2181,Egypt,Egyptian,Old Kingdom
--2181,-2061,Egypt,Egyptian,First Intermediate
+-2181,-2061,Egypt Intermediate,Egyptian,First Intermediate
 -2061,-1649,Egypt,Egyptian,Middle Kingdom
--1649,-1549,Egypt,Egyptian,Second Intermediate
+-1649,-1549,Egypt Intermediate,Egyptian,Second Intermediate
 -1549,-1077,Egypt,Egyptian,New Kingdom
--1069,-653,Egypt,Egyptian,Third Intermediate
+-1069,-653,Egypt Intermediate,Egyptian,Third Intermediate
 -653,-332,Egypt,Egyptian,Late Egypt
 -332,-30,Egypt,Greek,Hellenistic Egypt
--30,313,Egypt,Roman,Roman Egypt
+-30,642,Egypt,Roman,Roman Egypt
+642,661,Egypt,Arabic,Rashidun Egypt
+661,750,Egypt,Arabic,Umayyad Egypt
+750,935,Egypt,Arabic,Abbasid dynasty
+935,969,Egypt,Arabic,Ikhshidid dynasty
+969,1171,Egypt,Arabic,Fatimid dynasty
+1171,1250,Egypt,Arabic,Ayyubid dynasty
+1250,1517,Egypt,Arabic,Mamluk dynasty
+1517,1867,Egypt,Turkish,Ottoman Egypt
+1867,1882,Egypt,Arabic,Khedivate of Egypt
+1882,1922,Egypt,English,British occupation
+1922,1953,Egypt,Arabic,Kingdom of Egypt
+1953,2026,Egypt,Arabic,Republican Egypt
+-814,-146,Maghreb,Phoenician,Carthage
+-146,439,Maghreb,Roman,Roman Africa
+439,534,Maghreb,Other,Vandal Kingdom
+534,698,Maghreb,Roman,Prefecture / Exarchate of Africa
+,,,,
+,,,,
 -1600,-1046,China,Chinese,Shang
 -1046,-256,China,Chinese,Zhou
 -221,-207,China,Chinese,Qin
