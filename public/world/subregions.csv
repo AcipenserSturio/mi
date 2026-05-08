@@ -32,6 +32,13 @@ Britain,England,0.5,1
 Britain,Scotland,0.25,0.5
 Britain,Ireland,0,0.25
 Britain,Great Britain,0.25,1
+Balkans,Illyria,0,0.4
+Balkans,Croatia,0,0.2
+Balkans,Serbia,0.2,0.4
+Balkans,Thrace,0.4,0.6
+Balkans,Greece,0.6,1
+Balkans,Macedonia,0.6,0.8
+Balkans,Athens,0.8,1
 North Africa,Egypt,0.5,1
 North Africa,Egypt Intermediate,0.55,0.95
 North Africa,Maghreb,0,0.5

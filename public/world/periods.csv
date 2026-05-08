@@ -136,6 +136,48 @@ start,end,region,colour,label
 962,1870,Italy North,Italian,North Italian city-states and republics
 1870,1946,Italy,Italian,Kingdom of Italy
 1946,2026,Italy,Italian,Italian Republic
+-3100,-1450,Athens,Other,Minoans
+-1450,-1180,Greece,Greek,Myceneans
+-1180,-800,Greece,Greek,Greek Dark Ages
+-800,-480,Greece,Greek,Archaic Greece
+-500,-323,Greece,Greek,Classical Greece
+-323,-146,Greece,Greek,Hellenistic Greece
+-146,395,Greece,Roman,Roman Greece
+395,1204,Greece,Roman,Byzantine Greece
+1371,1453,Macedonia,Turkish,Ottoman Greece
+1453,1822,Greece,Turkish,Ottoman Empire
+1204,1261,Greece,Other,Latin Empire
+1261,1371,Macedonia,Other,Crusader principalities
+1261,1453,Athens,Roman,Palaiologos Byzantium
+1822,1905,Macedonia,Turkish,Ottoman Balkans
+1822,1905,Athens,Greek,Greece
+1905,2026,Greece,Greek,Greece
+-500,-135,Illyria,Other,Illyrian Kingdom
+-135,-32,Illyria,Roman,Roman Illyricum
+-32,640,Illyria,Roman,Roman Dalmatia
+640,925,Croatia,Other,"Avars, Slavs"
+925 ,1102,Croatia,Other,Kingdom of Croatia
+1102,1526,Croatia,Other,Hungarian Croatia
+1526,1918,Croatia,Austrian,Habsburg Croatia
+640,780,Serbia,Roman,Byzantine Moesia
+780,969,Serbia,Other,Principality of Serbia
+969,1071,Serbia,Roman,Byzantine Syrmium
+1071,1459,Serbia,Other,Serbia
+1459,1804,Serbia,Turkish,Ottoman Serbia
+1804,1918,Serbia,Other,Serbia
+1918,1941,Illyria,Other,Interwar Yugoslavia
+1941,1945,Illyria,German,Axis occupation
+1945,1992,Illyria,Other,Yugoslavia
+1992,2026,Croatia,Other,"Slovenia, Croatia, Bosnia"
+1992,2026,Serbia,Other,"Serbia, Montenegro, N. Macedonia"
+46,681,Thrace,Roman,Roman Thrace
+681,1018,Thrace,Other,First Bulgarian Empire
+1018,1185,Thrace,Roman,Byzantine Bulgaria
+1185,1396,Thrace,Other,Second Bulgarian Empire
+1396,1878,Thrace,Turkish,Ottoman Bulgaria
+1878,1945,Thrace,Other,Principality of Bulgaria
+1945,1990,Thrace,Russian,Soviet Bulgaria
+1990,2026,Thrace,Other,Bulgaria
 -3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
 -2686,-2181,Egypt,Egyptian,Old Kingdom
 -2181,-2061,Egypt Intermediate,Egyptian,First Intermediate
@@ -161,9 +203,7 @@ start,end,region,colour,label
 -814,-146,Maghreb,Phoenician,Carthage
 -146,439,Maghreb,Roman,Roman Africa
 439,534,Maghreb,Other,Vandal Kingdom
-534,698,Maghreb,Roman,Prefecture / Exarchate of Africa
-,,,,
-,,,,
+534,698,Maghreb,Roman,Exarchate of Africa
 -1600,-1046,China,Chinese,Shang
 -1046,-256,China,Chinese,Zhou
 -221,-207,China,Chinese,Qin
@@ -205,7 +245,7 @@ start,end,region,colour,label
 892,935,Korea - East,Korean,Silla
 936,1392,Korea,Korean,Goryeo
 1392,1910,Korea,Korean,Joseon
-1910,1945,Korea,Korean,Japanese occupation
+1910,1945,Korea,Japanese,Japanese occupation
 1945,2026,North Korea,Korean,North Korea
 1945,2026,South Korea,Korean,South Korea
 1788,1901,Australia,English,Colonial Australia
