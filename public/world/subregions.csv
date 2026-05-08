@@ -25,6 +25,9 @@ Iberia,Andalucia,0.75,1
 Iberia,Iberia West,0,0.5
 Iberia,Spain,0.25,1
 Iberia,Iberia East,0.5,1
+Italy,Italy North,0,0.33
+Italy,Umbria,0.33,0.67
+Italy,Italy South,0.67,1
 Britain,England,0.5,1
 Britain,Scotland,0.25,0.5
 Britain,Ireland,0,0.25

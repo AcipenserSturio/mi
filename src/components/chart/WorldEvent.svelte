@@ -37,14 +37,9 @@
       fill={colours.find((colour) => colour.label == d.colour)
         ? colours.find((colour) => colour.label == d.colour).hex
         : "#ddd"}
-      rx="5"
     />
-    <text
-      x={xScale(d.start)}
-      y={yScale(y()).y + 20}
-      font-size="16"
-      width={xScale(d.end) - xScale(d.start)}
-    >
+    <!-- rx="5" -->
+    <text x={xScale(d.start)} y={yScale(y()).y + 20} font-size="16">
       <tspan font-weight="bold">{d.label}</tspan>
     </text>
   </g>

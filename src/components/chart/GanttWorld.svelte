@@ -35,7 +35,7 @@
       // desc: d.desc,
       span_start: d.span_start ? +d.span_start : 0,
       span_end: d.span_end ? +d.span_end : 1,
-    }));
+    })).filter((row) => row.track != "");
     subregions = csvParse(csvSubregions, (d, i) => ({
       id: i,
       parent: d.parent,
@@ -109,28 +109,6 @@
     {#each data as d}
       <WorldEvent {d} {xScale} {yScale} {colours} {tracks} {subregions}
       ></WorldEvent>
-      <!-- <g>
-        <rect
-          x={xScale(d.start)}
-          y={yScale({ track: d.track, span: [d.span_start, d.span_end] }).y}
-          width={xScale(d.end) - xScale(d.start)}
-          height={yScale({ track: d.track, span: [d.span_start, d.span_end] })
-            .height}
-          fill={colours.find((colour) => colour.label == d.colour)
-            ? colours.find((colour) => colour.label == d.colour).hex
-            : "#ddd"}
-          rx="5"
-          opacity="0.9"
-        />
-        <text
-          x={xScale(d.start)}
-          y={yScale({ track: d.track, span: [d.span_start, d.span_end] }).y +
-            20}
-          font-size="16"
-        >
-          <tspan font-weight="bold">{d.label}</tspan>
-        </text>
-      </g> -->
     {/each}
   {/if}
 </svg>

@@ -106,6 +106,38 @@ start,end,region,colour,label
 1910,1933,Portugal,Portuguese,First Republic
 1933,1974,Portugal,Portuguese,Salazar Portugal
 1974,2026,Portugal,Portuguese,Portugal
+-753,-509,Umbria,Roman,Roman Kingdom
+-509,-218,Umbria,Roman,Roman Republic
+-800,-218,Italy South,Greek,Greek colonies
+-218,-27,Italy,Roman,
+-27,476,Italy,Roman,Roman Empire
+476,493,Italy,Other,Odoacer
+493,553,Italy,Other,Ostrogoths
+553,568,Italy,Roman,Byzantine Italy
+568,774,Italy North,Other,Lombard Italy
+774,962,Italy North,French,Carolingian Italy
+568,756,Umbria,Roman,Exarchate of Ravenna
+756,1870,Umbria,Other,Papal States
+568,1071,Italy South,Roman,Byzantine Apulia & Calabria
+1071,1198,Italy South,Other,Norman Sicily
+1198,1266,Italy South,German,Hohenstaufen Sicily
+1266,1282,Italy South,French,Angevin Sicily
+1282,1412,Italy South,Other,Aragonese Sicily
+1412,1516,Italy South,Spanish,Castillian Sicily
+1516,1554,Italy South,Austrian,Habsburg Sicily
+1554 ,1700,Italy South,Spanish,Habsburg Sicily
+1700,1713,Italy South,Spanish,Bourbon Sicily
+1713,1720,Italy South,Italian,Savoyard Sicily
+1720,1735,Italy South,Austrian,Habsburg Sicily
+1735,1759,Italy South,Spanish,Bourbon Sicily
+1759,1816,Italy South,Other,Bourbon Sicily
+1816,1861,Italy South,Other,Two Sicilies
+1861,1870,Italy South,Italian,Savoyard Sicily
+962,1870,Italy North,Italian,North Italian city-states and republics
+1870,1946,Italy,Italian,Kingdom of Italy
+1946,2026,Italy,Italian,Italian Republic
+,,,,
+,,,,
 -3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
 -2686,-2181,Egypt,Egyptian,Old Kingdom
 -2181,-2061,Egypt,Egyptian,First Intermediate

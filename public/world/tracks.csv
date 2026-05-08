@@ -12,7 +12,7 @@ Germany,2
 Britain,1
 France,0.5
 Iberia,1
-Italy,1
+Italy,0.75
 Balkans,2
 Anatolia,1
 North Africa,1
@@ -24,9 +24,9 @@ Burma,1
 Thailand,1
 Maritime SEA,1
 Vietnam,1
-China,1.5
-Korea,1
-Japan,1
+China,1
+Korea,0.75
+Japan,0.75
 Australia,0.5
 New Zealand,0.5
 Polynesia,0.5
