@@ -1,312 +1,393 @@
-start,end,region,colour,label,,,,,,,
-880,1240,Russia,Other,Kyivan Rus,,,,,,,
-1240,1547,Russia,Other,Rus principalities,,,,,,,
-1547,1721,Russia,Russian,Tsardom of Russia,,,,,,,
-1721,1917,Russia,Russian,Russian Empire,,,,,,,
-1917,1991,Russia,Russian,Soviet Russia,,,,,,,
-1991,2026,Modern Russia,Russian,Russian Federation,,,,,,,
-1991,2026,Ruthenia,Other,Ukraine & Belarus,,,,,,,
-966,1385,Poland,Polish,Piast Poland,,,,,,,
-1385,1569,Poland,Polish,Jagiellonian Poland,,,,,,,
-1569,1795,Poland,Polish,Polish-Lithuanian Commonwealth,,,,,,,
-1795,1915,Poland - West,German,Prussian Partition,,,,,,,
-1795,1807,Poland - East,Russian,Russian Partition,,,,,,,
-1795,1915,Poland - South,Austrian,Austrian Galicia-Lodomeria,,,,,,,
-1807,1815,Poland - East,French,Duchy of Warsaw,,,,,,,
-1815,1915,Poland - East,Russian,Congress Poland,,,,,,,
-1915,1939,Poland,Polish,Interwar Poland,,,,,,,
-1939,1945,Poland,German,German occupation,,,,,,,
-1945,1989,Poland,Russian,Soviet Poland,,,,,,,
-1989,2026,Poland,Polish,Poland,,,,,,,
-1330,1881,Romania,Other,Wallachia & Moldavia,,,,,,,
-1881,1947,Romania,Other,Kingdom of Romania,,,,,,,
-1945,1989,Romania,Russian,Soviet Romania,,,,,,,
-1989,2026,Romania,Other,Romania,,,,,,,
-895,1000,Hungary,Other,Principality of Hungary,,,,,,,
-1000,1526,Hungary,Other,Kingdom of Hungary,,,,,,,
-1526,1699,Hungary - Royal,Austrian,Royal Hungary,,,,,,,
-1526,1699,Hungary - Ottoman,Turkish,Ottoman Hungary,,,,,,,
-1699,1915,Hungary,Austrian,Habsburg Hungary,,,,,,,
-1915,1945,Hungary,Other,Interwar Hungary,,,,,,,
-1945,1989,Hungary,Russian,Soviet Hungary,,,,,,,
-1989,2026,Hungary,Other,Hungary,,,,,,,
-872,1397,Norway,Other,Norway,,,,,,,
-970,1150,Sweden,Swedish,Sweden,,,,,,,
-1150,1397,Sweden-Finland,Swedish,Sweden,,,,,,,
-936,1397,Denmark,Danish,Denmark,,,,,,,
-1397,1523,Scandinavia,Danish,Kalmar Union,,,,,,,
-1523,1814,Denmark-Norway,Danish,Denmark-Norway,,,,,,,
-1814,2026,Denmark,Danish,Denmark,,,,,,,
-1814,1905,Sweden-Norway,Swedish,Sweden-Norway,,,,,,,
-1905,2026,Norway,Other,Norway,,,,,,,
-1905,2026,Sweden,Swedish,Sweden,,,,,,,
-1523,1809,Sweden-Finland,Swedish,Sweden,,,,,,,
-1809,1814,Sweden,Swedish,,,,,,,,
-1809,1917,Finland,Russian,Russian Finland,,,,,,,
-1917,2026,Finland,Other,Finland,,,,,,,
-,,,,,,,,,,,
--22,406,Belgium,Roman,Roman Belgica,,,,,,,
--15,476,Alps,Roman,Roman Rhaetia & Noricum,,,,,,,
-600,734,Benelux,Other,Frisian Kingdom,,,,,,,
-734,843,Benelux,French,Frankish Frisia,,,,,,,
-843,962,Benelux,French,Lotharingia,,,,,,,
-1157,1384,Benelux,German,Low Countries (HRE),,,,,,,
-1384,1482,Benelux,French,Burgundian Netherlands,,,,,,,
-1482,1581,Benelux,Austrian,Habsburg Netherlands,,,,,,,
-1581,1714,Belgium,Spanish,Spanish Netherlands,,,,,,,
-1714,1795,Belgium,Austrian,Austrian Netherlands,,,,,,,
-1795,1815,Belgium,French,French Belgium,,,,,,,
-1815,1830,Benelux,Dutch,Kingdom of the Netherlands,,,,,,,
-1830,2026,Belgium,Other,Belgium,,,,,,,
-1581,1795,Netherlands,Dutch,Dutch Republic,,,,,,,
-1795,1815,Netherlands,French,Batavia,,,,,,,
-1830,2026,Netherlands,Dutch,Netherlands,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-555,751,Austria,French,Duchy of Bavaria,,,,,,,
-751,843,Austria,French,Carolingian Bavaria,,,,,,,
-536,751,Rhine,French,"Franks, Germans under Merovings",,,788,962 ,Austria,French,Carolingian Bavaria
-751,843,Rhine,French,Carolingian Empire,,,,,,,
-843,962 ,East Francia,French,East Francia,,,,,,,
-962 ,1157,East Francia,German,Holy Roman Empire (Kingdom of Germany),,,,,,,
-1157,1806,Rhine,German,German minors (HRE),,,,,,,
-1157,1701,Prussia,German,Brandenburg (HRE),,,,,,,
-1701,1870,Prussia,German,Prussia,,,,,,,
-1157,1453,Austria,German,Bavaria (HRE),,,,,,,
-1032,1291,Switzerland,German,Burgundy (HRE),,,,,,,
-534,751,Switzerland,French,Merovingian Burgundy,,,,,,,
-751,879,Switzerland,French,Carolingian Burgundy,,,,,,,
-879,1032,Switzerland,Other,Lower and Upper Burgundy,,,,,,,
-1291,1798,Switzerland,Other,Swiss Confederacy,,,,,,,
-1798,1814,Switzerland,French,Napoleonic Switzerland,,,,,,,
-1814,2026,Switzerland,Other,Switzerland,,,,,,,
-1002,1198,Bohemia,German,Bohemia (HRE),,,,,,,
-1198,1526,Bohemia,German,Kingdom of Bohemia,,,,,,,
-1526,1918,Bohemia,Austrian,Habsburg Bohemia,,,,,,,
-1918,1938,Bohemia,Other,Czechoslovakia,,,,,,,
-1938,1945,Bohemia,German,German occupation,,,,,,,
-1945,1989,Bohemia,Russian,Soviet Czechoslovakia,,,,,,,
-1989,1992,Bohemia,Other,,,,,,,,
-1992,2026,Bohemia,Other,"Czechia, Slovakia",,,,,,,
-1453,1918,Austria,Austrian,Habsburg Austria,,,,,,,
-1918,1938,Austria,Austrian,Interwar Austria,,,,,,,
-1938,1945,Austria,German,Anschluss,,,,,,,
-1945,1955,Austria,Other,Allied occupation,,,,,,,
-1955,2026,Austria,Austrian,Austria,,,,,,,
-1806,1813,Rhine,French,Confederation of the Rhine,,,,,,,
-1813,1870,Rhine,German,German Confederation states,,,,,,,
-1870,1918,Germany,German,German Empire,,,,,,,
-1918,1933,Germany,German,Weimar Republic,,,,,,,
-1933,1945,Germany,German,Nazi Germany,,,,,,,
-1945,1990,Rhine,German,West Germany,,,,,,,
-1945,1990,Prussia,Russian,East Germany,,,,,,,
-1990,2026,Germany,German,Germany,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-46,410,England,Roman,Roman Britain,,,,,,,
-410,1066,England,Other,"Britons, Anglo-Saxons, Danes",,,,,,,
-1066,1154,England,English,Norman,,,,,,,
-1154,1216,England,English,Angevin,,,,,,,
-1216,1399,England,English,Plantagenet,,,,,,,
-1399,1461,England,English,Lancaster,,,,,,,
-1461,1485,England,English,York,,,,,,,
-1485,1603,England,English,Tudor,,,,,,,
-843,1603,Scotland,Other,Scotland,,,,,,,
-853,1170,Ireland,Other,Gaelic Irish Kingdoms,,,,,,,
-1170,1318,Ireland,English,Lordship of Ireland,,,,,,,
-1318,1542,Ireland,Other,Gaelic Irish Kingdoms,,,,,,,
-1542,1801,Ireland,English,Kingdom of Ireland,,,,,,,
-1603,1714,Great Britain,English,Stuart,,,,,,,
-1714,1801,Great Britain,English,Hanoverian,,,,,,,
-1801,1923,Britain,English,United Kingdom,,,,,,,
-1923,2026,Great Britain,English,United Kingdom,,,,,,,
-1923,2026,Ireland,Other,Ireland,,,,,,,
--50,481,France,Roman,Roman Gaul,,,,,,,
-481,751,France,French,Merovingian France,,,,,,,
-751,987,France,French,Carolingian France,,,,,,,
-987,1328,France,French,Capetian France,,,,,,,
-1328,1589,France,French,Valois France,,,,,,,
-1589,1792,France,French,Bourbon France,,,,,,,
-1792,1804,France,French,First Republic,,,,,,,
-1804,1814,France,French,First Empire,,,,,,,
-1814,1848,France,French,Restoration,,,,,,,
-1848,1852,France,French,Second Republic,,,,,,,
-1852,1870,France,French,Second Empire,,,,,,,
-1870,1940,France,French,Third Republic,,,,,,,
-1940,1944,France,German,Vichy France,,,,,,,
-1944,2026,France,French,Postwar France,,,,,,,
--575,-206,Andalucia,Phoenician,Carthaginian Spain,,,,,,,
--206,-19,Iberia East,Roman,Roman Conquest of Hispania,,,,,,,
--19,418,Iberia,Roman,Roman Hispania,,,,,,,
-418,585,Portugal,Other,Kingdom of the Suebi,,,,,,,
-418,585,Spain,Other,Visigothic Spain,,,,,,,
-585,711,Iberia,Other,Visigothic Spain,,,,,,,
-552,624,Andalucia,Roman,Byzantine Spania,,,,,,,
-711,924,Iberia West,Other,Kingdom of Asturia,,,,,,,
-924,1139,Iberia West,Other,Kingdom of Leon,,,,,,,
-1035,1479,Aragon,Other,Kingdom of Aragon,,,,,,,
-1139,1230,Castille,Spanish,Castille-Leon,,,,,,,
-1230,1479,Castille,Spanish,Kingdom of Castille,,,,,,,
-1479,1516,Spain,Spanish,Spain,,,,,,,
-1516,1700,Spain,Spanish,Habsburg Spain,,,,,,,
-1700,1808,Spain,Spanish,Bourbon Spain,,,,,,,
-1808,1813,Spain,French,Napoleonic Spain,,,,,,,
-1813,1931,Spain,Spanish,Restoration,,,,,,,
-1931,1939,Spain,Spanish,Second Republic,,,,,,,
-1939,1975,Spain,Spanish,Francoist Spain,,,,,,,
-1975,2026,Spain,Spanish,Spain,,,,,,,
-711,1035,Iberia East,Arabic,Al-Andalus,,,,,,,
-1035,1232,Andalucia,Arabic,Al-Andalus,,,,,,,
-1232,1492,Andalucia,Arabic,Emirate of Granada,,,,,,,
-1139,1385,Portugal,Portuguese,Afonsine Portugal,,,,,,,
-1385,1580,Portugal,Portuguese,Johannine Portugal,,,,,,,
-1581,1640,Iberia,Spanish,Habsburg Portugal,,,,,,,
-1640,1910,Portugal,Portuguese,Brigantine Portugal,,,,,,,
-1910,1933,Portugal,Portuguese,First Republic,,,,,,,
-1933,1974,Portugal,Portuguese,Salazar Portugal,,,,,,,
-1974,2026,Portugal,Portuguese,Portugal,,,,,,,
--753,-509,Umbria,Roman,Roman Kingdom,,,,,,,
--509,-218,Umbria,Roman,Roman Republic,,,,,,,
--800,-218,Italy South,Greek,Greek colonies,,,,,,,
--218,-27,Italy,Roman,,,,,,,,
--27,476,Italy,Roman,Roman Empire,,,,,,,
-476,493,Italy,Other,Odoacer,,,,,,,
-493,553,Italy,Other,Ostrogoths,,,,,,,
-553,568,Italy,Roman,Byzantine Italy,,,,,,,
-568,774,Italy North,Other,Lombard Italy,,,,,,,
-774,962,Italy North,French,Carolingian Italy,,,,,,,
-568,756,Umbria,Roman,Exarchate of Ravenna,,,,,,,
-756,1870,Umbria,Other,Papal States,,,,,,,
-568,1071,Italy South,Roman,Byzantine Apulia & Calabria,,,,,,,
-1071,1198,Italy South,Other,Norman Sicily,,,,,,,
-1198,1266,Italy South,German,Hohenstaufen Sicily,,,,,,,
-1266,1282,Italy South,French,Angevin Sicily,,,,,,,
-1282,1412,Italy South,Other,Aragonese Sicily,,,,,,,
-1412,1516,Italy South,Spanish,Castillian Sicily,,,,,,,
-1516,1554,Italy South,Austrian,Habsburg Sicily,,,,,,,
-1554 ,1700,Italy South,Spanish,Habsburg Sicily,,,,,,,
-1700,1713,Italy South,Spanish,Bourbon Sicily,,,,,,,
-1713,1720,Italy South,Italian,Savoyard Sicily,,,,,,,
-1720,1735,Italy South,Austrian,Habsburg Sicily,,,,,,,
-1735,1759,Italy South,Spanish,Bourbon Sicily,,,,,,,
-1759,1816,Italy South,Other,Bourbon Sicily,,,,,,,
-1816,1861,Italy South,Other,Two Sicilies,,,,,,,
-1861,1870,Italy South,Italian,Savoyard Sicily,,,,,,,
-962,1870,Italy North,Italian,North Italian city-states and republics,,,,,,,
-1870,1946,Italy,Italian,Kingdom of Italy,,,,,,,
-1946,2026,Italy,Italian,Italian Republic,,,,,,,
--3100,-1450,Athens,Other,Minoans,,,,,,,
--1450,-1180,Greece,Greek,Myceneans,,,,,,,
--1180,-800,Greece,Greek,Greek Dark Ages,,,,,,,
--800,-480,Greece,Greek,Archaic Greece,,,,,,,
--500,-323,Greece,Greek,Classical Greece,,,,,,,
--323,-146,Greece,Greek,Hellenistic Greece,,,,,,,
--146,395,Greece,Roman,Roman Greece,,,,,,,
-395,1204,Greece,Roman,Byzantine Greece,,,,,,,
-1371,1453,Macedonia,Turkish,Ottoman Greece,,,,,,,
-1453,1822,Greece,Turkish,Ottoman Empire,,,,,,,
-1204,1261,Greece,Other,Latin Empire,,,,,,,
-1261,1371,Macedonia,Other,Crusader principalities,,,,,,,
-1261,1453,Athens,Roman,Palaiologos Byzantium,,,,,,,
-1822,1905,Macedonia,Turkish,Ottoman Balkans,,,,,,,
-1822,1905,Athens,Greek,Greece,,,,,,,
-1905,2026,Greece,Greek,Greece,,,,,,,
--500,-135,Illyria,Other,Illyrian Kingdom,,,,,,,
--135,-32,Illyria,Roman,Roman Illyricum,,,,,,,
--32,640,Illyria,Roman,Roman Dalmatia,,,,,,,
-640,925,Croatia,Other,"Avars, Slavs",,,,,,,
-925 ,1102,Croatia,Other,Kingdom of Croatia,,,,,,,
-1102,1526,Croatia,Other,Hungarian Croatia,,,,,,,
-1526,1918,Croatia,Austrian,Habsburg Croatia,,,,,,,
-640,780,Serbia,Roman,Byzantine Moesia,,,,,,,
-780,969,Serbia,Other,Principality of Serbia,,,,,,,
-969,1071,Serbia,Roman,Byzantine Syrmium,,,,,,,
-1071,1459,Serbia,Other,Serbia,,,,,,,
-1459,1804,Serbia,Turkish,Ottoman Serbia,,,,,,,
-1804,1918,Serbia,Other,Serbia,,,,,,,
-1918,1941,Illyria,Other,Interwar Yugoslavia,,,,,,,
-1941,1945,Illyria,German,Axis occupation,,,,,,,
-1945,1992,Illyria,Other,Yugoslavia,,,,,,,
-1992,2026,Croatia,Other,"Slovenia, Croatia, Bosnia",,,,,,,
-1992,2026,Serbia,Other,"Serbia, Montenegro, N. Macedonia",,,,,,,
-46,681,Thrace,Roman,Roman Thrace,,,,,,,
-681,1018,Thrace,Other,First Bulgarian Empire,,,,,,,
-1018,1185,Thrace,Roman,Byzantine Bulgaria,,,,,,,
-1185,1396,Thrace,Other,Second Bulgarian Empire,,,,,,,
-1396,1878,Thrace,Turkish,Ottoman Bulgaria,,,,,,,
-1878,1945,Thrace,Other,Principality of Bulgaria,,,,,,,
-1945,1990,Thrace,Russian,Soviet Bulgaria,,,,,,,
-1990,2026,Thrace,Other,Bulgaria,,,,,,,
--3150,-2686,Egypt,Egyptian,Early Dynastic Egypt,,,,,,,
--2686,-2181,Egypt,Egyptian,Old Kingdom,,,,,,,
--2181,-2061,Egypt Intermediate,Egyptian,First Intermediate,,,,,,,
--2061,-1649,Egypt,Egyptian,Middle Kingdom,,,,,,,
--1649,-1549,Egypt Intermediate,Egyptian,Second Intermediate,,,,,,,
--1549,-1077,Egypt,Egyptian,New Kingdom,,,,,,,
--1069,-653,Egypt Intermediate,Egyptian,Third Intermediate,,,,,,,
--653,-332,Egypt,Egyptian,Late Egypt,,,,,,,
--332,-30,Egypt,Greek,Hellenistic Egypt,,,,,,,
--30,642,Egypt,Roman,Roman Egypt,,,,,,,
-642,661,Egypt,Arabic,Rashidun Egypt,,,,,,,
-661,750,Egypt,Arabic,Umayyad Egypt,,,,,,,
-750,935,Egypt,Arabic,Abbasid dynasty,,,,,,,
-935,969,Egypt,Arabic,Ikhshidid dynasty,,,,,,,
-969,1171,Egypt,Arabic,Fatimid dynasty,,,,,,,
-1171,1250,Egypt,Arabic,Ayyubid dynasty,,,,,,,
-1250,1517,Egypt,Arabic,Mamluk dynasty,,,,,,,
-1517,1867,Egypt,Turkish,Ottoman Egypt,,,,,,,
-1867,1882,Egypt,Arabic,Khedivate of Egypt,,,,,,,
-1882,1922,Egypt,English,British occupation,,,,,,,
-1922,1953,Egypt,Arabic,Kingdom of Egypt,,,,,,,
-1953,2026,Egypt,Arabic,Republican Egypt,,,,,,,
--814,-146,Maghreb,Phoenician,Carthage,,,,,,,
--146,439,Maghreb,Roman,Roman Africa,,,,,,,
-439,534,Maghreb,Other,Vandal Kingdom,,,,,,,
-534,698,Maghreb,Roman,Exarchate of Africa,,,,,,,
--1600,-1046,China,Chinese,Shang,,,,,,,
--1046,-256,China,Chinese,Zhou,,,,,,,
--221,-207,China,Chinese,Qin,,,,,,,
--202,220,China,Chinese,Han,,,,,,,
-220,280,China,Chinese,Three Kingdoms,,,,,,,
-280,420,China,Chinese,Jin,,,,,,,
-420,581,China - North,Chinese,Northern dynasties,,,,,,,
-420,581,China - South,Chinese,Southern dynasties,,,,,,,
-581,618,China,Chinese,Sui,,,,,,,
-618,907,China,Chinese,Tang,,,,,,,
-907,979,China - South,Chinese,Five dynasties,,,,,,,
-979,1127,China - South,Chinese,Northern Song,,,,,,,
-1127,1271,China - South,Chinese,Southern Song,,,,,,,
-916,1125,China - North,Chinese,Liao,,,,,,,
-1125,1234,China - North,Chinese,Jin,,,,,,,
-1271,1368,China,Chinese,Yuan,,,,,,,
-1368,1644,China,Chinese,Ming,,,,,,,
-1644,1912,China,Chinese,Qing,,,,,,,
-1912,1949,China,Chinese,Republic of China,,,,,,,
-1949,2026,China - Mainland,Chinese,People's Republic of China,,,,,,,
-1949,2026,China - Taiwan,Chinese,Taiwan,,,,,,,
--1000,300,Japan,Japanese,Yayoi,,,,,,,
-300,538,Japan,Japanese,Kofun,,,,,,,
-538,710,Japan,Japanese,Asuka,,,,,,,
-710,794,Japan,Japanese,Nara,,,,,,,
-794,1185,Japan,Japanese,Heian,,,,,,,
-1185,1333,Japan,Japanese,Kamakura,,,,,,,
-1336,1573,Japan,Japanese,Ashikaga,,,,,,,
-1573,1603,Japan,Japanese,Oda-Toyotomi,,,,,,,
-1603,1868,Japan,Japanese,Tokugawa,,,,,,,
-1868,1947,Japan,Japanese,Imperial Japan,,,,,,,
-1947,2026,Japan,Japanese,Modern Japan,,,,,,,
--37,668,Korea - North,Korean,Gogureyo,,,,,,,
--18,660,Korea - West,Korean,Baekje,,,,,,,
--57,668,Korea - East,Korean,Silla,,,,,,,
-668,892,Korea - South,Korean,Unified Silla,,,,,,,
-698,926,Korea - North,Korean,Balhae,,,,,,,
-892,936,Korea - West,Korean,Baekje,,,,,,,
-892,935,Korea - East,Korean,Silla,,,,,,,
-936,1392,Korea,Korean,Goryeo,,,,,,,
-1392,1910,Korea,Korean,Joseon,,,,,,,
-1910,1945,Korea,Japanese,Japanese occupation,,,,,,,
-1945,2026,North Korea,Korean,North Korea,,,,,,,
-1945,2026,South Korea,Korean,South Korea,,,,,,,
-1788,1901,Australia,English,Colonial Australia,,,,,,,
-1901,2026,Australia,Other,Federated Australia,,,,,,,
+start,end,region,colour,label
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+880,1240,Russia,Other,Kyivan Rus
+1240,1547,Russia,Other,Rus principalities
+1547,1721,Russia,Russian,Tsardom of Russia
+1721,1917,Russia,Russian,Russian Empire
+1917,1991,Russia,Russian,Soviet Russia
+1991,2026,Modern Russia,Russian,Russian Federation
+1991,2026,Ruthenia,Other,Ukraine & Belarus
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+966,1385,Poland,Polish,Piast Poland
+1385,1569,Poland,Polish,Jagiellonian Poland
+1569,1795,Poland,Polish,Polish-Lithuanian Commonwealth
+1795,1915,Poland - West,German,Prussian Partition
+1795,1807,Poland - East,Russian,Russian Partition
+1795,1915,Poland - South,Austrian,Austrian Galicia-Lodomeria
+1807,1815,Poland - East,French,Duchy of Warsaw
+1815,1915,Poland - East,Russian,Congress Poland
+1915,1939,Poland,Polish,Interwar Poland
+1939,1945,Poland,German,German occupation
+1945,1989,Poland,Russian,Soviet Poland
+1989,2026,Poland,Polish,Poland
+,,,,
+895,1000,Hungary,Other,Principality of Hungary
+1000,1526,Hungary,Other,Kingdom of Hungary
+1526,1699,Hungary - Royal,Austrian,Royal Hungary
+1526,1699,Hungary - Ottoman,Turkish,Ottoman Hungary
+1699,1915,Hungary,Austrian,Habsburg Hungary
+1915,1945,Hungary,Other,Interwar Hungary
+1945,1989,Hungary,Russian,Soviet Hungary
+1989,2026,Hungary,Other,Hungary
+,,,,
+1330,1881,Romania,Other,Wallachia & Moldavia
+1881,1947,Romania,Other,Kingdom of Romania
+1945,1989,Romania,Russian,Soviet Romania
+1989,2026,Romania,Other,Romania
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+872,1397,Norway,Other,Norway
+970,1150,Sweden,Swedish,Sweden
+1150,1397,Sweden-Finland,Swedish,Sweden
+936,1397,Denmark,Danish,Denmark
+1397,1523,Scandinavia,Danish,Kalmar Union
+1523,1814,Denmark-Norway,Danish,Denmark-Norway
+1814,2026,Denmark,Danish,Denmark
+1814,1905,Sweden-Norway,Swedish,Sweden-Norway
+1905,2026,Norway,Other,Norway
+1905,2026,Sweden,Swedish,Sweden
+1523,1809,Sweden-Finland,Swedish,Sweden
+1809,1814,Sweden,Swedish,
+1809,1917,Finland,Russian,Russian Finland
+1917,2026,Finland,Other,Finland
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-22,406,Belgium,Roman,Roman Belgica
+-15,476,Alps,Roman,Roman Rhaetia & Noricum
+600,734,Benelux,Other,Frisian Kingdom
+536,751,Rhine,French,"Franks, Germans under Merovings"
+555,751,Austria,French,Duchy of Bavaria
+534,751,Switzerland,French,Merovingian Burgundy
+734,843,Benelux,French,Frankish Frisia
+751,843,Rhine,French,Carolingian Empire
+751,843,Austria,French,Carolingian Bavaria
+751,879,Switzerland,French,Carolingian Burgundy
+879,1032,Switzerland,Other,Lower and Upper Burgundy
+843,962,Rhine,French,East Francia
+843,962,Austria,French,Bavaria (East Francia)
+962,1157,East Francia,German,Holy Roman Empire (Kingdom of Germany)
+,,,,
+843,962,Benelux,French,Lotharingia
+1157,1384,Benelux,German,Low Countries (HRE)
+1384,1482,Benelux,French,Burgundian Netherlands
+1482,1581,Benelux,Austrian,Habsburg Netherlands
+1581,1714,Belgium,Spanish,Spanish Netherlands
+1714,1795,Belgium,Austrian,Austrian Netherlands
+1795,1815,Belgium,French,French Belgium
+1815,1830,Benelux,Dutch,Kingdom of the Netherlands
+1830,2026,Belgium,Other,Belgium
+1581,1795,Netherlands,Dutch,Dutch Republic
+1795,1815,Netherlands,French,Batavia
+1830,2026,Netherlands,Dutch,Netherlands
+,,,,
+1157,1806,Rhine,German,German minors (HRE)
+1157,1701,Prussia,German,Brandenburg (HRE)
+1701,1870,Prussia,German,Prussia
+1806,1813,Rhine,French,Confederation of the Rhine
+1813,1870,Rhine,German,German Confederation states
+1870,1918,Germany,German,German Empire
+1918,1933,Germany,German,Weimar Republic
+1933,1945,Germany,German,Nazi Germany
+1945,1990,Rhine,German,West Germany
+1945,1990,Prussia,Russian,East Germany
+1990,2026,Germany,German,Germany
+,,,,
+1157,1453,Austria,German,Bavaria (HRE)
+1453,1918,Austria,Austrian,Habsburg Austria
+1918,1938,Austria,Austrian,Interwar Austria
+1938,1945,Austria,German,Anschluss
+1945,1955,Austria,Other,Allied occupation
+1955,2026,Austria,Austrian,Austria
+,,,,
+1002,1198,Bohemia,German,Bohemia (HRE)
+1198,1526,Bohemia,German,Kingdom of Bohemia
+1526,1918,Bohemia,Austrian,Habsburg Bohemia
+1918,1938,Bohemia,Other,Czechoslovakia
+1938,1945,Bohemia,German,German occupation
+1945,1989,Bohemia,Russian,Soviet Czechoslovakia
+1989,1992,Bohemia,Other,
+1992,2026,Bohemia,Other,"Czechia, Slovakia"
+,,,,
+1032,1291,Switzerland,German,Burgundy (HRE)
+1291,1798,Switzerland,Other,Swiss Confederacy
+1798,1814,Switzerland,French,Napoleonic Switzerland
+1814,2026,Switzerland,Other,Switzerland
+,,,,
+,,,,
+,,,,
+46,410,England,Roman,Roman Britain
+410,1066,England,Other,"Britons, Anglo-Saxons, Danes"
+1066,1154,England,English,Norman
+1154,1216,England,English,Angevin
+1216,1399,England,English,Plantagenet
+1399,1461,England,English,Lancaster
+1461,1485,England,English,York
+1485,1603,England,English,Tudor
+,,,,
+843,1603,Scotland,Other,Scotland
+853,1170,Ireland,Other,Gaelic Irish Kingdoms
+1170,1318,Ireland,English,Lordship of Ireland
+1318,1542,Ireland,Other,Gaelic Irish Kingdoms
+1542,1801,Ireland,English,Kingdom of Ireland
+,,,,
+1603,1714,Great Britain,English,Stuart
+1714,1801,Great Britain,English,Hanoverian
+1801,1923,Britain,English,United Kingdom
+1923,2026,Great Britain,English,United Kingdom
+1923,2026,Ireland,Other,Ireland
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-50,481,France,Roman,Roman Gaul
+481,751,France,French,Merovingian France
+751,987,France,French,Carolingian France
+987,1328,France,French,Capetian France
+1328,1589,France,French,Valois France
+1589,1792,France,French,Bourbon France
+1792,1804,France,French,First Republic
+1804,1814,France,French,First Empire
+1814,1848,France,French,Restoration
+1848,1852,France,French,Second Republic
+1852,1870,France,French,Second Empire
+1870,1940,France,French,Third Republic
+1940,1944,France,German,Vichy France
+1944,2026,France,French,Postwar France
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-575,-206,Andalucia,Phoenician,Carthaginian Spain
+-206,-19,Iberia East,Roman,Roman Conquest of Hispania
+-19,418,Iberia,Roman,Roman Hispania
+418,585,Portugal,Other,Kingdom of the Suebi
+418,552,Spain,Other,Visigothic Spain
+552,624,Andalucia,Roman,Byzantine Spania
+552,624,Iberia Middle,Other, 
+624,711,Iberia,Other, 
+585,624,Iberia West,Other,Visigothic Spain
+711,924,Iberia West,Other,Kingdom of Asturia
+924,1139,Iberia West,Other,Kingdom of Leon
+1035,1479,Aragon,Other,Kingdom of Aragon
+1139,1230,Castille,Spanish,Castille-Leon
+1230,1479,Castille,Spanish,Kingdom of Castille
+1492,1516,Spain,Spanish, 
+1479,1516,Iberia Middle,Spanish,Spain
+1516,1700,Spain,Spanish,Habsburg Spain
+1700,1808,Spain,Spanish,Bourbon Spain
+1808,1813,Spain,French,Napoleonic Spain
+1813,1931,Spain,Spanish,Restoration
+1931,1939,Spain,Spanish,Second Republic
+1939,1975,Spain,Spanish,Francoist Spain
+1975,2026,Spain,Spanish,Spain
+,,,,
+711,1035,Iberia East,Arabic,Al-Andalus
+1035,1232,Andalucia,Arabic, 
+1232,1492,Andalucia,Arabic,Emirate of Granada
+,,,,
+1139,1385,Portugal,Portuguese,Afonsine Portugal
+1385,1580,Portugal,Portuguese,Johannine Portugal
+1581,1640,Portugal,Spanish,Habsburg Portugal
+1640,1910,Portugal,Portuguese,Brigantine Portugal
+1910,1933,Portugal,Portuguese,First Republic
+1933,1974,Portugal,Portuguese,Salazar Portugal
+1974,2026,Portugal,Portuguese,Portugal
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-800,-218,Italy South,Greek,Greek colonies
+-753,-509,Umbria,Roman,Roman Kingdom
+-509,-218,Umbria,Roman,Roman Republic
+-218,-27,Italy,Roman,
+-27,476,Italy,Roman,Roman Empire
+476,553,Italy,Other,Odoacer & Ostrogoths
+553,568,Italy,Roman, 
+,,,,
+568,774,Italy North,Other,Lombard Italy
+774,962,Italy North,French,Carolingian Italy
+962,1870,Italy North,Italian,North Italian city-states and republics
+,,,,
+568,756,Umbria,Roman,Exarchate of Ravenna
+756,1870,Umbria,Other,Papal States
+,,,,
+568,1071,Italy South,Roman,Byzantine Apulia & Calabria
+1071,1198,Italy South,Other,Norman Sicily
+1198,1266,Italy South,German,Hohenstaufen Sicily
+1266,1282,Italy South,French,Angevin Sicily
+1282,1412,Italy South,Other,Aragonese Sicily
+1412,1516,Italy South,Spanish,Castillian Sicily
+1516,1554,Italy South,Austrian,Habsburg Sicily
+1554,1700,Italy South,Spanish,Habsburg Sicily
+1700,1713,Italy South,Spanish,Bourbon Sicily
+1713,1720,Italy South,Italian,Savoyard Sicily
+1720,1735,Italy South,Austrian,Habsburg Sicily
+1735,1759,Italy South,Spanish,Bourbon Sicily
+1759,1816,Italy South,Other,Bourbon Sicily
+1816,1861,Italy South,Other,Two Sicilies
+1861,1870,Italy South,Italian,Savoyard Sicily
+,,,,
+1870,1946,Italy,Italian,Kingdom of Italy
+1946,2026,Italy,Italian,Italian Republic
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-3100,-1450,Athens,Other,Minoans
+-1450,-1180,Greece,Greek,Myceneans
+-1180,-800,Greece,Greek,Greek Dark Ages
+-800,-480,Greece,Greek,Archaic Greece
+-500,-323,Greece,Greek,Classical Greece
+-323,-146,Greece,Greek,Hellenistic Greece
+-146,395,Greece,Roman,Roman Greece
+395,1204,Greece,Roman,Byzantine Greece
+1371,1453,Macedonia,Turkish,Ottoman Greece
+1453,1822,Greece,Turkish,Ottoman Empire
+1204,1261,Greece,Other,Latin Empire
+1261,1371,Macedonia,Other,Crusader principalities
+1261,1453,Athens,Roman,Palaiologos Byzantium
+1822,1905,Macedonia,Turkish,Ottoman Balkans
+1822,1905,Athens,Greek,Greece
+1905,2026,Greece,Greek,Greece
+-500,-135,Illyria,Other,Illyrian Kingdom
+-135,-32,Illyria,Roman,Roman Illyricum
+-32,640,Illyria,Roman,Roman Dalmatia
+640,925,Croatia,Other,"Avars, Slavs"
+925,1102,Croatia,Other,Kingdom of Croatia
+1102,1526,Croatia,Other,Hungarian Croatia
+1526,1918,Croatia,Austrian,Habsburg Croatia
+640,780,Serbia,Roman,Byzantine Moesia
+780,969,Serbia,Other,Principality of Serbia
+969,1071,Serbia,Roman,Byzantine Syrmium
+1071,1459,Serbia,Other,Serbia
+1459,1804,Serbia,Turkish,Ottoman Serbia
+1804,1918,Serbia,Other,Serbia
+1918,1941,Illyria,Other,Interwar Yugoslavia
+1941,1945,Illyria,German,Axis occupation
+1945,1992,Illyria,Other,Yugoslavia
+1992,2026,Croatia,Other,"Slovenia, Croatia, Bosnia"
+1992,2026,Serbia,Other,"Serbia, Montenegro, N. Macedonia"
+46,681,Thrace,Roman,Roman Thrace
+681,1018,Thrace,Other,First Bulgarian Empire
+1018,1185,Thrace,Roman,Byzantine Bulgaria
+1185,1396,Thrace,Other,Second Bulgarian Empire
+1396,1878,Thrace,Turkish,Ottoman Bulgaria
+1878,1945,Thrace,Other,Principality of Bulgaria
+1945,1990,Thrace,Russian,Soviet Bulgaria
+1990,2026,Thrace,Other,Bulgaria
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
+-2686,-2181,Egypt,Egyptian,Old Kingdom
+-2181,-2061,Egypt Intermediate,Egyptian,First Intermediate
+-2061,-1649,Egypt,Egyptian,Middle Kingdom
+-1649,-1549,Egypt Intermediate,Egyptian,Second Intermediate
+-1549,-1077,Egypt,Egyptian,New Kingdom
+-1069,-653,Egypt Intermediate,Egyptian,Third Intermediate
+-653,-332,Egypt,Egyptian,Late Egypt
+-332,-30,Egypt,Greek,Hellenistic Egypt
+-30,642,Egypt,Roman,Roman Egypt
+642,661,Egypt,Arabic,Rashidun Egypt
+661,750,Egypt,Arabic,Umayyad Egypt
+750,935,Egypt,Arabic,Abbasid dynasty
+935,969,Egypt,Arabic,Ikhshidid dynasty
+969,1171,Egypt,Arabic,Fatimid dynasty
+1171,1250,Egypt,Arabic,Ayyubid dynasty
+1250,1517,Egypt,Arabic,Mamluk dynasty
+1517,1867,Egypt,Turkish,Ottoman Egypt
+1867,1882,Egypt,Arabic,Khedivate of Egypt
+1882,1922,Egypt,English,British occupation
+1922,1953,Egypt,Arabic,Kingdom of Egypt
+1953,2026,Egypt,Arabic,Republican Egypt
+,,,,
+-814,-146,Maghreb,Phoenician,Carthage
+-146,439,Maghreb,Roman,Roman Africa
+439,534,Maghreb,Other,Vandal Kingdom
+534,698,Maghreb,Roman,Exarchate of Africa
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-1600,-1046,China,Chinese,Shang
+-1046,-256,China,Chinese,Zhou
+-221,-207,China,Chinese,Qin
+-202,220,China,Chinese,Han
+220,280,China,Chinese,Three Kingdoms
+280,420,China,Chinese,Jin
+420,581,China - North,Chinese,Northern dynasties
+420,581,China - South,Chinese,Southern dynasties
+581,618,China,Chinese,Sui
+618,907,China,Chinese,Tang
+907,979,China - South,Chinese,Five dynasties
+979,1127,China - South,Chinese,Northern Song
+1127,1271,China - South,Chinese,Southern Song
+916,1125,China - North,Chinese,Liao
+1125,1234,China - North,Chinese,Jin
+1271,1368,China,Chinese,Yuan
+1368,1644,China,Chinese,Ming
+1644,1912,China,Chinese,Qing
+1912,1949,China,Chinese,Republic of China
+1949,2026,China - Mainland,Chinese,People's Republic of China
+1949,2026,China - Taiwan,Chinese,Taiwan
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-1000,300,Japan,Japanese,Yayoi
+300,538,Japan,Japanese,Kofun
+538,710,Japan,Japanese,Asuka
+710,794,Japan,Japanese,Nara
+794,1185,Japan,Japanese,Heian
+1185,1333,Japan,Japanese,Kamakura
+1336,1573,Japan,Japanese,Ashikaga
+1573,1603,Japan,Japanese,Oda-Toyotomi
+1603,1868,Japan,Japanese,Tokugawa
+1868,1947,Japan,Japanese,Imperial Japan
+1947,2026,Japan,Japanese,Modern Japan
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+-37,668,Korea - North,Korean,Gogureyo
+-18,660,Korea - West,Korean,Baekje
+-57,668,Korea - East,Korean,Silla
+668,892,Korea - South,Korean,Unified Silla
+698,926,Korea - North,Korean,Balhae
+892,936,Korea - West,Korean,Baekje
+892,935,Korea - East,Korean,Silla
+936,1392,Korea,Korean,Goryeo
+1392,1910,Korea,Korean,Joseon
+1910,1945,Korea,Japanese,Japanese occupation
+1945,2026,North Korea,Korean,North Korea
+1945,2026,South Korea,Korean,South Korea
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+1788,1901,Australia,English,Colonial Australia
+1901,2026,Australia,Other,Federated Australia

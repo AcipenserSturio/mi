@@ -54,7 +54,7 @@ export function scaleBand({ domain, range, padding = 0 }: ScaleBandConfig) {
   }
 
   return function layout(event: EventLayoutInput) {
-    const event_padding = 1;
+    const event_padding = 3;
     // console.log([...tracks.keys()].includes(event.track));
     const track = tracks.get(event.track);
     // console.log(track);
