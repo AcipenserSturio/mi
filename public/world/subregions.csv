@@ -1,16 +1,14 @@
 parent,subregion,span_start,span_end
 Russia,Modern Russia,0,0.67
 Russia,Ruthenia,0.67,1
-Eastern Europe,Poland,0,0.4
-Eastern Europe,Poland - East,0,0.133
-Eastern Europe,Poland - West,0.133,0.267
-Eastern Europe,Poland - South,0.267,0.4
-Eastern Europe,Hungary,0.4,0.8
-Eastern Europe,Hungary - Royal,0.4,0.6
-Eastern Europe,Hungary - Ottoman,0.6,0.8
-Eastern Europe,Romania,0.8,1
-Eastern Europe,Wallachia,0.8,0.9
-Eastern Europe,Moldavia,0.9,1
+Eastern Europe,Poland,0,0.5
+Eastern Europe,Poland - East,0,0.167
+Eastern Europe,Poland - West,0.167,0.33
+Eastern Europe,Poland - South,0.33,0.5
+Eastern Europe,Hungary,0.5,0.833
+Eastern Europe,Hungary - Royal,0.5,0.67
+Eastern Europe,Hungary - Ottoman,0.67,0.833
+Eastern Europe,Romania,0.833,1
 Scandinavia,Denmark,0.75,1
 Scandinavia,Norway,0.5,0.75
 Scandinavia,Sweden,0.25,0.5
@@ -24,10 +22,11 @@ Central Europe,Benelux,0,0.25
 Central Europe,Rhine,0.25,0.5
 Central Europe,Prussia,0.5,0.625
 Central Europe,Germany,0.25,0.625
-Central Europe,Bohemia,0.625,0.75
-Central Europe,Austria,0.75,0.875
+Central Europe,Austria,0.625,0.75
+Central Europe,Bohemia,0.75,0.875
 Central Europe,Switzerland,0.875,1
-Central Europe,Alps,0.75,1
+Central Europe,Alps,0.625,1
+Central Europe,East Francia,0,0.75
 Iberia,Portugal,0,0.25
 Iberia,Castille,0.25,0.5
 Iberia,Aragon,0.5,0.75
