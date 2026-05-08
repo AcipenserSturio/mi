@@ -76,6 +76,36 @@ start,end,region,colour,label
 1870,1940,France,French,Third Republic
 1940,1944,France,German,Vichy France
 1944,2026,France,French,Postwar France
+-575,-206,Andalucia,Phoenician,Carthaginian Spain
+-206,-19,Iberia East,Roman,Roman Conquest
+-19,418,Iberia,Roman,Roman Hispania
+418,585,Iberia West,Other,Kingdom of the Suebi
+418,585,Iberia East,Other,Visigothic Spain
+585,711,Iberia,Other,Visigothic Spain
+711,924,Iberia West,Other,Kingdom of Asturia
+924,1139,Iberia West,Other,Kingdom of Leon
+1035,1479,Aragon,Other,Kingdom of Aragon
+1139,1230,Castille,Spanish,Castille-Leon
+1230,1479,Castille,Spanish,Kingdom of Castille
+1479,1492,Spain,Spanish,
+1492,1516,Spain,Spanish,Kingdom of Spain
+1516,1700,Spain,Spanish,Habsburg Spain
+1700,1808,Spain,Spanish,Bourbon Spain
+1808,1813,Spain,French,Napoleonic Spain
+1813,1931,Spain,Spanish,Restoration
+1931,1939,Spain,Spanish,Second Republic
+1939,1975,Spain,Spanish,Francoist Spain
+1975,2026,Spain,Spanish,Spain
+711,1035,Iberia East,Arabic,Al-Andalus
+1035,1232,Andalucia,Arabic,Al-Andalus
+1232,1492,Andalucia,Arabic,Emirate of Granada
+1139,1385,Portugal,Portuguese,Afonsine Portugal
+1385,1580,Portugal,Portuguese,Johannine Portugal
+1581,1640,Iberia,Spanish,Habsburg Portugal
+1640,1910,Portugal,Portuguese,Brigantine Portugal
+1910,1933,Portugal,Portuguese,First Republic
+1933,1974,Portugal,Portuguese,Salazar Portugal
+1974,2026,Portugal,Portuguese,Portugal
 -3150,-2686,Egypt,Egyptian,Early Dynastic Egypt
 -2686,-2181,Egypt,Egyptian,Old Kingdom
 -2181,-2061,Egypt,Egyptian,First Intermediate
